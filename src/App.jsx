@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import Header from './components/navbar/Header'
+import './App.css'
+import Home from './pages/home_page/Home'
 
 const App = () => {
   return (
     <Wrapper>
       <Container>
         <Header/>
-        
+        <Home/>
       </Container>
     </Wrapper>
   )

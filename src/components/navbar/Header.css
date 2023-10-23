@@ -1,7 +1,10 @@
-header.fixed {
-  background-color: black;
+.fixed {
+  background-color: #3256A4;
   position: fixed;
   width: 100%;
+  top: -50px;
+  z-index: 100;
+  
 }
 
 header {
