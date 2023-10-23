@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Header from './components/navbar/Header'
 import './App.css'
 import Home from './pages/home_page/Home'
+import Footer from './components/footbar/Footer'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Container>
         <Header/>
         <Home/>
+        <Footer/>
       </Container>
     </Wrapper>
   )

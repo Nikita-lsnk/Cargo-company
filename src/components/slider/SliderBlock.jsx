@@ -5,13 +5,13 @@ const SliderBlock = () => {
   return (
     <Container>
       <MainPhoto>
-        <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698061586/background-02-1920x950_kh5i88.jpg"/>
+        <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067861/evx74jof6yzkdpheuspb.jpg"/>
         <Overlay />
       </MainPhoto>
       <MainText>
         <Title>Propojení Evropy komfortem a péčí</Title>
         <SubTitle>Nabízíme komplexní řešení v oblasti dopravy, zahrnující autobusové přepravy, osobní přepravu a nákladní dopravu po celé Evropě.</SubTitle>
-        <MainButton>Dozvědět se více</MainButton>
+        <MainButton>Více informací</MainButton>
       </MainText>
     </Container>
   )
