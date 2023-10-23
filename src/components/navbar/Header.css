@@ -1,0 +1,10 @@
+header.fixed {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+header {
+  background-color: red;
+  /* position: relative; */
+}
