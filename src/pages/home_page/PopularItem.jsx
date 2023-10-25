@@ -39,8 +39,8 @@ const PopularItemBlock = styled.div`
 `;
 
 const MainImg = styled.img`
-  /* width: 110px; */
-  /* height: 110px; */
+  width: 370px;
+  height: 280px;
 `;
 
 

@@ -13,32 +13,32 @@ const Popular = () => {
         <BeforeBlock></BeforeBlock>
         <MainPopular>
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242890/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_sa95mg.jpg"}
             price={"od 750 kč"}
             title={"Transfer na letiště"}
           />
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242873/Preferovan%D0%B0_Doprava_Okruhy_po_Praze_od_2300_k%D0%AF_wc8plx.jpg"}
             price={"od 2300 kč"}
             title={"Okruhy po Praze"}
           />
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242895/Preferovan%D0%B0_Doprava_Svatebn%D0%B1_autobus_od_3000_k%D0%AF_cstiwi.jpg"}
             price={"od 3000 kč"}
             title={"Svatební autobus"}
           />
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242892/Preferovan%D0%B0_Doprava_Z%D0%B0jezdy_pro_CK_od_2500_k%D0%AF_crai02.jpg"}
             price={"od 2500 kč"}
             title={"Zájezdy pro CK "}
           />
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242875/Preferovan%D0%B0_Doprava_Kamionov%D0%B0_doprava_do_N_mecka_a_zp_t_od_26_k%D0%AF_za_km_k1mou4.jpg"}
             price={"od 26 kč za km"}
             title={"Kamionová doprava do Německa a zpět"}
           />
           <PopularItem
-            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698069587/jgmkh6iezi9hbuq73buh.jpg"}
+            picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242863/Preferovan%D0%B0_Doprava_a_P_eprava_Osobn%D0%B1_idi%D0%AF_za_850_k%D0%AF_na_hod_evrfqc.jpg"}
             price={"za 850 kč na hod"}
             title={"Osobní řidič"}
           />
@@ -175,6 +175,7 @@ const DiscountBlock = styled.div`
   justify-content: center;
   align-items: center;
   padding: 40px;
+  gap: 20px;
 `;
 
 const DiscountTitle = styled.span`
