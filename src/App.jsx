@@ -4,14 +4,21 @@ import Header from './components/navbar/Header'
 import './App.css'
 import Home from './pages/home_page/Home'
 import Footer from './components/footbar/Footer'
+import { Navigate, Route, Routes} from 'react-router-dom'
+import About from './pages/about_page/About'
 
 const App = () => {
   return (
     <Wrapper>
       <Container>
-        <Header/>
-        <Home/>
-        <Footer/>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          
+        </Routes>
+
       </Container>
     </Wrapper>
   )

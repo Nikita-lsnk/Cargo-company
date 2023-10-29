@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import './Header.css'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
 
   const [isFixed, setIsFixed] = useState(false);
+
+  const location = useLocation();
 
   console.log(isFixed);
 
@@ -51,8 +53,30 @@ const Header = () => {
             Logo
           </LogoBlock>
           <NavMenu>
-            <NavLink to="/home">Úvod</NavLink>
-            <NavLink to="/home">O nás</NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("home".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/home"
+            >
+              Úvod
+            </NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("about".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/about"
+            >
+              O nás
+            </NavLink>
             <NavLink to="/home">Služby</NavLink>
             <NavLink to="/home">Distance</NavLink>
             <NavLink to="/home">Ceny</NavLink>

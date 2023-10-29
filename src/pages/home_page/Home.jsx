@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import SliderBlock from '../../components/slider/SliderBlock'
 import Advant from './Advant'
 import Popular from './Popular'
+import Footer from '../../components/footbar/Footer'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <SliderBlock/>
       <Advant/>
       <Popular/>
-      
+      <Footer/>
     </Container>
   )
 }

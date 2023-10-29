@@ -74,7 +74,7 @@ const TitleLink = styled.a`
 const Container = styled.div`
   width: 1170px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding-bottom: 60px;
   display: flex;
   gap: 60px;
   
