@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Advant = () => {
@@ -11,10 +12,11 @@ const Advant = () => {
       <MainAdvant>
         <AdvantItem>
           <BorderImg>
-            <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067870/k2aoxj9vxgppykx5est3.png" />
+            <StyledLink to="/bus"><MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067870/k2aoxj9vxgppykx5est3.png" /></StyledLink>
+
           </BorderImg>
 
-          <TitleAdvant>Autobusová přeprava</TitleAdvant>
+          <StyledLink to="/bus"><TitleAdvant>Autobusová přeprava</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
           <BorderImg>
@@ -36,6 +38,10 @@ const Advant = () => {
 }
 
 export default Advant
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+`;
 
 const Container = styled.div`
   width: 1170px;

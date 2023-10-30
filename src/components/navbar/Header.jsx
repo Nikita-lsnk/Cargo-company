@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import './Header.css'
 import { Link, useLocation } from 'react-router-dom';
@@ -6,6 +6,17 @@ import { Link, useLocation } from 'react-router-dom';
 const Header = () => {
 
   const [isFixed, setIsFixed] = useState(false);
+  const [openDrop, setOpenDrop] = useState(false);
+
+  const menuRef = useRef();
+  const buttonRef = useRef();
+
+
+  window.addEventListener("click", (e) => {
+    if (e.target !== menuRef.current && e.target !== buttonRef.current) {
+      setOpenDrop(false)
+    }
+  })
 
   const location = useLocation();
 
@@ -77,7 +88,113 @@ const Header = () => {
             >
               O nás
             </NavLink>
-            <NavLink to="/home">Služby</NavLink>
+            <DropMenu>
+              <ShareBtn
+                className={
+                  location.pathname
+                    .toLowerCase()
+                    .includes("bus".toLowerCase())
+                    ? "bus"
+                    : ""
+                }
+                ref={buttonRef}
+                onClick={() => { setOpenDrop(!openDrop) }}
+              >
+                Služby
+
+                {openDrop === true ?
+
+                  (location.pathname
+                    .toLowerCase()
+                    .includes("bus".toLowerCase())
+                    ? 
+                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_1_kp4hcq.png" />
+
+                    :
+
+                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
+                  )
+                  :
+                  (location.pathname
+                    .toLowerCase()
+                    .includes("bus".toLowerCase())
+                    ? 
+                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_c1s9qr.png" />
+
+                    :
+
+                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
+                  )
+                  // 
+                  
+
+                }
+                {/* {openDrop === true ?
+
+                  <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
+                  :
+                  <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
+                } */}
+
+              </ShareBtn>
+              {openDrop && (
+                <DropDown
+                  ref={menuRef}
+                >
+                  <List>
+                    <NavLinkDrop
+                      className={
+                        location.pathname
+                          .toLowerCase()
+                          .includes("bus".toLowerCase())
+                          ? "Activate"
+                          : ""
+                      }
+                      to="/bus"
+                    >
+                      Autobusová přeprava
+                    </NavLinkDrop>
+                    <NavLinkDrop
+                      className={
+                        location.pathname
+                          .toLowerCase()
+                          .includes("car".toLowerCase())
+                          ? "Activate"
+                          : ""
+                      }
+                      to="/car"
+                    >
+                      Privátní osobní přeprava 
+                    </NavLinkDrop>
+                    <NavLinkDrop
+                      className={
+                        location.pathname
+                          .toLowerCase()
+                          .includes("truck".toLowerCase())
+                          ? "Activate"
+                          : ""
+                      }
+                      to="/truck"
+                    >
+                      Mezinárodní nákladní doprava
+                    </NavLinkDrop>
+                  </List>
+                </DropDown>
+              )}
+            </DropMenu>
+            {/* <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("bus".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/bus"
+            >
+              
+              <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
+            </NavLink> */}
             <NavLink to="/home">Distance</NavLink>
             <NavLink to="/home">Ceny</NavLink>
             <NavLink to="/home">Spolupráce</NavLink>
@@ -96,7 +213,65 @@ const Header = () => {
 
 export default Header
 
+const List = styled.div`
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
 
+const DropMenu = styled.div`
+  position: relative;
+`;
+
+const DropDown = styled.div`
+  position: absolute;
+  right: -80px;
+  top: 44px;
+  background-color: #fff;
+  border: none;
+  /* border-radius: 20px; */
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 1000;
+  @media screen and (max-width:320px) {
+    right: -35px;
+  }
+`;
+
+const ShareBtn = styled.button`
+  text-decoration: none;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  transition: .3s all ease;
+  padding: 1px 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
+  
+  &:hover, &:active, &:focus{
+    cursor: pointer;
+    background-color: #f0e319;
+    color: #292a2d;
+    
+    /* padding: 0 15px; */
+  }
+  &:hover > img, &.bus:hover > img {
+    filter: invert(1);// Изменяем цвет ImgArrow на черный
+  }
+  &:focus > img, &.bus:hover > img {
+    filter: invert(1);// Изменяем цвет ImgArrow на черный
+  }
+  
+  &:active > img, &.bus:hover > img {
+    filter: invert(1);// Изменяем цвет ImgArrow на черный
+  }
+  
+`;
 
 const Container = styled.div`
   width: 100%;
@@ -138,6 +313,14 @@ const Img = styled.img`
   height:32px;
 `;
 
+const ImgArrow = styled.img`
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  
+  
+`;
+
 const TitleLink = styled.a`
   text-decoration: none;
   color: #3256A4;
@@ -164,6 +347,7 @@ const NavBlock = styled.div`
   margin-top: 50px;
   padding: 20px 0;
   transition: .3s all ease;
+  
 `;
 
 const NavBlockContainer = styled.div`
@@ -192,6 +376,30 @@ const NavLink = styled(Link)`
   font-weight: 700;
   transition: .3s all ease;
   padding: 1px 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
+  
+  &:hover{
+    cursor: pointer;
+    background-color: #f0e319;
+    color: #292a2d;
+    /* padding: 0 15px; */
+  }
+`;
+
+const NavLinkDrop = styled(Link)`
+  text-decoration: none;
+  font-size: 16px;
+  color: #3256A4;
+  /* font-weight: 700; */
+  transition: .3s all ease;
+  padding: 1px 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
   
   &:hover{
     cursor: pointer;

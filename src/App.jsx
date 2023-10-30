@@ -6,6 +6,7 @@ import Home from './pages/home_page/Home'
 import Footer from './components/footbar/Footer'
 import { Navigate, Route, Routes} from 'react-router-dom'
 import About from './pages/about_page/About'
+import Bus from './pages/transport_page/Bus'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/bus" element={<Bus />} />
           
         </Routes>
 
