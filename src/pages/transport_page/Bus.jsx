@@ -5,41 +5,34 @@ import HeaderSection from '../../components/navbar/HeaderSection'
 const data = {
   data: [
     {
-      text: "pronájem zájezdových autobusů s řidičem",
+
       advant: "Cestovní kanceláře a agentury (vč. incomingových)",
     },
     {
-      text: "mezinárodní a tuzemská zájezdová autobusová doprava pro cestovní kanceláře",
+
       advant: "Střední a velké firmy (mj. zajišťování zaměstnaneckých svozů)",
     },
     {
-      text: "přepravní služby pro firemní klientelu - autobusová doprava na firemní akce, večírky, teambuilding",
       advant: "Školské instituce (MŠ, ZŠ, SŠ i VŠ)",
     },
     {
-      text: "autobusové transfery na letiště a z letiště",
       advant: "Neziskové instituce",
     },
     {
-      text: "okružní jízdy a transfery po Praze",
+
       advant: "Různá zájmová sdružení a spolky",
     },
     {
-      text: "doprava pro kongresy ",
+
       advant: "Soukromé osoby",
     },
 
     {
-      text: "doprava a přepravní služby pro sportovní kluby",
       advant: "Sportovní oddíly",
     },
     {
-      text: "autobusová doprava dětí na dětské tábory a školy v přírodě",
+  
       advant: "Subjekty státní správy a další.",
-    },
-
-    {
-      text: "nepravidelná zájezdová doprava po České republice a celé Evropské unii",
     },
   ],
 };
@@ -63,13 +56,42 @@ const Bus = () => {
           <SubTitle>Služby firmy AronTrack jsou zaměřeny především na českou a zahraniční zájezdovou autobusovou dopravu a přepravu osob.</SubTitle>
         </TextInfo>
         <TextInfo>
-          {data.data.map((e) => (
-            <AdvantBlock>
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>{e.text}</SubTitle>
-            </AdvantBlock>
-          ))}
-
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle><b>pronájem zájezdových autobusů</b> s řidičem</SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>mezinárodní a tuzemská <b>zájezdová autobusová doprava</b> pro cestovní kanceláře</SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>přepravní služby pro firemní klientelu - <b>autobusová doprava na firemní akce</b>, večírky, teambuilding</SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>autobusové <b>transfery na letiště</b> a z letiště</SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>okružní jízdy a <b>transfery po Praze</b></SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>doprava pro kongresy</SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>doprava a přepravní služby pro <b>sportovní kluby</b></SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle>autobusová doprava dětí na dětské tábory a <b>školy v přírodě</b></SubTitle>
+          </AdvantBlock>
+          <AdvantBlock>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+            <SubTitle><b>nepravidelná zájezdová doprava</b> po České republice a celé Evropské unii</SubTitle>
+          </AdvantBlock>
         </TextInfo>
 
         <MainTitle>

@@ -51,7 +51,7 @@ const MainText = styled.div`
   /* top: 0; */
   right:0;
   left: 0;
-  bottom: 40%;
+  bottom: 45%;
   width: 1170px;
   margin: 0 auto;
   display: flex;

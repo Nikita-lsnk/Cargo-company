@@ -11,26 +11,36 @@ const Advant = () => {
       <BeforeBlock></BeforeBlock>
       <MainAdvant>
         <AdvantItem>
-          <BorderImg>
-            <StyledLink to="/bus"><MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067870/k2aoxj9vxgppykx5est3.png" /></StyledLink>
 
-          </BorderImg>
+          <StyledLink to="/bus">
+            <BorderImg>
+              <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067870/k2aoxj9vxgppykx5est3.png" />
+            </BorderImg>
+          </StyledLink>
+
+
 
           <StyledLink to="/bus"><TitleAdvant>Autobusová přeprava</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
-          <BorderImg>
-            <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067871/o3tf16zu70oy1w6r4gmd.png" />
-          </BorderImg>
+          <StyledLink to="/car">
+            <BorderImg>
+              <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067871/o3tf16zu70oy1w6r4gmd.png" />
+            </BorderImg>
+          </StyledLink>
 
-          <TitleAdvant>Privátní osobní přeprava</TitleAdvant>
+
+          <StyledLink to="/car"><TitleAdvant>Privátní osobní přeprava</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
-          <BorderImg>
-            <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067871/y3orrwmk4fooravucjv1.png" />
-          </BorderImg>
+          <StyledLink to="/truck">
+            <BorderImg>
+              <MainImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067871/y3orrwmk4fooravucjv1.png" />
+            </BorderImg>
+          </StyledLink>
 
-          <TitleAdvant>Mezinárodní nákladní doprava</TitleAdvant>
+
+          <StyledLink to="/truck"><TitleAdvant>Mezinárodní nákladní doprava</TitleAdvant></StyledLink>
         </AdvantItem>
       </MainAdvant>
     </Container>
@@ -92,6 +102,7 @@ const AdvantItem = styled.div`
 const MainImg = styled.img`
   width: 110px;
   height: 110px;
+  cursor: pointer;
 `;
 
 const TitleAdvant = styled.span`

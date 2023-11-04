@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
+import ProductModal from './ProductModal';
 
-const PopularItem = ({ picture, price, title }) => {
+const PopularItem = ({ picture, price, title, description }) => {
+
+  const [openModal, setOpenModal] = useState(false);
+
   return (
-    <PopularItemBlock>
+    <PopularItemBlock onClick={() => setOpenModal(!openModal)}>
       <PhotoBlock>
         <MainImg src={picture} />
 
@@ -15,6 +19,16 @@ const PopularItem = ({ picture, price, title }) => {
       <TextBlock>
         <TextTitle>{title}</TextTitle>
       </TextBlock>
+      {openModal && (
+        <ProductModal
+          openModal={openModal}
+          setOpenModal={setOpenModal}
+          price={price}
+          title={title}
+          description={description}
+          picture={picture}
+        />
+      )}
     </PopularItemBlock>
   )
 }
@@ -31,7 +45,9 @@ const PopularItemBlock = styled.div`
   background-color: #fff;
   max-width: 370px;
   transition: box-shadow 0.3s ease-in-out; /* Плавное изменение тени при наведении */
+  
   &:hover {
+    cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень при наведении */
   }
   /* max-width: 270px; */

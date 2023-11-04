@@ -7,6 +7,9 @@ import Footer from './components/footbar/Footer'
 import { Navigate, Route, Routes} from 'react-router-dom'
 import About from './pages/about_page/About'
 import Bus from './pages/transport_page/Bus'
+import Car from './pages/transport_page/Car'
+import Truck from './pages/transport_page/Truck'
+import Distance from './pages/distance_page/Distance'
 
 const App = () => {
   return (
@@ -18,6 +21,9 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/bus" element={<Bus />} />
+          <Route path="/car" element={<Car />} />
+          <Route path="/truck" element={<Truck />} />
+          <Route path="/distance" element={<Distance />} />
           
         </Routes>
 

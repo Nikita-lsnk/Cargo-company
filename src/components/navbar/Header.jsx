@@ -12,15 +12,23 @@ const Header = () => {
   const buttonRef = useRef();
 
 
-  window.addEventListener("click", (e) => {
-    if (e.target !== menuRef.current && e.target !== buttonRef.current) {
-      setOpenDrop(false)
-    }
-  })
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (e.target !== menuRef.current && e.target !== buttonRef.current) {
+        setOpenDrop(false);
+      }
+    };
+  
+    document.addEventListener("click", handleClick);
+  
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
 
   const location = useLocation();
 
-  console.log(isFixed);
+  // console.log(isFixed);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -94,6 +102,10 @@ const Header = () => {
                   location.pathname
                     .toLowerCase()
                     .includes("bus".toLowerCase())
+                    ||
+                  location.pathname.toLowerCase().includes("car".toLowerCase())
+                    ||
+                  location.pathname.toLowerCase().includes("truck".toLowerCase())
                     ? "bus"
                     : ""
                 }
@@ -106,18 +118,24 @@ const Header = () => {
 
                   (location.pathname
                     .toLowerCase()
-                    .includes("bus".toLowerCase())
+                    .includes("bus".toLowerCase()) 
+                    ||
+                    location.pathname.toLowerCase().includes("car".toLowerCase())
+                    ||
+                    location.pathname.toLowerCase().includes("truck".toLowerCase())
                     ? 
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_1_kp4hcq.png" />
-
                     :
-
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
                   )
                   :
                   (location.pathname
                     .toLowerCase()
                     .includes("bus".toLowerCase())
+                    ||
+                    location.pathname.toLowerCase().includes("car".toLowerCase())
+                    ||
+                    location.pathname.toLowerCase().includes("truck".toLowerCase())
                     ? 
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_c1s9qr.png" />
 
@@ -195,7 +213,7 @@ const Header = () => {
               
               <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
             </NavLink> */}
-            <NavLink to="/home">Distance</NavLink>
+            <NavLink to="/distance">Distance</NavLink>
             <NavLink to="/home">Ceny</NavLink>
             <NavLink to="/home">Spolupráce</NavLink>
             <NavLink to="/home">Kontakt</NavLink>
@@ -260,16 +278,16 @@ const ShareBtn = styled.button`
     
     /* padding: 0 15px; */
   }
-  &:hover > img, &.bus:hover > img {
+  /* &:hover > img, &.bus:hover > img {
     filter: invert(1);// Изменяем цвет ImgArrow на черный
   }
   &:focus > img, &.bus:hover > img {
     filter: invert(1);// Изменяем цвет ImgArrow на черный
-  }
+  } */
   
-  &:active > img, &.bus:hover > img {
+  /* &:active > img, &.bus:hover > img {
     filter: invert(1);// Изменяем цвет ImgArrow на черный
-  }
+  } */
   
 `;
 
