@@ -4,9 +4,16 @@ import SliderBlock from '../../components/slider/SliderBlock'
 import Advant from './Advant'
 import Footer from '../../components/footbar/Footer'
 import PopularItem from './PopularItem'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const handleGoToProgram = () => {
+    navigate("/program")
+  } 
+
   return (
     <Container>
       <SliderBlock />
@@ -19,27 +26,27 @@ const Home = () => {
           <BeforeBlock></BeforeBlock>
           <MainPopular>
             <PopularItem
-              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242890/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_sa95mg.jpg"}
+              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_1_mqn7n5.jpg"}
               price={"od 750 kč"}
               title={"Transfer na letiště"}
             />
             <PopularItem
-              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242873/Preferovan%D0%B0_Doprava_Okruhy_po_Praze_od_2300_k%D0%AF_wc8plx.jpg"}
+              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779959/Preferovan%D0%B0_Doprava_Okruhy_po_Praze_od_2300_k%D0%AF_h1lplf.jpg"}
               price={"od 2300 kč"}
               title={"Okruhy po Praze"}
             />
             <PopularItem
-              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242895/Preferovan%D0%B0_Doprava_Svatebn%D0%B1_autobus_od_3000_k%D0%AF_cstiwi.jpg"}
+              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Svatebn%D0%B1_autobus_od_3000_k%D0%AF_qomnvw.jpg"}
               price={"od 3000 kč"}
               title={"Svatební autobus"}
             />
             <PopularItem
-              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242892/Preferovan%D0%B0_Doprava_Z%D0%B0jezdy_pro_CK_od_2500_k%D0%AF_crai02.jpg"}
+              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779960/Preferovan%D0%B0_Doprava_Z%D0%B0jezdy_pro_CK_od_2500_k%D0%AF_syvgro.jpg"}
               price={"od 2500 kč"}
               title={"Zájezdy pro CK "}
             />
             <PopularItem
-              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242875/Preferovan%D0%B0_Doprava_Kamionov%D0%B0_doprava_do_N_mecka_a_zp_t_od_26_k%D0%AF_za_km_k1mou4.jpg"}
+              picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Kamionov%D0%B0_doprava_do_N_mecka_a_zp_t_od_26_k%D0%AF_za_km_1_huyx4p.jpg"}
               price={"od 26 kč za km"}
               title={"Kamionová doprava do Německa a zpět"}
             />
@@ -62,7 +69,9 @@ const Home = () => {
         </SpecialBlock>
         <DiscountBlock>
           <DiscountTitle>Staňte se členem partnerského programu a získáte větší výhody.</DiscountTitle>
-          <DiscountBtn>Více informací</DiscountBtn>
+          {/* <StyledLink to="/program"> */}
+            <DiscountBtn onClick={handleGoToProgram}>Více informací</DiscountBtn>
+            {/* </StyledLink> */}
         </DiscountBlock>
       </ContainerColor>
       <Footer />
@@ -212,9 +221,11 @@ const DiscountBtn = styled.button`
   color: #292a2d;
   font-size: 18px;
   font-weight: 700;
-  cursor: pointer;
+  z-index: 100;
+  
   &:hover {
     transform: scale(1.01);
+    cursor: pointer;
   }
 
   &:active {

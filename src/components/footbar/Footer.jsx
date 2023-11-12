@@ -26,10 +26,10 @@ const Footer = () => {
             <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
             <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
           </LinkBlock>
-          <LinkBlock>
+          {/* <LinkBlock>
             <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698077437/jbmvpw2qd7bewrla0aor.png" />
             <TitleLink href="mailto:test@test.ru">Location</TitleLink>
-          </LinkBlock>
+          </LinkBlock> */}
         </BlockContact>
 
       </MainInfo>

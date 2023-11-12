@@ -18,9 +18,9 @@ const Header = () => {
         setOpenDrop(false);
       }
     };
-  
+
     document.addEventListener("click", handleClick);
-  
+
     return () => {
       document.removeEventListener("click", handleClick);
     };
@@ -103,9 +103,9 @@ const Header = () => {
                     .toLowerCase()
                     .includes("bus".toLowerCase())
                     ||
-                  location.pathname.toLowerCase().includes("car".toLowerCase())
+                    location.pathname.toLowerCase().includes("car".toLowerCase())
                     ||
-                  location.pathname.toLowerCase().includes("truck".toLowerCase())
+                    location.pathname.toLowerCase().includes("truck".toLowerCase())
                     ? "bus"
                     : ""
                 }
@@ -118,12 +118,12 @@ const Header = () => {
 
                   (location.pathname
                     .toLowerCase()
-                    .includes("bus".toLowerCase()) 
+                    .includes("bus".toLowerCase())
                     ||
                     location.pathname.toLowerCase().includes("car".toLowerCase())
                     ||
                     location.pathname.toLowerCase().includes("truck".toLowerCase())
-                    ? 
+                    ?
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_1_kp4hcq.png" />
                     :
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
@@ -136,7 +136,7 @@ const Header = () => {
                     location.pathname.toLowerCase().includes("car".toLowerCase())
                     ||
                     location.pathname.toLowerCase().includes("truck".toLowerCase())
-                    ? 
+                    ?
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_c1s9qr.png" />
 
                     :
@@ -144,7 +144,7 @@ const Header = () => {
                     <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
                   )
                   // 
-                  
+
 
                 }
                 {/* {openDrop === true ?
@@ -182,7 +182,7 @@ const Header = () => {
                       }
                       to="/car"
                     >
-                      Privátní osobní přeprava 
+                      Privátní osobní přeprava
                     </NavLinkDrop>
                     <NavLinkDrop
                       className={
@@ -213,9 +213,31 @@ const Header = () => {
               
               <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
             </NavLink> */}
-            <NavLink to="/distance">Distance</NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("distance".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/distance"
+            >
+              Distance
+            </NavLink>
             <NavLink to="/home">Ceny</NavLink>
-            <NavLink to="/home">Spolupráce</NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("program".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/program"
+            >
+              Věrnostní program
+            </NavLink>
             <NavLink to="/home">Kontakt</NavLink>
           </NavMenu>
         </NavBlockContainer>
@@ -383,7 +405,7 @@ const LogoBlock = styled.div`
 
 const NavMenu = styled.div`
   display: flex;
-  gap: 60px;
+  gap: 40px;
   
 `;
 

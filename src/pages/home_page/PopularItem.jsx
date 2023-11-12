@@ -43,6 +43,7 @@ const PopularItemBlock = styled.div`
   /* justify-content: center; */
   gap: 20px;
   background-color: #fff;
+  /* border: 1px solid #c2c2c2; */
   max-width: 370px;
   transition: box-shadow 0.3s ease-in-out; /* Плавное изменение тени при наведении */
   
@@ -71,7 +72,7 @@ const PhotoTitle = styled.span`
   position: absolute;
   /* top: 0; */
   left: 20px;
-  bottom: 17px;
+  bottom: 20px;
   font-size: 16px;
   font-weight: 700;
   color: #292a2d;
@@ -91,7 +92,7 @@ const TextTitle = styled.span`
 const BlockPrice = styled.div`
   position: absolute;
   bottom: 20px;
-  width: 170px;
+  width: 200px;
 `;
 
 const SvgImg = styled.svg`

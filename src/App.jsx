@@ -10,6 +10,7 @@ import Bus from './pages/transport_page/Bus'
 import Car from './pages/transport_page/Car'
 import Truck from './pages/transport_page/Truck'
 import Distance from './pages/distance_page/Distance'
+import Program from './pages/program_page/Program'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/car" element={<Car />} />
           <Route path="/truck" element={<Truck />} />
           <Route path="/distance" element={<Distance />} />
+          <Route path="/program" element={<Program />} />
           
         </Routes>
 
