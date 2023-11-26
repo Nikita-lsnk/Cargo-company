@@ -225,7 +225,18 @@ const Header = () => {
             >
               Distance
             </NavLink>
-            <NavLink to="/home">Ceny</NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("price".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/price"
+            >
+              Ceny
+            </NavLink>
             <NavLink
               className={
                 location.pathname
@@ -238,7 +249,18 @@ const Header = () => {
             >
               Věrnostní program
             </NavLink>
-            <NavLink to="/home">Kontakt</NavLink>
+            <NavLink
+              className={
+                location.pathname
+                  .toLowerCase()
+                  .includes("contact".toLowerCase())
+                  ? "Activate"
+                  : ""
+              }
+              to="/contact"
+            >
+              Kontakt
+            </NavLink>
           </NavMenu>
         </NavBlockContainer>
 

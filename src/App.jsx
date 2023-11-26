@@ -11,6 +11,8 @@ import Car from './pages/transport_page/Car'
 import Truck from './pages/transport_page/Truck'
 import Distance from './pages/distance_page/Distance'
 import Program from './pages/program_page/Program'
+import Price from './pages/price_page/Price'
+import Contact from './pages/contact_page/Contact'
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
           <Route path="/truck" element={<Truck />} />
           <Route path="/distance" element={<Distance />} />
           <Route path="/program" element={<Program />} />
+          <Route path="/price" element={<Price />} />
+          <Route path="/contact" element={<Contact />} />
           
         </Routes>
 
