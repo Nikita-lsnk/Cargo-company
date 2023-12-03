@@ -29,7 +29,7 @@ const Container = styled.div`
 
 const PictureBlock = styled.div`
   position: relative;
-  background: url('https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698589254/background-01-1920x900_pjfam6.jpg');
+  background: url('https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701033972/back_iqlfez.jpg');
   background-size: cover;
   background-position: center center;
   height: 420px;

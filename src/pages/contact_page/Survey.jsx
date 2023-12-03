@@ -411,16 +411,21 @@ const MainButton = styled.div`
   }
 `;
 const EntrySend = styled.input`
-  background: transparent;
+  padding: 15px 45px;
+  background-color: #f0e319;
   border: none;
-  color: #FFFFFF;
-  background-color: #86BE3F;
-  padding: 15px 64px;
-  font-size: 16px;
+  height: fit-content;
+  color: #292a2d;
+  font-size: 18px;
   font-weight: 700;
-  border-radius: 15px;
-  @media screen and (max-width: 650px){
-    padding: 0;
-    padding: 10px 30px;
+  /* z-index: 100; */
+  width: fit-content;
+  &:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(0.99);
   }
 `;

@@ -340,6 +340,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  z-index: 100;
   /* margin-top: 20px; */
   /* margin: 0 auto; */
 `;

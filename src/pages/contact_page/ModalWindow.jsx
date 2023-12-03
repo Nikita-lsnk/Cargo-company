@@ -52,7 +52,7 @@ const Container = styled.div`
 const Title = styled.span`
   font-size: 24px;
   font-weight: 700;
-  color: #86BE3F;
+  color: #3256A4;
 `;
 const SubTitle = styled.span`
   display: block;
@@ -62,15 +62,23 @@ const SubTitle = styled.span`
   line-height: 19.5px;
 `;
 const MainButton = styled.button`
-  background: transparent;
-  text-transform: uppercase;
+  padding: 15px 45px;
+  background-color: #3256A4;
   border: none;
-  border-radius: 15px;
-  color: #ffffff;
-  background-color: #86BE3F;
-  padding: 15px 72px;
-  font-size: 16px;
+  height: fit-content;
+  color: white;
+  font-size: 18px;
   font-weight: 700;
+  z-index: 100;
+  width: fit-content;
+  &:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
 `;
 const StyledLink = styled(Link)`
   :hover, :focus{

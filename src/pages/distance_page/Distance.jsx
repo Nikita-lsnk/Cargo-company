@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
-import PopularItem from '../home_page/PopularItem'
+
+
+const PopularItem = lazy(() => import('../home_page/PopularItem'));
 
 const data = {
   data: [
@@ -50,7 +52,7 @@ const data = {
     {
       price: "od 3000 Kč za 3 hod",
       title: "Pronájem autobusu",
-      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699811586/ke6kruoozgh8hafl1lhp.jpg",
+      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701033971/pronajem_autobusu_ko8xqj.jpg",
       description: "Zajišťujeme bezpečný a pohodlný převoz tam, kam potřebujete. Stačí nám říci, odkud a kam chcete jet. Naše moderní a čisté autobusy jsou připraveny na jakoukoli skupinovou exkurzi nebo výlet. S námi můžete mít jistotu, že dostanete kvalitní a spolehlivou dopravu pro vaši skupinu, ať už jste turistická skupina, školní výlet nebo firemní akce.",
     },
     {
@@ -98,13 +100,13 @@ const data = {
     {
       price: "od 9500 Kč",
       title: "Zájezdy do Českého Krumlová",
-      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_1_mqn7n5.jpg",
+      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701033970/Z%D0%B0jezdy_do_%D0%BCesk%D0%92ho_Krumlov%D0%B0_jfxfqw.webp",
       description: "Naše autobusové služby do Českého Krumlova jsou skvělým způsobem, jak se dostat do tohoto malebného českého města. Navíc, na vaše přání, máte možnost navštívit krásný zámek Hluboká nad Vltavou po cestě. S pohodlným převozem a možností zažít historickou a kulturní krásu této oblasti, budete mít zajištěný nezapomenutelný výlet.",
     },
     {
       price: "od 9600 Kč",
       title: "Zájezdy do Drážďan",
-      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699810831/Z%D0%B0jezdy_do_Dr%D0%B0%D0%B7Lan_czy6p8.jpg",
+      picture: "https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701033970/Dra%D0%B7dany_jyflra.jpg",
       description: "Naše autobusové služby do Drážďan jsou navrženy tak, aby byla cesta pro naše klienty co nejpohodlnější a bezstarostná. Všechny poplatky spojené s dopravou a parkováním hradíme my, abychom zajistili, že naši klienti nemusí.",
     },
     {
@@ -136,14 +138,17 @@ const Distance = () => {
           <TextInfo>
 
 
-            {data.data.map((e) => (
-              <PopularItem
-                picture={e.picture}
-                price={e.price}
-                title={e.title}
-                description={e.description}
-              />
-            ))}
+            <Suspense fallback={<div>Loading...</div>}>
+              {data.data.map((e) => (
+                <PopularItem
+                  
+                  picture={e.picture}
+                  price={e.price}
+                  title={e.title}
+                  description={e.description}
+                />
+              ))}
+            </Suspense>
           </TextInfo>
         </MainText>
       </ContainerColor>

@@ -24,7 +24,7 @@ const ProductModal = ({ openModal, setOpenModal, description, price, picture, ti
                 <Price>
                   {price}                
                 </Price> 
-                <DiscountBtn>Více informací</DiscountBtn>
+                <StyledLink to="/contact"><DiscountBtn>Více informací</DiscountBtn></StyledLink>
             </MainPrice>
           </MainText>
           
@@ -74,7 +74,7 @@ const Container = styled.div`
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   width: 1000px;
   border-radius: 20px;
   gap: 32px;
@@ -128,8 +128,8 @@ const MainPicture = styled.div`
 
 
 const MainImg = styled.img`
-  height: 350px;
-  width: 350px;
+  height: 280px;
+  width: 370px;
   @media screen and (max-width: 800px) {
    width: 0;
    height: 0;
