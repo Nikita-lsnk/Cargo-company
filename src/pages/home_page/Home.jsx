@@ -79,7 +79,7 @@ const Home = () => {
 
           <MainText>
             <TitleSpecial>Pronájem Autobusu s Profesionálním Řidičem</TitleSpecial>
-            <MainButton onClick={handleGoToContact}>Více informací</MainButton>
+            {/* <MainButton onClick={handleGoToContact}>Více informací</MainButton> */}
           </MainText>
         </SpecialBlock>
         <DiscountBlock>

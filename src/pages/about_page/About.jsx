@@ -13,9 +13,9 @@ const About = () => {
         secondLink={"about"}
       />
       <MainText>
-        <MainTitle>
+        {/* <MainTitle>
           <Title>Jedna společnost, nekonečné možnosti.</Title>
-        </MainTitle>
+        </MainTitle> */}
         <BeforeBlock></BeforeBlock>
         <TextInfo>
           <SubTitle>Vítejte na našich webových stránkách! Jsme spolehlivým partnerem pro komplexní dopravní řešení. Od svého založení v roce 2020 jsme se zaměřili na rozvoj našeho širokého portfolia služeb, které zahrnuje pohodlné autobusové přepravy, osobní privátní přepravy s důrazem na vaši pohodlnost a nákladní dopravu, která uspokojí všechny vaše logistické potřeby. S naší firmou získáte spolehlivost, kvalitu a pozornou péči o každý detail. Jsme zde proto, abychom vám poskytli bezpečnou, efektivní a ekonomicky výhodnou dopravu po celé Evropě. Kontaktujte nás a společně najdeme řešení pro vaše transportní výzvy. </SubTitle>
@@ -44,6 +44,7 @@ const MainText = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: flex-start;
+  margin-top: -40px;
 `;
 
 const MainTitle = styled.div`

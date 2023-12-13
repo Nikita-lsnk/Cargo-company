@@ -24,7 +24,7 @@ const ProductModal = ({ openModal, setOpenModal, description, price, picture, ti
                 <Price>
                   {price}                
                 </Price> 
-                <StyledLink to="/contact"><DiscountBtn>Více informací</DiscountBtn></StyledLink>
+                <StyledLink to="/contact"><DiscountBtn>Objednat</DiscountBtn></StyledLink>
             </MainPrice>
           </MainText>
           

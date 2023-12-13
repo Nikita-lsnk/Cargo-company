@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
+import Footer from '../../components/footbar/Footer';
 
 
 const PopularItem = lazy(() => import('../home_page/PopularItem'));
@@ -152,7 +153,7 @@ const Distance = () => {
           </TextInfo>
         </MainText>
       </ContainerColor>
-
+      <Footer/>
     </Container>
   )
 }

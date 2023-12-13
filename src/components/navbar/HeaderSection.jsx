@@ -11,10 +11,10 @@ const HeaderSection = ({title, firstLink, firstSub, secondLink, secondSub}) => {
       <MainText>
         <Title>{title}</Title>
         <SubBlock>
-          
-          <StyledLink to={`/${firstLink}`}><SubTitle>{firstSub}</SubTitle></StyledLink>
+          <Title>Jedna společnost, nekonečné možnosti.</Title>
+          {/* <StyledLink to={`/${firstLink}`}><SubTitle>{firstSub}</SubTitle></StyledLink>
           <ArrowImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698590300/icons8-arrow-right-50_qlz4gn.png"/>
-          <StyledLink to={`/${secondLink}`}><SubTitle>{secondSub}</SubTitle></StyledLink>
+          <StyledLink to={`/${secondLink}`}><SubTitle>{secondSub}</SubTitle></StyledLink> */}
         </SubBlock>
       </MainText>
     </Container>
@@ -56,14 +56,14 @@ const MainText = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
 `;
 
 const Title = styled.span`
   font-size: 60px;
   font-weight: 700;
   color: #fff;
-  max-width: 600px;
+  /* max-width: 600px; */
   line-height: 1.13333;
 
 `;

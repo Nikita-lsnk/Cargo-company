@@ -77,7 +77,7 @@ const Container = styled.div`
   padding-bottom: 60px;
   display: flex;
   gap: 60px;
-  
+  margin-top: 20px;
   
 `;
 
