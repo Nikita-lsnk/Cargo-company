@@ -1,11 +1,83 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, { useState, useEffect } from 'react'
+import styled, { keyframes } from 'styled-components'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, A11y, Navigation } from 'swiper/modules';
 import { Link, useNavigate } from 'react-router-dom';
 
+const fadeInDown = keyframes`
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
+const fadeInUp = keyframes`
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
+const resetAnimation = keyframes`
+  from {
+    opacity: 0.99; /* Делаем значение чуть меньше 1 для сброса анимации */
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+const ResetAnimation = styled.div`
+  &.reset-animation {
+    animation: ${resetAnimation} 1s linear;
+  }
+`;
+
 const SliderBlock = () => {
+
+  const slidesData = [
+    {
+      title: 'Propojení Evropy komfortem a péčí',
+      subTitle:
+        'Nabízíme komplexní řešení v oblasti dopravy, zahrnující autobusové přepravy, osobní přepravu a nákladní dopravu po celé Evropě.',
+      buttonText: 'Více informací',
+      imgSrc:
+        'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067861/evx74jof6yzkdpheuspb.jpg',
+    },
+    {
+      title: 'Vaše cesta, náš závazek',
+      subTitle:
+        'Poskytování kvalitních služeb, které jsou připraveny splnit různé potřeby našich klientů s důrazem na kvalitu a spolehlivost',
+      buttonText: 'Více informací',
+      imgSrc:
+        'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/background-03-1920x950_xdjozs.jpg',
+    },
+    {
+      title: 'Soukromá Přeprava pro Vaše Soukromí.',
+      subTitle:
+        'Naše služba privátní osobní přepravy nabízí komfortní a diskrétní způsob dopravy, který se plně přizpůsobuje vašim potřebám',
+      buttonText: 'Více informací',
+      imgSrc:
+        'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/osobni_preprava_kfywhm.jpg',
+    },
+    {
+      title: 'Spolehlivě Překonáváme Hranice',
+      subTitle:
+        'Naše mezinárodní nákladní doprava je synonymem spolehlivosti a efektivity, která umožňuje plynulý převoz nákladu po celé Evropě',
+      buttonText: 'Více informací',
+      imgSrc:
+        'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599777/nakladn%D0%B1_doprav_hqkwoe.jpg',
+    },
+  ];
 
   const navigate = useNavigate()
 
@@ -25,9 +97,40 @@ const SliderBlock = () => {
     navigate("/truck")
   }
 
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [swiper, setSwiper] = useState(null);
+  const [animationStates, setAnimationStates] = useState(Array(slidesData.length).fill(false));
+  
+  const handleSlideChange = () => {
+    setCurrentSlide(swiper.realIndex);
+  };
+
+  useEffect(() => {
+    swiper && swiper.on('slideChange', handleSlideChange);
+  }, [swiper]);
+
+  useEffect(() => {
+    if (swiper) {
+      const resetAnimations = document.querySelectorAll('.reset-animation');
+      resetAnimations.forEach((element) => {
+        element.classList.remove('reset-animation');
+      });
+
+      const currentSlideElement = document.querySelector(
+        `.swiper-slide[data-swiper-slide-index="${currentSlide}"]`
+      );
+      currentSlideElement && currentSlideElement.classList.add('reset-animation');
+    }
+  }, [currentSlide, swiper]);
+
+  
+
+
+
   return (
     <Container>
       <Swiper
+        // key={animationKey}
         modules={[A11y, Autoplay, Navigation]}
         spaceBetween={0}
         navigation={{
@@ -36,56 +139,54 @@ const SliderBlock = () => {
         }}
         slidesPerView={1}
         // autoplay = {true}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={handleSlideChange}
+        onSwiper={(swiper) => setSwiper(swiper)}
+        initialSlide={currentSlide}
       >
-        
-        <SwiperSlide>
-          <MainPhoto>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067861/evx74jof6yzkdpheuspb.jpg" />
-            <Overlay />
-          </MainPhoto>
-          <MainText>
-            <Title>Propojení Evropy komfortem a péčí</Title>
-            <SubTitle>Nabízíme komplexní řešení v oblasti dopravy, zahrnující autobusové přepravy, osobní přepravu a nákladní dopravu po celé Evropě.</SubTitle>
-            <MainButton onClick={handleGoToAbout}>Více informací</MainButton>
-          </MainText>
-        </SwiperSlide>
-        <SwiperSlide>
-          <MainPhoto>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/background-03-1920x950_xdjozs.jpg" />
-            <Overlay />
-          </MainPhoto>
-          <MainText>
-            <Title>Vaše cesta, náš závazek</Title>
-            <SubTitle>Poskytování kvalitních služeb, které jsou připraveny splnit různé potřeby našich klientů s důrazem na kvalitu a spolehlivost</SubTitle>
-            <MainButton onClick={handleGoToBus}>Více informací</MainButton>
-          </MainText>
-        </SwiperSlide>
-        <SwiperSlide>
-          <MainPhoto>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/osobni_preprava_kfywhm.jpg" />
-            <Overlay />
-          </MainPhoto>
-          <MainText>
-            <Title>Soukromá Přeprava pro Vaše Soukromí.</Title>
-            <SubTitle>Naše služba privátní osobní přepravy nabízí komfortní a diskrétní způsob dopravy, který se plně přizpůsobuje vašim potřebám</SubTitle>
-            <MainButton onClick={handleGoToCar}>Více informací</MainButton>
-          </MainText>
-        </SwiperSlide>
-        <SwiperSlide>
-          <MainPhoto>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599777/nakladn%D0%B1_doprav_hqkwoe.jpg" />
-            <Overlay />
-          </MainPhoto>
-          <MainText>
-            <Title>Spolehlivě Překonáváme Hranice</Title>
-            <SubTitle>Naše mezinárodní nákladní doprava je synonymem spolehlivosti a efektivity, která umožňuje plynulý převoz nákladu po celé Evropě </SubTitle>
-            <MainButton onClick={handleGoToTruck}>Více informací</MainButton>
-          </MainText>
-        </SwiperSlide>
-        <SwiperNext className="swiper-button-next"><ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701032998/icons8-back-50_1_dohamx.png"/></SwiperNext>
-        <SwiperBack className="swiper-button-prev"><ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701032998/icons8-back-50_qjf5n7.png"/></SwiperBack>
+
+        {slidesData.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <ResetAnimation>
+              <MainPhoto>
+                <Img src={slide.imgSrc} />
+                <Overlay />
+              </MainPhoto>
+              <MainText>
+                <Title className="reset-animation">
+                  {slide.title}
+                </Title>
+                <SubTitle className="reset-animation">
+                  {slide.subTitle}
+                </SubTitle>
+                <MainButton
+                  onClick={() => {
+                    switch (index) {
+                      case 0:
+                        handleGoToAbout();
+                        break;
+                      case 1:
+                        handleGoToBus();
+                        break;
+                      case 2:
+                        handleGoToCar();
+                        break;
+                      case 3:
+                        handleGoToTruck();
+                        break;
+                      default:
+                        break;
+                    }
+                  }}
+                  className="reset-animation"
+                >
+                  {slide.buttonText}
+                </MainButton>
+              </MainText>
+            </ResetAnimation>
+          </SwiperSlide>
+        ))}
+        <SwiperNext className="swiper-button-next"><ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701032998/icons8-back-50_1_dohamx.png" /></SwiperNext>
+        <SwiperBack className="swiper-button-prev"><ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701032998/icons8-back-50_qjf5n7.png" /></SwiperBack>
       </Swiper>
     </Container>
   )
@@ -166,6 +267,7 @@ const Title = styled.span`
   color: #fff;
   max-width: 600px;
   line-height: 1.13333;
+  animation: ${fadeInDown} 1s ease-in-out;
 
 `;
 
@@ -175,6 +277,7 @@ const SubTitle = styled.span`
   font-weight: 400;
   color: #fff;
   max-width: 600px;
+  animation: ${fadeInUp} 1s ease-in-out;
 `;
 
 const MainButton = styled.button`
@@ -193,6 +296,7 @@ const MainButton = styled.button`
   &:active {
     transform: scale(0.99);
   }
+  animation: ${fadeInUp} 1s ease-in-out;
 `;
 
 const StyledLink = styled(Link)`
