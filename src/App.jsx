@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import Header from './components/navbar/Header'
 import './App.css'
 import Home from './pages/home_page/Home'
 import Footer from './components/footbar/Footer'
-import { Navigate, Route, Routes} from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import About from './pages/about_page/About'
 import Bus from './pages/transport_page/Bus'
 import Car from './pages/transport_page/Car'
@@ -15,6 +15,16 @@ import Price from './pages/price_page/Price'
 import Contact from './pages/contact_page/Contact'
 
 const App = () => {
+
+  
+  const location = useLocation();
+
+  useEffect(() => {
+    // Прокрутка страницы в самый верх
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location.pathname]);
+
+
   return (
     <Wrapper>
       <Container>
@@ -30,15 +40,33 @@ const App = () => {
           <Route path="/program" element={<Program />} />
           <Route path="/price" element={<Price />} />
           <Route path="/contact" element={<Contact />} />
-          
-        </Routes>
 
+        </Routes>
+        <Img
+          src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703020622/icons8-arrow-up-96_y8xsnq.png"
+          style={{
+            position: 'fixed',
+            bottom: '20px', // Регулируйте отступ от нижнего края
+            right: '20px', // Регулируйте отступ от правого края
+            cursor: 'pointer',
+            
+          }}
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        />
       </Container>
     </Wrapper>
   )
 }
 
 export default App
+
+const Img = styled.img`
+  height: 80px;
+  width: 80px;
+  
+`;
 
 const Wrapper = styled.div`
   display: flex;

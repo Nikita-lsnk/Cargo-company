@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
+import Footer from '../../components/footbar/Footer'
 
 const Price = () => {
   return (
@@ -10,9 +11,10 @@ const Price = () => {
         firstSub={"Úvod"}
         firstLink={"home"}
         secondSub={"Ceny"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D1%86%D0%B5%D0%BD%D1%8B_bk7itq.jpg"}
         secondLink={"price"}
       />
-      <MainText>
+      <MainText style={{marginTop: '-40px'}}>
         {/* <MainTitle>
           <Title>Jedna společnost, nekonečné možnosti.</Title>
         </MainTitle> */}
@@ -21,7 +23,7 @@ const Price = () => {
           <SubTitle>Celková cena naší dopravy závisí na několika faktorech, jako je počet ujetých kilometrů, typů vozů, doba čekání a místo určení, ať už se jedná o vnitrostátní či mezinárodní trasu. V případě vnitrostátních cest může cena záviset na počtu najetých kilometrů, doby čekání nebo být stanovena paušálně. Mezinárodní cesty v rámci Evropy zahrnují cenu za přepravu v jednotlivých zemích a každá země může mít svá vlastní pravidla pro zdanění přepravy osob. Cena se tedy vždy odvíjí od délky trasy a států, kterými projíždíme.</SubTitle>
           <SubTitle>Naše <b>paušální cena</b> za autobusovou dopravu je flexibilní a závisí na typu vozu a počtu najetých kilometrů. Začíná od 6 000 Kč + DPH a platí pro výjezdy, které nepřekračují 100 km. Tato cena zahrnuje 2 hodiny čekání autobusu, náklady spojené s provozem na kratší vzdálenosti, denní mzdu řidiče včetně odvodů, náklady na přípravu zakázky a také úklid vozu. S touto transparentní cenovou strukturou vám můžeme poskytnout kvalitní dopravu za férovou cenu.</SubTitle>
           <SubTitle><b>Kvůli těmto faktorům není možné stanovit pevný ceník, a proto je nezbytné vytvořit předpokládanou cenovou kalkulaci, která bere v úvahu výše zmíněná kritéria.</b></SubTitle>
-          <SubTitle>Konkrétní cenu přepravy sjednáme individuálně, dlouhodobým zákazníkům poskytujeme zajímavé ceny. Cenovou kalkulaci Vám vypracujeme po vyplnění <b>poptávkového formuláře</b> (ЗДЕСЬ ПРИКРЕПИТЬ  НА ФОРМУ ЗАЯВКИ) nebo zaslání e-mailu s požadavkem na adresu </SubTitle>
+          <SubTitle>Konkrétní cenu přepravy sjednáme individuálně, dlouhodobým zákazníkům poskytujeme zajímavé ceny. Cenovou kalkulaci Vám vypracujeme po vyplnění <b>poptávkového formuláře</b> nebo zaslání e-mailu s požadavkem na adresu </SubTitle>
         </TextInfo>
         <TextInfoSub>Pro co nejpřesnější výpočet nám prosím zašlete následující informace e-mailem:</TextInfoSub>
         <TextInfo>
@@ -94,11 +96,18 @@ const Price = () => {
           <SubTitle>Storno podmínky účtujeme individuálně dle velikosti zakázky a vzájemné dohody.</SubTitle>
         </TextInfo>
       </MainText>
+      <FooterBlock>
+        <Footer />
+      </FooterBlock>
     </Container>
   )
 }
 
 export default Price
+
+const FooterBlock = styled.div`
+  margin-top: -60px;
+`;
 
 const TextInfoSub = styled.span`
   color: #393a3c;

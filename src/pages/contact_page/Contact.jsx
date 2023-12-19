@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Survey from './Survey'
+import Footer from '../../components/footbar/Footer'
 
 const Contact = () => {
   return (
@@ -11,14 +12,14 @@ const Contact = () => {
         firstSub={"Úvod"}
         firstLink={"home"}
         secondSub={"Kontakt"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B_pabx9y.jpg"}
         secondLink={"contact"}
+        subTitle={"Máte otázky nebo potřebujete objednat naše služby?"}
       />
 
-      <MainText>
+      <MainText style={{marginTop: '-40px'}}>
         <MainContainerInfo>
-          <MainTitle>
-            <Title>Máte otázky nebo potřebujete objednat naše služby?</Title>
-          </MainTitle>
+          
           <BeforeBlock></BeforeBlock>
           <TextInfo>
             <SubTitle>Nabízíme různé způsoby spojení, které jsou k dispozici 24/7. Můžete nám napsat e-mail, vyplnit rychlý kontaktní formulář nebo jednoduše zavolat. Vaše pohodlí je naší prioritou. Jsme tady pro vás. </SubTitle>
@@ -97,7 +98,11 @@ const Contact = () => {
         </SocialBlock>
 
       </MainText>
-
+      <FooterBlock>
+        <Footer 
+          contactTitle={"contactTitle"}
+        />
+      </FooterBlock>
 
 
     </Container>
@@ -105,6 +110,10 @@ const Contact = () => {
 }
 
 export default Contact
+
+const FooterBlock = styled.div`
+  margin-top: -60px;
+`;
 
 const SocialImg = styled.img`
   width: 40px;

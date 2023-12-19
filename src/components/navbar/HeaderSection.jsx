@@ -2,16 +2,26 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-const HeaderSection = ({title, firstLink, firstSub, secondLink, secondSub}) => {
+const HeaderSection = ({title, firstLink, firstSub, secondLink, secondSub, subTitle, picture}) => {
+
+  const pictureStyle = {
+    position: 'relative',
+    background: `url(${picture})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    minHeight: '420px',
+    zIndex: '-1',
+  };
+
   return (
     <Container>
-      <PictureBlock>
+      <PictureBlock style={pictureStyle}>
         <Overlay />
       </PictureBlock>
       <MainText>
         <Title>{title}</Title>
         <SubBlock>
-          <Title>Jedna společnost, nekonečné možnosti.</Title>
+          <Title style={{fontSize: '24px'}}>{subTitle}</Title>
           {/* <StyledLink to={`/${firstLink}`}><SubTitle>{firstSub}</SubTitle></StyledLink>
           <ArrowImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698590300/icons8-arrow-right-50_qlz4gn.png"/>
           <StyledLink to={`/${secondLink}`}><SubTitle>{secondSub}</SubTitle></StyledLink> */}
@@ -28,12 +38,7 @@ const Container = styled.div`
 `;
 
 const PictureBlock = styled.div`
-  position: relative;
-  background: url('https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701033972/back_iqlfez.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 420px;
-  z-index: -1;
+  
 `;
 
 const Overlay = styled.div`

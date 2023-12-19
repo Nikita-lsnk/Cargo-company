@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
+import Footer from '../../components/footbar/Footer';
 
 const data = {
   data: [
@@ -46,11 +47,13 @@ const Bus = () => {
         firstLink={"home"}
         secondSub={"Služby"}
         secondLink={"bus"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81_f01l0z.jpg"}
+        subTitle={"Autobusová přeprava."}
       />
-      <MainText>
-        <MainTitle>
+      <MainText style={{marginTop: '-40px'}}>
+        {/* <MainTitle>
           <Title>Autobusová přeprava.</Title>
-        </MainTitle>
+        </MainTitle> */}
         <BeforeBlock></BeforeBlock>
         <TextInfo>
           <SubTitle>Služby firmy AronTrack jsou zaměřeny především na českou a zahraniční zájezdovou autobusovou dopravu a přepravu osob.</SubTitle>
@@ -116,11 +119,18 @@ const Bus = () => {
           <SubTitle>Cenu za dopravu Vám operativně zpracujeme dle termínu, programu, počtu osob. V případě zájmu neváhejte nás kontaktovat na lince: +420-775-586-626</SubTitle>
         </TextInfo>
       </MainText>
+      <FooterBlock>
+        <Footer />
+      </FooterBlock>
     </Container>
   )
 }
 
 export default Bus
+
+const FooterBlock = styled.div`
+  margin-top: -60px;
+`;
 
 const Container = styled.div`
   width: 100%;

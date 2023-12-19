@@ -29,7 +29,7 @@ const fadeInUp = keyframes`
 
 const resetAnimation = keyframes`
   from {
-    opacity: 0.99; /* Делаем значение чуть меньше 1 для сброса анимации */
+    opacity: 0.99; 
   }
   to {
     opacity: 1;
@@ -245,7 +245,7 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Цвет затемнения с непрозрачностью */
+  background-color: rgba(0, 0, 0, 0.5); 
 `;
 
 const MainText = styled.div`

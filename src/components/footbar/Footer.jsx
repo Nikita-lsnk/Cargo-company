@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Footer = () => {
+const Footer = ({contactTitle}) => {
   return (
     <Container>
       <MainInfo>
@@ -9,7 +9,7 @@ const Footer = () => {
           <Logo>Logo</Logo>
         </LogoBlock>
         <MainTitle>
-          <Title>Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinečnou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo složitost, jsme zde pro vás a jsme ochotni udělat maximum pro naše klienty. Spolehněte se na nás pro bezpečnou a spolehlivou dopravu, která propojuje Evropu komfortem a péčí."
+          <Title>{contactTitle === "contactTitle" ? "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА" : "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinečnou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo složitost, jsme zde pro vás a jsme ochotni udělat maximum pro naše klienty. Spolehněte se na nás pro bezpečnou a spolehlivou dopravu, která propojuje Evropu komfortem a péčí."}
           </Title>
         </MainTitle>
       </MainInfo>

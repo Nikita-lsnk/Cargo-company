@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
+import Footer from '../../components/footbar/Footer'
 
 const Truck = () => {
   return (
@@ -11,11 +12,11 @@ const Truck = () => {
         firstLink={"home"}
         secondSub={"Služby"}
         secondLink={"truck"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B8_udggfc.jpg"}
+        subTitle={"Mezinárodní nákladní doprava."}
       />
-      <MainText>
-        <MainTitle>
-          <Title>Mezinárodní nákladní doprava.</Title>
-        </MainTitle>
+      <MainText style={{marginTop: '-40px'}}>
+        
         <BeforeBlock></BeforeBlock>
         <TextInfo>
           <SubTitle>Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. <b>Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun.</b></SubTitle>
@@ -50,11 +51,18 @@ const Truck = () => {
           <SubTitle>Všechny naše služby splňují přísné požadavky Dohody o přepravní smlouvě v mezinárodní silniční přepravě (CMR).</SubTitle>
         </TextInfo>
       </MainText>
+      <FooterBlock>
+        <Footer />
+      </FooterBlock>
     </Container>
   )
 }
 
 export default Truck
+
+const FooterBlock = styled.div`
+  margin-top: -60px;
+`;
 
 const Container = styled.div`
   width: 100%;

@@ -194,7 +194,7 @@ const Survey = () => {
                 onChange={(e) => { setNumber(e.target.value) }}
                 type="text"
                 name="Number"
-                placeholder="Enter your number"
+                placeholder="např. 8-10"
                 value={number}
                 $highlight={!numberValid}
               />
@@ -205,7 +205,7 @@ const Survey = () => {
                 onChange={(e) => { setData(e.target.value) }}
                 type="text"
                 name="Data"
-                placeholder="Enter your data"
+                placeholder="DD.MM.YYYY"
                 value={data}
                 $highlight={!dataValid}
               />
@@ -216,7 +216,7 @@ const Survey = () => {
                 onChange={(e) => { setTrack(e.target.value) }}
                 type="text"
                 name="Track"
-                placeholder="Enter your track"
+                placeholder="např. Praha – Karlovy Vary"
                 value={track}
                 $highlight={!trackValid}
               />

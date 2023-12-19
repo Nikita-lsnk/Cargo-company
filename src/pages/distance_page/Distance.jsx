@@ -129,12 +129,12 @@ const Distance = () => {
         firstLink={"home"}
         secondSub={"Distance"}
         secondLink={"distance"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023918/%D1%84%D0%BE%D0%BD_%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_cvdvty.jpg"}
+        subTitle={"Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici."}
       />
       <ContainerColor>
-        <MainText>
-          <MainTitle>
-            <Title>Distance.</Title>
-          </MainTitle>
+        <MainText style={{marginTop: '-40px'}}>
+          
           <BeforeBlock></BeforeBlock>
           <TextInfo>
 

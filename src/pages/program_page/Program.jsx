@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
+import Footer from '../../components/footbar/Footer'
 
 const Program = () => {
   return (
@@ -11,11 +12,10 @@ const Program = () => {
         firstLink={"home"}
         secondSub={"Věrnostní program"}
         secondLink={"program"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BB%D0%BE%D1%8F%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8_d8asqc.jpg"}
+        subTitle={'Věrnost se vyplácí s "AronTrack Rewards".'}
       />
-      <MainText>
-        <MainTitle>
-          <Title>Věrnost se vyplácí s "AronTrack Rewards".</Title>
-        </MainTitle>
+      <MainText style={{marginTop: '-40px'}}>
         <BeforeBlock></BeforeBlock>
         <TextInfo>
           <SubTitle>Vítejte v našem věrnostním programu "AronTrack Rewards"! Jsme si vědomi, že naši stálí zákazníci jsou pro nás tím nejcennějším, a proto jsme pro vás připravili tento program, který vám nabídne jedinečný a individuální přístup. Jsme si jisti, že si zasloužíte odměnu za vaši loajalitu, a proto vám poskytneme exkluzivní výhody, které oceníte. Staňte se členem našeho věrnostního programu a vyzkoušejte tyto výhody na vlastní zkušenost!</SubTitle>
@@ -73,12 +73,18 @@ const Program = () => {
 
         </TextInfo>
       </MainText>
-
+      <FooterBlock>
+        <Footer />
+      </FooterBlock>
     </Container>
   )
 }
 
 export default Program
+
+const FooterBlock = styled.div`
+  margin-top: -60px;
+`;
 
 const Container = styled.div`
   width: 100%;
