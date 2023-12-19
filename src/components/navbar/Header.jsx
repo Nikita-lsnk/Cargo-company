@@ -69,7 +69,12 @@ const Header = () => {
       <NavBlock className={isFixed ? "fixed" : ""}>
         <NavBlockContainer >
           <LogoBlock>
-            Logo
+            {isFixed ? 
+            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg"/>
+            :
+            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/>
+            }
+            
           </LogoBlock>
           <NavMenu>
             <NavLink
@@ -274,6 +279,10 @@ const Header = () => {
 }
 
 export default Header
+
+const LogoImg = styled.img`
+  width: 100px;
+`;
 
 const List = styled.div`
   width: 228px;

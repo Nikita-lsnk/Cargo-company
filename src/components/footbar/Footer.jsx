@@ -6,7 +6,7 @@ const Footer = ({contactTitle}) => {
     <Container>
       <MainInfo>
         <LogoBlock>
-          <Logo>Logo</Logo>
+          <Logo><LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/></Logo>
         </LogoBlock>
         <MainTitle>
           <Title>{contactTitle === "contactTitle" ? "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА" : "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinečnou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo složitost, jsme zde pro vás a jsme ochotni udělat maximum pro naše klienty. Spolehněte se na nás pro bezpečnou a spolehlivou dopravu, která propojuje Evropu komfortem a péčí."}
@@ -38,6 +38,8 @@ const Footer = ({contactTitle}) => {
 }
 
 export default Footer
+
+const LogoImg = styled.img``;
 
 const BlockContact = styled.div`
   display: flex;
