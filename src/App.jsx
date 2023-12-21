@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import Header from './components/navbar/Header'
 import './App.css'
@@ -16,13 +16,29 @@ import Contact from './pages/contact_page/Contact'
 
 const App = () => {
 
-  
+  const [isFixed, setIsFixed] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     // Прокрутка страницы в самый верх
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [location.pathname]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 150) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
   return (
@@ -42,19 +58,24 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
 
         </Routes>
-        <Img
-          src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703020622/icons8-arrow-up-96_y8xsnq.png"
-          style={{
-            position: 'fixed',
-            bottom: '20px', // Регулируйте отступ от нижнего края
-            right: '20px', // Регулируйте отступ от правого края
-            cursor: 'pointer',
-            
-          }}
-          onClick={() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}
-        />
+        {isFixed ?
+          <Img
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703020622/icons8-arrow-up-96_y8xsnq.png"
+            style={{
+              position: 'fixed',
+              bottom: '20px', // Регулируйте отступ от нижнего края
+              right: '20px', // Регулируйте отступ от правого края
+              cursor: 'pointer',
+
+            }}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+          />
+          :
+          ""
+        }
+
       </Container>
     </Wrapper>
   )

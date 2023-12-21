@@ -27,7 +27,7 @@ const Home = () => {
       <ContainerColor>
         <ContainerPopular>
           <MainTitle>
-            <Title>Preferovaná Doprava a Přeprava</Title>
+            <Title>Preferovaná doprava a přeprava</Title>
           </MainTitle>
           <BeforeBlock></BeforeBlock>
           <MainPopular>
@@ -35,37 +35,37 @@ const Home = () => {
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_1_mqn7n5.jpg"}
                 price={"od 750 kč"}
-                description={"Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte naší společnost postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště můžete být jisti, že dorazíte včas a bezpečně."}
+                description={"Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně."}
                 title={"Transfer na letiště"}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779959/Preferovan%D0%B0_Doprava_Okruhy_po_Praze_od_2300_k%D0%AF_h1lplf.jpg"}
                 price={"od 2300 kč"}
-                description={"Naše individuální transfery po městě a okružní jízdy Prahou jsou způsobem, jak objevit krásy tohoto fascinujícího města v pohodlí a stylu. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun od místa k místu nebo toužíte prozkoumat pamětihodnosti Prahy. S našimi individuálními transfery budete mít možnost pohodlně a efektivně prozkoumávat město bez starostí o dopravu. Ukažte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky v tomto nádherném městě."}
+                description={"Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno."}
                 title={"Okruhy po Praze"}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Svatebn%D0%B1_autobus_od_3000_k%D0%AF_qomnvw.jpg"}
-                description={"Při plánování svatby chápeme, jak náročný a stresující proces to může být. Proto jsme tu, abychom vám a vašim hostům ulehčili organizaci přepravy. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělým způsobem, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte své hosty tím, že je pohodlně dostanete na obřad do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem můžete být jisti, že přeprava na vaší svatbě bude jednoduchá, elegantní a bez starostí."}
+                description={"Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí."}
                 price={"od 3000 kč"}
                 title={"Svatební autobus"}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779960/Preferovan%D0%B0_Doprava_Z%D0%B0jezdy_pro_CK_od_2500_k%D0%AF_syvgro.jpg"}
-                description={"Jste cestovní nebo incomingová kancelář či eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních aranžmá a událostí. S našimi službami můžete být jisti, že vaši klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí."}
+                description={"Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí."}
                 price={"od 2500 kč"}
                 title={"Zájezdy pro CK "}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Kamionov%D0%B0_doprava_do_N_mecka_a_zp_t_od_26_k%D0%AF_za_km_1_huyx4p.jpg"}
                 price={"od 26 kč za km"}
-                description={"Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport vašeho nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení."}
+                description={"Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení."}
                 title={"Kamionová doprava do Německa a zpět od 26 kč za km"}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242863/Preferovan%D0%B0_Doprava_a_P_eprava_Osobn%D0%B1_idi%D0%AF_za_850_k%D0%AF_na_hod_evrfqc.jpg"}
                 price={"za 850 kč na hod"}
-                description={"Naše osobní řidičská služba vám poskytuje možnost mít profesionálního řidiče k dispozici za 850 Kč na hodinu. S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete potřebovat. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den."}
+                description={"S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den."}
                 title={"Osobní řidič"}
               />
             </Suspense>
@@ -83,7 +83,7 @@ const Home = () => {
           </MainText>
         </SpecialBlock>
         <DiscountBlock>
-          <DiscountTitle>Staňte se členem partnerského programu a získáte větší výhody.</DiscountTitle>
+          <DiscountTitle>Staňte se členem partnerského programu a získejte větší výhody</DiscountTitle>
           {/* <StyledLink to="/program"> */}
           <DiscountBtn onClick={handleGoToProgram}>Více informací</DiscountBtn>
           {/* </StyledLink> */}

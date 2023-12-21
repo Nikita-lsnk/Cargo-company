@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import './Header.css'
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Header = () => {
 
@@ -10,6 +10,12 @@ const Header = () => {
 
   const menuRef = useRef();
   const buttonRef = useRef();
+
+  const navigate = useNavigate();
+
+  const handleGoToHome = () => {
+    navigate("/home")
+  }
 
 
   useEffect(() => {
@@ -68,11 +74,11 @@ const Header = () => {
       </TopBlock>
       <NavBlock className={isFixed ? "fixed" : ""}>
         <NavBlockContainer >
-          <LogoBlock>
+          <LogoBlock onClick={handleGoToHome}>
             {isFixed ? 
             <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg"/>
             :
-            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/>
+            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg"/>
             }
             
           </LogoBlock>
@@ -187,7 +193,7 @@ const Header = () => {
                       }
                       to="/car"
                     >
-                      Privátní osobní přeprava
+                      Osobní přeprava
                     </NavLinkDrop>
                     <NavLinkDrop
                       className={
@@ -281,7 +287,7 @@ const Header = () => {
 export default Header
 
 const LogoImg = styled.img`
-  width: 100px;
+  width: 120px;
 `;
 
 const List = styled.div`
@@ -432,12 +438,13 @@ const NavBlockContainer = styled.div`
 `;
 
 const LogoBlock = styled.div`
-  
+  cursor: pointer;
 `;
 
 const NavMenu = styled.div`
   display: flex;
   gap: 40px;
+  
   
 `;
 

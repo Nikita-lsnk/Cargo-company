@@ -13,12 +13,14 @@ const Program = () => {
         secondSub={"Věrnostní program"}
         secondLink={"program"}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BB%D0%BE%D1%8F%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8_d8asqc.jpg"}
-        subTitle={'Věrnost se vyplácí s "AronTrack Rewards".'}
+        subTitle={'Věrnost se vyplácí s "AronTrack Rewards"'}
       />
-      <MainText style={{marginTop: '-40px'}}>
+      <MainText style={{ marginTop: '-40px' }}>
         <BeforeBlock></BeforeBlock>
         <TextInfo>
-          <SubTitle>Vítejte v našem věrnostním programu "AronTrack Rewards"! Jsme si vědomi, že naši stálí zákazníci jsou pro nás tím nejcennějším, a proto jsme pro vás připravili tento program, který vám nabídne jedinečný a individuální přístup. Jsme si jisti, že si zasloužíte odměnu za vaši loajalitu, a proto vám poskytneme exkluzivní výhody, které oceníte. Staňte se členem našeho věrnostního programu a vyzkoušejte tyto výhody na vlastní zkušenost!</SubTitle>
+          <SubTitle>Vítejte v našem v věrnostním programu "AronTrack Rewards"!
+            Jsme si vědomi, naši stálí zákazníci jsou u nás na prvním místě, a proto jsme pro vás připravili program, který vám nabídne jedinečný a individuální přístup. Jsme si jisti, že si zasloužíte odměnu za vaši loajalitu, a vám poskytneme exkluzivní výhody, které oceníte. Staňte se členem našeho věrnostního programu a vyzkoušejte tyto výhody na vlastní pěst.
+          </SubTitle>
         </TextInfo>
         <TextInfoSub>Systém odměn:</TextInfoSub>
         <TextInfo>
@@ -28,31 +30,31 @@ const Program = () => {
             <SubTitle>1. Sleva pro stálé zákazníky: Všichni účastníci programu automaticky získají status stálého zákazníka po prvním úspěšném pronájmu. Sleva se uděluje na každou následující jízdu a závisí na celkovém objemu rezervací:</SubTitle>
             <SubTitleItem>
               {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864726/icons8-diamond-48_2_ew58bt.png"/> */}
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
-              <SubTitle>Zlatý status: 3% sleva na každou jízdu (po 1. pronájmu). </SubTitle>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Zlatý status: 3% sleva na každou jízdu (po 1. pronájmu).  </SubTitle>
             </SubTitleItem>
             <SubTitleItem>
               {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864726/icons8-diamond-48_1_isvrvn.png"/> */}
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Platinový status: 5% sleva na každou jízdu (po 5. pronájmu).</SubTitle>
             </SubTitleItem>
             <SubTitleItem>
               {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864727/icons8-diamond-48_cw7tem.png"/> */}
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Diamantový status: 7% sleva na každou jízdu (po 10. pronájmu).</SubTitle>
             </SubTitleItem>
           </AdvantBlock>
           <AdvantBlock>
             {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" /> */}
-            <br/>
-            
+            <br />
+
             <SubTitle>2.	Bonusy za loajalitu: Po každém 5. úspěšném pronájmu získají zákazníci bonus ve formě další slevy:</SubTitle>
             <SubTitleItem>
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Po 5. pronájmu: dodatečná sleva 5% na následující jízdu.</SubTitle>
             </SubTitleItem>
             <SubTitleItem>
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Po 10. pronájmu: dodatečná sleva 10% na následující jízdu.</SubTitle>
             </SubTitleItem>
           </AdvantBlock>
@@ -62,11 +64,11 @@ const Program = () => {
         <TextInfo>
           <AdvantBlock>
             <SubTitleItem>
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Speciální nabídky a exkluzivní akce pro účastníky programu.</SubTitle>
             </SubTitleItem>
             <SubTitleItem>
-              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg"/>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
               <SubTitle>Rychlá rezervace a prioritní obsluha pro stálé zákazníky.</SubTitle>
             </SubTitleItem>
           </AdvantBlock>

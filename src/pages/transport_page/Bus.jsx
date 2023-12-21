@@ -48,7 +48,7 @@ const Bus = () => {
         secondSub={"Služby"}
         secondLink={"bus"}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81_f01l0z.jpg"}
-        subTitle={"Autobusová přeprava."}
+        subTitle={"Autobusová přeprava"}
       />
       <MainText style={{marginTop: '-40px'}}>
         {/* <MainTitle>
@@ -116,7 +116,7 @@ const Bus = () => {
 
         </TextInfo>
         <TextInfo>
-          <SubTitle>Cenu za dopravu Vám operativně zpracujeme dle termínu, programu, počtu osob. V případě zájmu neváhejte nás kontaktovat na lince: +420-775-586-626</SubTitle>
+          <SubTitle>Cenu za dopravu Vám operativně zpracujeme dle termínu, programu a počtu osob. V případě zájmu nás neváhejte kontaktovat.</SubTitle>
         </TextInfo>
       </MainText>
       <FooterBlock>

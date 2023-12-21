@@ -9,7 +9,7 @@ const Footer = ({contactTitle}) => {
           <Logo><LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/></Logo>
         </LogoBlock>
         <MainTitle>
-          <Title>{contactTitle === "contactTitle" ? "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА" : "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinečnou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo složitost, jsme zde pro vás a jsme ochotni udělat maximum pro naše klienty. Spolehněte se na nás pro bezpečnou a spolehlivou dopravu, která propojuje Evropu komfortem a péčí."}
+          <Title>{contactTitle === "contactTitle" ? "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА" : "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo komplexnost, jsme zde pro vás a připraveni udělat maximum pro naše klienty. Potřebujete-li bezpečnou a spolehlivou dopravu, nechte to na nás!"}
           </Title>
         </MainTitle>
       </MainInfo>
@@ -39,7 +39,9 @@ const Footer = ({contactTitle}) => {
 
 export default Footer
 
-const LogoImg = styled.img``;
+const LogoImg = styled.img`
+  width: 120px;
+`;
 
 const BlockContact = styled.div`
   display: flex;
@@ -56,21 +58,22 @@ const LinkBlock = styled.div`
 `;
 
 const ImgPhone = styled.img`
-  width: 32px;
-  height:32px;
+  width: 24px;
+  height:24px;
   cursor: pointer;
 `;
 
 const Img = styled.img`
   margin-left: -3px;
-  width: 38px;
-  height:38px;
+  width: 30px;
+  height:30px;
   cursor: pointer;
 `;
 
 const TitleLink = styled.a`
   text-decoration: none;
   color: #3256A4;
+  font-size: 14px;
 `;
 
 const Container = styled.div`
@@ -79,12 +82,12 @@ const Container = styled.div`
   padding-bottom: 60px;
   display: flex;
   gap: 60px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   
 `;
 
 const MainInfo = styled.div`
-  max-width: 400px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -104,7 +107,7 @@ const MainTitle = styled.div`
 
 const Title = styled.span`
   color: #8f8f8f;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.375;
   
 `;
@@ -116,7 +119,7 @@ const TextBlock = styled.div`
 
 const TextTitle = styled.span`
   color: #393a3c;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   border-bottom: 1px solid  #3256A4;
   padding-bottom: 20px;

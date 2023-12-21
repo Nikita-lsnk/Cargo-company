@@ -56,15 +56,15 @@ const SliderBlock = () => {
     {
       title: 'Vaše cesta, náš závazek',
       subTitle:
-        'Poskytování kvalitních služeb, které jsou připraveny splnit různé potřeby našich klientů s důrazem na kvalitu a spolehlivost',
+        'Poskytování kvalitních služeb, které jsou připraveny splnit různé potřeby našich klientů s důrazem na kvalitu a spolehlivost.',
       buttonText: 'Více informací',
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/background-03-1920x950_xdjozs.jpg',
     },
     {
-      title: 'Soukromá Přeprava pro Vaše Soukromí.',
+      title: 'Soukromá Přeprava pro Vaše Soukromí',
       subTitle:
-        'Naše služba privátní osobní přepravy nabízí komfortní a diskrétní způsob dopravy, který se plně přizpůsobuje vašim potřebám',
+        'Naše služba osobní přepravy nabízí komfortní a diskrétní způsob dopravy, který se plně přizpůsobuje vašim potřebám.',
       buttonText: 'Více informací',
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/osobni_preprava_kfywhm.jpg',
@@ -72,7 +72,7 @@ const SliderBlock = () => {
     {
       title: 'Spolehlivě Překonáváme Hranice',
       subTitle:
-        'Naše mezinárodní nákladní doprava je synonymem spolehlivosti a efektivity, která umožňuje plynulý převoz nákladu po celé Evropě',
+        'Naše mezinárodní nákladní doprava je synonymem spolehlivosti a efektivity, která umožňuje plynulý převoz nákladu po celé Evropě.',
       buttonText: 'Více informací',
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599777/nakladn%D0%B1_doprav_hqkwoe.jpg',

@@ -30,7 +30,7 @@ const Advant = () => {
           </StyledLink>
 
 
-          <StyledLink to="/car"><TitleAdvant>Privátní osobní přeprava</TitleAdvant></StyledLink>
+          <StyledLink to="/car"><TitleAdvant>Osobní přeprava</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
           <StyledLink to="/truck">

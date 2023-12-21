@@ -13,7 +13,7 @@ const Truck = () => {
         secondSub={"Služby"}
         secondLink={"truck"}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B8_udggfc.jpg"}
-        subTitle={"Mezinárodní nákladní doprava."}
+        subTitle={"Mezinárodní nákladní doprava"}
       />
       <MainText style={{marginTop: '-40px'}}>
         

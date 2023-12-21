@@ -13,17 +13,21 @@ const About = () => {
         secondSub={"O nás"}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BE_%D0%BD%D0%B0%D1%81_nxjzqk.jpg"}
         secondLink={"about"}
-        subTitle={"Jedna společnost, nekonečné možnosti."}
+        subTitle={"Jedna společnost, nekonečné možnosti"}
       />
-      <MainText>
-        {/* <MainTitle>
-          <Title>Jedna společnost, nekonečné možnosti.</Title>
-        </MainTitle> */}
-        <BeforeBlock></BeforeBlock>
-        <TextInfo>
-          <SubTitle>Vítejte na našich webových stránkách! Jsme spolehlivým partnerem pro komplexní dopravní řešení. Od svého založení v roce 2020 jsme se zaměřili na rozvoj našeho širokého portfolia služeb, které zahrnuje pohodlné autobusové přepravy, osobní privátní přepravy s důrazem na vaši pohodlnost a nákladní dopravu, která uspokojí všechny vaše logistické potřeby. S naší firmou získáte spolehlivost, kvalitu a pozornou péči o každý detail. Jsme zde proto, abychom vám poskytli bezpečnou, efektivní a ekonomicky výhodnou dopravu po celé Evropě. Kontaktujte nás a společně najdeme řešení pro vaše transportní výzvy. </SubTitle>
-        </TextInfo>
-      </MainText>
+      <ContainerColor>
+        <MainText>
+
+          <BeforeBlock></BeforeBlock>
+          <TextInfo>
+            <SubTitle>Vítejte na našich webových stránkách! Jsme spolehlivým partnerem pro komplexní dopravní řešení. Od svého založení v roce 2020 jsme se zaměřili na rozvoj našeho širokého portfolia služeb, které zahrnuje pohodlné autobusové přepravy, osobní přepravy s důrazem na vaši pohodlnost a nákladní dopravu, která uspokojí všechny vaše logistické potřeby. S naší firmou získáte spolehlivost, kvalitu a pozornou péči o každý detail. Jsme zde proto, abychom vám poskytli bezpečnou, efektivní a ekonomicky výhodnou dopravu po celé Evropě. Kontaktujte nás a společně najdeme řešení pro vaše transportní výzvy. </SubTitle>
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D1%82%D0%BE_%D0%BE_%D0%BD%D0%B0%D1%81_2_%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82_gcxfwe.jpg" />
+            {/* <Img src ="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699811586/ke6kruoozgh8hafl1lhp.jpg"/> */}
+          </TextInfo>
+        </MainText>
+      </ContainerColor>
+
+
       <FooterBlock>
         <Footer />
       </FooterBlock>
@@ -34,15 +38,36 @@ const About = () => {
 
 export default About
 
+// const DiscountBlock = styled.div`
+//   display: flex;
+//   background-color: #3256A4; 
+//   justify-content: center;
+//   align-items: center;
+//   padding: 40px;
+//   gap: 20px;
+// `;
+
+const Img = styled.img`
+  width: 400px;
+  height: 200px;
+`;
+
 const FooterBlock = styled.div`
-  margin-top: -60px;
+  margin-top: 40px;
+`;
+
+const ContainerColor = styled.div`
+  width: 100%;
+  background-color: #f2f6ff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 `;
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  /* gap: 100px; */
   /* margin-bottom: 40px; */
   /* margin-bottom: 50px; */
 `;
@@ -76,7 +101,9 @@ const BeforeBlock = styled.div`
 `;
 
 const TextInfo = styled.div`
-  max-width: 900px;
+  max-width: 1100px;
+  display: flex;
+  gap: 100px;
 `;
 
 const SubTitle = styled.span`
