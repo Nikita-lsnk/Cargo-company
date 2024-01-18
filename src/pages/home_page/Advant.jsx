@@ -61,6 +61,10 @@ const Container = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1200px) {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
 `;
 
 const MainTitle = styled.div`

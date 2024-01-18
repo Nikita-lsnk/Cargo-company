@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import './Header.css'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Header = () => {
 
@@ -10,6 +11,8 @@ const Header = () => {
 
   const menuRef = useRef();
   const buttonRef = useRef();
+
+  const [nav, setNav] = useState(false);
 
   const navigate = useNavigate();
 
@@ -73,145 +76,166 @@ const Header = () => {
         </ChangeBlock>
       </TopBlock>
       <NavBlock className={isFixed ? "fixed" : ""}>
+
         <NavBlockContainer >
+          <BurgerBtn onClick={() => setNav(!nav)}>
+            {nav ? (
+              <AiOutlineClose
+                size={25}
+                color={"#ffffff"}
+              />
+            ) : (
+              <AiOutlineMenu
+                color={"#ffffff"}
+                size={25}
+              />
+            )}
+          </BurgerBtn>
           <LogoBlock onClick={handleGoToHome}>
-            {isFixed ? 
-            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg"/>
-            :
-            <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg"/>
+            {isFixed ?
+              <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg" />
+              :
+              <LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025744/AronTrack_CI_nkv6zj.svg" />
             }
-            
+
           </LogoBlock>
-          <NavMenu>
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("home".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/home"
+          <NavMenuContent
+            onClick={() => setNav(false)}
+            className={nav ? "active" : ""}
+          >
+            <NavMenu
             >
-              Úvod
-            </NavLink>
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("about".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/about"
-            >
-              O nás
-            </NavLink>
-            <DropMenu>
-              <ShareBtn
+              <NavLink
                 className={
                   location.pathname
                     .toLowerCase()
-                    .includes("bus".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("car".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("truck".toLowerCase())
-                    ? "bus"
+                    .includes("home".toLowerCase())
+                    ? "Activate"
                     : ""
                 }
-                ref={buttonRef}
-                onClick={() => { setOpenDrop(!openDrop) }}
+                to="/home"
               >
-                Služby
-
-                {openDrop === true ?
-
-                  (location.pathname
+                Úvod
+              </NavLink>
+              <NavLink
+                className={
+                  location.pathname
                     .toLowerCase()
-                    .includes("bus".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("car".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("truck".toLowerCase())
-                    ?
-                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_1_kp4hcq.png" />
-                    :
-                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
-                  )
-                  :
-                  (location.pathname
-                    .toLowerCase()
-                    .includes("bus".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("car".toLowerCase())
-                    ||
-                    location.pathname.toLowerCase().includes("truck".toLowerCase())
-                    ?
-                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_c1s9qr.png" />
-
-                    :
-
-                    <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
-                  )
-                  // 
-
-
+                    .includes("about".toLowerCase())
+                    ? "Activate"
+                    : ""
                 }
-                {/* {openDrop === true ?
+                to="/about"
+              >
+                O nás
+              </NavLink>
+              <DropMenu>
+                <ShareBtn
+                  className={
+                    location.pathname
+                      .toLowerCase()
+                      .includes("bus".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("car".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("truck".toLowerCase())
+                      ? "bus"
+                      : ""
+                  }
+                  ref={buttonRef}
+                  onClick={() => { 
+                    setOpenDrop(!openDrop)
+                  }}
+                >
+                  Služby
+
+                  {openDrop === true ?
+
+                    (location.pathname
+                      .toLowerCase()
+                      .includes("bus".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("car".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("truck".toLowerCase())
+                      ?
+                      <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_1_kp4hcq.png" />
+                      :
+                      <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
+                    )
+                    :
+                    (location.pathname
+                      .toLowerCase()
+                      .includes("bus".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("car".toLowerCase())
+                      ||
+                      location.pathname.toLowerCase().includes("truck".toLowerCase())
+                      ?
+                      <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698657334/icons8-chevron-down-26_c1s9qr.png" />
+
+                      :
+
+                      <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
+                    )
+                    // 
+
+
+                  }
+                  {/* {openDrop === true ?
 
                   <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662804/icons8-chevron-down-26_6_qkm4l3.png" />
                   :
                   <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
                 } */}
 
-              </ShareBtn>
-              {openDrop && (
-                <DropDown
-                  ref={menuRef}
-                >
-                  <List>
-                    <NavLinkDrop
-                      className={
-                        location.pathname
-                          .toLowerCase()
-                          .includes("bus".toLowerCase())
-                          ? "Activate"
-                          : ""
-                      }
-                      to="/bus"
-                    >
-                      Autobusová přeprava
-                    </NavLinkDrop>
-                    <NavLinkDrop
-                      className={
-                        location.pathname
-                          .toLowerCase()
-                          .includes("car".toLowerCase())
-                          ? "Activate"
-                          : ""
-                      }
-                      to="/car"
-                    >
-                      Osobní přeprava
-                    </NavLinkDrop>
-                    <NavLinkDrop
-                      className={
-                        location.pathname
-                          .toLowerCase()
-                          .includes("truck".toLowerCase())
-                          ? "Activate"
-                          : ""
-                      }
-                      to="/truck"
-                    >
-                      Mezinárodní nákladní doprava
-                    </NavLinkDrop>
-                  </List>
-                </DropDown>
-              )}
-            </DropMenu>
-            {/* <NavLink
+                </ShareBtn>
+                {openDrop && (
+                  <DropDown
+                    ref={menuRef}
+                  >
+                    <List>
+                      <NavLinkDrop
+                        className={
+                          location.pathname
+                            .toLowerCase()
+                            .includes("bus".toLowerCase())
+                            ? "Activate"
+                            : ""
+                        }
+                        to="/bus"
+                      >
+                        Autobusová přeprava
+                      </NavLinkDrop>
+                      <NavLinkDrop
+                        className={
+                          location.pathname
+                            .toLowerCase()
+                            .includes("car".toLowerCase())
+                            ? "Activate"
+                            : ""
+                        }
+                        to="/car"
+                      >
+                        Osobní přeprava
+                      </NavLinkDrop>
+                      <NavLinkDrop
+                        className={
+                          location.pathname
+                            .toLowerCase()
+                            .includes("truck".toLowerCase())
+                            ? "Activate"
+                            : ""
+                        }
+                        to="/truck"
+                      >
+                        Mezinárodní nákladní doprava
+                      </NavLinkDrop>
+                    </List>
+                  </DropDown>
+                )}
+              </DropMenu>
+              {/* <NavLink
               className={
                 location.pathname
                   .toLowerCase()
@@ -224,55 +248,57 @@ const Header = () => {
               
               <ImgArrow src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698662838/icons8-chevron-down-26_4_zxupr0.png" />
             </NavLink> */}
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("distance".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/distance"
-            >
-              Distance
-            </NavLink>
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("price".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/price"
-            >
-              Ceny
-            </NavLink>
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("program".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/program"
-            >
-              Věrnostní program
-            </NavLink>
-            <NavLink
-              className={
-                location.pathname
-                  .toLowerCase()
-                  .includes("contact".toLowerCase())
-                  ? "Activate"
-                  : ""
-              }
-              to="/contact"
-            >
-              Kontakt
-            </NavLink>
-          </NavMenu>
+              <NavLink
+                className={
+                  location.pathname
+                    .toLowerCase()
+                    .includes("distance".toLowerCase())
+                    ? "Activate"
+                    : ""
+                }
+                to="/distance"
+              >
+                Distance
+              </NavLink>
+              <NavLink
+                className={
+                  location.pathname
+                    .toLowerCase()
+                    .includes("price".toLowerCase())
+                    ? "Activate"
+                    : ""
+                }
+                to="/price"
+              >
+                Ceny
+              </NavLink>
+              <NavLink
+                className={
+                  location.pathname
+                    .toLowerCase()
+                    .includes("program".toLowerCase())
+                    ? "Activate"
+                    : ""
+                }
+                to="/program"
+              >
+                Věrnostní program
+              </NavLink>
+              <NavLink
+                className={
+                  location.pathname
+                    .toLowerCase()
+                    .includes("contact".toLowerCase())
+                    ? "Activate"
+                    : ""
+                }
+                to="/contact"
+              >
+                Kontakt
+              </NavLink>
+            </NavMenu>
+          </NavMenuContent>
+
         </NavBlockContainer>
 
       </NavBlock>
@@ -285,6 +311,34 @@ const Header = () => {
 }
 
 export default Header
+
+const NavMenuContent = styled.div`
+  @media screen and (max-width: 1120px) {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
+    margin: 0;
+    top:50px;
+    left: -110%;
+    padding-left: 38px;
+    background-color: ${(props) => (props.$isDarkTheme ? "#22272B" : "white")};
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+  }
+`;
+
+const BurgerBtn = styled.div`
+  display: none;
+  
+  @media screen and (max-width: 1120px) {
+    display: flex;
+    cursor: pointer;
+    align-self: center;
+    z-index: 100;
+  }
+`;
 
 const LogoImg = styled.img`
   width: 120px;
@@ -324,7 +378,7 @@ const ShareBtn = styled.button`
   color: #fff;
   font-weight: 700;
   transition: .3s all ease;
-  padding: 1px 15px;
+  padding: 5px 15px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -367,6 +421,11 @@ const TopBlock = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
+  @media screen and (max-width: 1200px) {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    /* margin-top: 50px; */
+  }
 `;
 
 const ProfileInfo = styled.div`
@@ -426,24 +485,44 @@ const NavBlock = styled.div`
   padding: 20px 0;
   transition: .3s all ease;
   
+  
+  
 `;
+
+
 
 const NavBlockContainer = styled.div`
   width: 1170px;
   margin: 0 auto;
   display: flex;
   gap: 100px;
-  
+  @media screen and (max-width: 1200px) {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 1120px) {
+    gap: 20px;
+  }
   
 `;
 
 const LogoBlock = styled.div`
   cursor: pointer;
+  z-index: 100;
 `;
 
 const NavMenu = styled.div`
   display: flex;
   gap: 40px;
+  @media screen and (max-width: 1200px) {
+    gap: 20px;
+  }
+  @media screen and (max-width: 1120px) {
+    flex-direction: column;
+    margin-top: 10px;
+    width: calc(100% - 80px);
+  }
+  
   
   
 `;

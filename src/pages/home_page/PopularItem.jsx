@@ -51,13 +51,18 @@ const PopularItemBlock = styled.div`
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень при наведении */
   }
-  /* max-width: 270px; */
-  /* text-align: center; */
+  @media screen and (max-width: 1200px) {
+    max-width: 300px;
+  }
 `;
 
 const MainImg = styled.img`
   width: 370px;
   height: 280px;
+  @media screen and (max-width: 1200px) {
+    max-width: 300px;
+    height: 210px;
+  }
 `;
 
 

@@ -122,6 +122,10 @@ const ContainerPopular = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1200px) {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
 `;
 
 const MainTitle = styled.div`
@@ -165,6 +169,10 @@ const SpecialBlock = styled.div`
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
   }
+  @media screen and (max-width: 1200px) {
+    height: 350px;
+    
+  }
 `;
 
 
@@ -188,6 +196,11 @@ const TitleSpecial = styled.span`
   width: 1170px;
   margin: 0 auto;
   /* text-align: center; */
+  @media screen and (max-width: 1200px) {
+    font-size: 36px;
+    text-align: center;
+    max-width: 500px;
+  }
 
 `;
 
@@ -226,6 +239,10 @@ const DiscountTitle = styled.span`
   text-align: center;
   font-weight: 700;
   color: #fff;
+  @media screen and (max-width: 1200px) {
+    font-size: 36px;
+    text-align: center;
+  }
 `;
 
 const DiscountBtn = styled.button`
@@ -236,7 +253,7 @@ const DiscountBtn = styled.button`
   color: #292a2d;
   font-size: 18px;
   font-weight: 700;
-  z-index: 100;
+  /* z-index: 1; */
   
   &:hover {
     transform: scale(1.01);

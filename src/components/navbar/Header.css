@@ -21,3 +21,14 @@ header {
   color: #292a2d !important;
   background-color: #f0e319 !important;
 }
+@media screen and (max-width: 1120px) {
+  .active{
+    display: flex !important;
+    left: 0 !important;
+    background-color: #3256A4 !important;
+    height: 100vh !important;
+    /* opacity: 1 !important; */
+    margin: 0 !important;
+    padding-top: 50px;
+  }
+}

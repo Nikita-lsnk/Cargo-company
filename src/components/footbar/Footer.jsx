@@ -82,6 +82,10 @@ const Container = styled.div`
   padding-bottom: 60px;
   display: flex;
   gap: 60px;
+  @media screen and (max-width: 1200px) {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+  }
   /* margin-top: 20px; */
   
 `;

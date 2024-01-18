@@ -259,6 +259,13 @@ const MainText = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  @media screen and (max-width: 1320px) {
+    left: 10%;
+  }
+  @media screen and (max-width: 1200px) {
+    width: 500px;
+    left: -30%;
+  }
 `;
 
 const Title = styled.span`
@@ -268,6 +275,9 @@ const Title = styled.span`
   max-width: 600px;
   line-height: 1.13333;
   animation: ${fadeInDown} 1s ease-in-out;
+  @media screen and (max-width: 1320px) {
+    font-size: 36px;
+  }
 
 `;
 
@@ -278,6 +288,9 @@ const SubTitle = styled.span`
   color: #fff;
   max-width: 600px;
   animation: ${fadeInUp} 1s ease-in-out;
+  @media screen and (max-width: 1320px) {
+    font-size: 14px;
+  }
 `;
 
 const MainButton = styled.button`
@@ -297,6 +310,10 @@ const MainButton = styled.button`
     transform: scale(0.99);
   }
   animation: ${fadeInUp} 1s ease-in-out;
+  @media screen and (max-width: 1320px) {
+    padding: 0;
+    padding: 9px 25px;
+  }
 `;
 
 const StyledLink = styled(Link)`
