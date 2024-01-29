@@ -129,13 +129,22 @@ const ContainerPopular = styled.div`
 `;
 
 const MainTitle = styled.div`
-  
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 const Title = styled.span`
   color: #393a3c;
   font-size: 46px;
   font-weight: 700;
+  @media screen and (max-width: 800px) {
+    font-size: 32px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+    text-align: center;
+  }
 `;
 
 const BeforeBlock = styled.div`
@@ -143,6 +152,9 @@ const BeforeBlock = styled.div`
   width: 50px;
   background-color: #3256A4;
   margin-left: -55px;
+  @media screen and (max-width: 1040px) {
+    display: none;
+  }
 `;
 
 const MainPopular = styled.div`
@@ -153,7 +165,9 @@ const MainPopular = styled.div`
   width: 100%;
   justify-content: space-between;
   /* gap: 50px; */
-
+  @media screen and (max-width: 1040px) {
+    justify-content: center;
+  }
 `;
 
 const SpecialBlock = styled.div`
@@ -171,7 +185,6 @@ const SpecialBlock = styled.div`
   }
   @media screen and (max-width: 1200px) {
     height: 350px;
-    
   }
 `;
 
@@ -200,6 +213,17 @@ const TitleSpecial = styled.span`
     font-size: 36px;
     text-align: center;
     max-width: 500px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+    text-align: center;
+    max-width: 300px;
+  }
+  @media screen and (max-width: 400px) {
+    max-width: 250px;
   }
 
 `;
@@ -231,6 +255,10 @@ const DiscountBlock = styled.div`
   align-items: center;
   padding: 40px;
   gap: 20px;
+  z-index:10;
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
 `;
 
 const DiscountTitle = styled.span`
@@ -239,8 +267,16 @@ const DiscountTitle = styled.span`
   text-align: center;
   font-weight: 700;
   color: #fff;
+  
   @media screen and (max-width: 1200px) {
     font-size: 36px;
+    text-align: center;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
     text-align: center;
   }
 `;
@@ -262,6 +298,11 @@ const DiscountBtn = styled.button`
 
   &:active {
     transform: scale(0.99);
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    padding: 0;
+    padding: 5px 10px;
   }
 `;
 

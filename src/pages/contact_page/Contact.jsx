@@ -16,90 +16,92 @@ const Contact = () => {
         secondLink={"contact"}
         subTitle={"Máte otázky nebo potřebujete objednat naše služby?"}
       />
+      <ContainerColor>
+        <MainText style={{ marginTop: '-40px' }}>
+          <MainContainerInfo>
 
-      <MainText style={{marginTop: '-40px'}}>
-        <MainContainerInfo>
-          
-          <BeforeBlock></BeforeBlock>
-          <TextInfo>
-            <SubTitle>Nabízíme různé způsoby spojení, které jsou k dispozici 24/7. Můžete nám napsat e-mail, vyplnit rychlý kontaktní formulář nebo jednoduše zavolat. Vaše pohodlí je naší prioritou. Jsme tady pro vás. </SubTitle>
-          </TextInfo>
-          <Survey/>
-        </MainContainerInfo>
-        <SocialBlock>
-          <MainInfo>
-            <TextBlock>
-              <TextTitle>Social</TextTitle>
-            </TextBlock>
-            <BlockContact>
-              <LinkBlock>
-                <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-facebook-67_eo9s19.png" />
-                <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" />
-                <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" />
-                <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" />
-                
-              </LinkBlock>
-            </BlockContact>
-          </MainInfo>
+            <BeforeBlock></BeforeBlock>
+            <TextInfo>
+              <SubTitle>Nabízíme různé způsoby spojení, které jsou k dispozici 24/7. Můžete nám napsat e-mail, vyplnit rychlý kontaktní formulář nebo jednoduše zavolat. Vaše pohodlí je naší prioritou. Jsme tady pro vás. </SubTitle>
+            </TextInfo>
+            <Survey />
+          </MainContainerInfo>
+          <SocialBlock>
+            <MainInfo>
+              <TextBlock>
+                <TextTitle>Social</TextTitle>
+              </TextBlock>
+              <BlockContact>
+                <LinkBlock>
+                  <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-facebook-67_eo9s19.png" />
+                  <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" />
+                  <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" />
+                  <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" />
 
-          <MainInfo>
-            <TextBlock>
-              <TextTitle>Phone</TextTitle>
-            </TextBlock>
-            <BlockContact>
-              <LinkBlock>
-                <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
-                <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink>
-              </LinkBlock>
-            </BlockContact>
-          </MainInfo>
+                </LinkBlock>
+              </BlockContact>
+            </MainInfo>
 
-          <MainInfo>
-            <TextBlock>
-              <TextTitle>E-mail</TextTitle>
-            </TextBlock>
-            <BlockContact>
-              <LinkBlock>
-                <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
-                <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
-              </LinkBlock>
-            </BlockContact>
-          </MainInfo>
+            <MainInfo>
+              <TextBlock>
+                <TextTitle>Phone</TextTitle>
+              </TextBlock>
+              <BlockContact>
+                <LinkBlock>
+                  <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
+                  <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink>
+                </LinkBlock>
+              </BlockContact>
+            </MainInfo>
 
-          <MainInfo>
-            <TextBlock>
-              <TextTitle>Fakturační adresa</TextTitle>
-            </TextBlock>
-            <BlockContact>
-              <LinkBlock>
-                <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698077437/jbmvpw2qd7bewrla0aor.png" />
-                <TitleLink>Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika</TitleLink>
-              </LinkBlock>
-            </BlockContact>
-          </MainInfo>
+            <MainInfo>
+              <TextBlock>
+                <TextTitle>E-mail</TextTitle>
+              </TextBlock>
+              <BlockContact>
+                <LinkBlock>
+                  <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
+                  <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
+                </LinkBlock>
+              </BlockContact>
+            </MainInfo>
 
-          <MainInfo>
-            <TextBlock>
-              <TextTitle>Fakturační údaje </TextTitle>
-            </TextBlock>
-            <BlockContact>
-              <LinkBlockBills>
-                <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700943762/icons8-info-50_srhiog.png" />
-                <TitleLink>AronTrack<br />
-                  Alex Savčuk<br />
-                  IČO 29057256<br />
-                  DIČ CZ8408023943<br />
-                  Datová schránka <b>5672i83</b>
-                </TitleLink>
-              </LinkBlockBills>
-            </BlockContact>
-          </MainInfo>
+            <MainInfo>
+              <TextBlock>
+                <TextTitle>Fakturační adresa</TextTitle>
+              </TextBlock>
+              <BlockContact>
+                <LinkBlock>
+                  <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698077437/jbmvpw2qd7bewrla0aor.png" />
+                  <TitleLink>Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika</TitleLink>
+                </LinkBlock>
+              </BlockContact>
+            </MainInfo>
 
-        </SocialBlock>
+            <MainInfo>
+              <TextBlock>
+                <TextTitle>Fakturační údaje </TextTitle>
+              </TextBlock>
+              <BlockContact>
+                <LinkBlockBills>
+                  <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700943762/icons8-info-50_srhiog.png" />
+                  <TitleLink>AronTrack<br />
+                    Alex Savčuk<br />
+                    IČO 29057256<br />
+                    DIČ CZ8408023943<br />
+                    Datová schránka <b>5672i83</b>
+                  </TitleLink>
+                </LinkBlockBills>
+              </BlockContact>
+            </MainInfo>
 
-      </MainText>
+          </SocialBlock>
+
+
+        </MainText>
+      </ContainerColor>
       <FooterBlock>
-        <Footer 
+        <Footer
           contactTitle={"contactTitle"}
         />
       </FooterBlock>
@@ -111,8 +113,15 @@ const Contact = () => {
 
 export default Contact
 
+const ContainerColor = styled.div`
+  width: 100%;
+  background-color: #f2f6ff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;
+
 const FooterBlock = styled.div`
-  margin-top: -60px;
+  padding-top: 40px;
 `;
 
 const SocialImg = styled.img`
@@ -131,6 +140,7 @@ const SocialBlock = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+  
 `;
 
 const MainInfo = styled.div`
@@ -201,7 +211,7 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  /* gap: 100px; */
   margin-bottom: 40px;
   /* margin-bottom: 50px; */
 `;
@@ -223,6 +233,14 @@ const MainText = styled.div`
   gap: 40px;
   /* justify-content: center; */
   align-items: flex-start;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    /* align-items: center; */
+  }
 `;
 
 const MainTitle = styled.div`

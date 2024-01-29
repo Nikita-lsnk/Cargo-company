@@ -54,6 +54,9 @@ const PopularItemBlock = styled.div`
   @media screen and (max-width: 1200px) {
     max-width: 300px;
   }
+  @media screen and (max-width: 400px) {
+    max-width: 250px;
+  }
 `;
 
 const MainImg = styled.img`
@@ -62,6 +65,9 @@ const MainImg = styled.img`
   @media screen and (max-width: 1200px) {
     max-width: 300px;
     height: 210px;
+  }
+  @media screen and (max-width: 400px) {
+    max-width: 250px;
   }
 `;
 

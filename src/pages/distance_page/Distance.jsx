@@ -133,8 +133,8 @@ const Distance = () => {
         subTitle={"Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici."}
       />
       <ContainerColor>
-        <MainText style={{marginTop: '-40px'}}>
-          
+        <MainText style={{ marginTop: '-40px' }}>
+
           <BeforeBlock></BeforeBlock>
           <TextInfo>
 
@@ -142,7 +142,7 @@ const Distance = () => {
             <Suspense fallback={<div>Loading...</div>}>
               {data.data.map((e) => (
                 <PopularItem
-                  
+
                   picture={e.picture}
                   price={e.price}
                   title={e.title}
@@ -153,12 +153,19 @@ const Distance = () => {
           </TextInfo>
         </MainText>
       </ContainerColor>
-      <Footer/>
+      <FooterBlock>
+        <Footer />
+      </FooterBlock>
+
     </Container>
   )
 }
 
 export default Distance
+
+const FooterBlock = styled.div`
+  padding-top: 40px;
+`;
 
 const Container = styled.div`
   width: 100%;
@@ -186,6 +193,10 @@ const MainText = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: flex-start;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
 `;
 
 const MainTitle = styled.div`
@@ -210,6 +221,10 @@ const TextInfo = styled.div`
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  @media screen and (max-width: 640px) {
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const SubTitle = styled.span`

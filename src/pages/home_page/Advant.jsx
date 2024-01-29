@@ -68,13 +68,22 @@ const Container = styled.div`
 `;
 
 const MainTitle = styled.div`
-  
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 const Title = styled.span`
   color: #393a3c;
   font-size: 46px;
   font-weight: 700;
+  @media screen and (max-width: 800px) {
+    font-size: 32px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+    text-align: center;
+  }
 `;
 
 const BeforeBlock = styled.div`
@@ -82,12 +91,19 @@ const BeforeBlock = styled.div`
   width: 50px;
   background-color: #3256A4;
   margin-left: -55px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const MainAdvant = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    gap: 40px;
+  }
   /* gap: 50px; */
 
 `;
@@ -98,7 +114,7 @@ const AdvantItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  max-width: 270px;
+  /* max-width: 270px; */
   height: 170px;
   text-align: center;
 `;
@@ -107,12 +123,19 @@ const MainImg = styled.img`
   width: 110px;
   height: 110px;
   cursor: pointer;
+  @media screen and (max-width: 600px) {
+    width: 80px;
+    height: 80px;
+  }
 `;
 
 const TitleAdvant = styled.span`
   font-size: 20px;
   font-weight: 700;
   color: #393a3c;
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 const BorderImg = styled.div`

@@ -325,7 +325,7 @@ const Container = styled.div`
   /* max-width: 600px; */
   border-radius: 20px;
   gap: 50px;
-  background-color: #ffffff;
+  background-color: #f2f6ff;
   /* padding: 30px 50px; */
   
 `;
@@ -357,6 +357,7 @@ const Entry = styled.input`
   font-size: 16px;
   border: none;
   border-bottom: 2px solid #D7D7D7;
+  background: #f2f6ff;
   outline: none;
   transition: 0.3s;
   font-size: 16px;
@@ -365,6 +366,15 @@ const Entry = styled.input`
   border-bottom: 2px solid  ${(props) => props.$highlight ? "red" : "#D7D7D7"};
   box-shadow: none;
   border-radius: unset;
+  @media screen and (max-width: 430px){
+    width: 300px;
+  }
+  @media screen and (max-width: 360px){
+    width: 250px;
+  }
+  @media screen and (max-width: 310px){
+    width: 200px;
+  }
 `;
 const LabelRadio = styled.label`
   display: flex;
@@ -428,4 +438,5 @@ const EntrySend = styled.input`
   &:active {
     transform: scale(0.99);
   }
+  
 `;

@@ -226,17 +226,30 @@ const SwiperBack = styled(SwiperButton)`
 const Container = styled.div`
   width: 100%;
   min-height: 100vh;
+  @media screen and (max-width: 1140px) {
+    min-height: 0;
+    max-height: 80vh;
+  }
+  @media screen and (max-width: 800px) {
+    min-height: 0;
+    max-height: 60vh;
+  }
 `;
 
 const MainPhoto = styled.div`
   position: relative;
   z-index: -1;
+  
 `;
 
 const Img = styled.img`
   width: 100%;
   max-height: 100vh;
   object-fit: cover;
+  @media screen and (max-width: 800px) {
+    height: 50vh;
+  }
+  
 `;
 const Overlay = styled.div`
   content: "";
@@ -246,6 +259,7 @@ const Overlay = styled.div`
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); 
+  
 `;
 
 const MainText = styled.div`
@@ -266,6 +280,29 @@ const MainText = styled.div`
     width: 500px;
     left: -30%;
   }
+  @media screen and (max-width: 900px) {
+    left: -20%;
+  }
+  @media screen and (max-width: 780px) {
+    width: calc(100% - 320px);
+  }
+  @media screen and (max-width: 730px) {
+    bottom: 20%;
+  }
+  @media screen and (max-width: 580px) {
+    width: calc(100% - 120px);
+    margin-left: 200px;
+    bottom: 35%;
+  }
+  @media screen and (max-width: 510px) {
+    width: calc(100% - 150px);
+    margin-left: 180px;
+  }
+  @media screen and (max-width: 420px) {
+    width: calc(100% - 150px);
+    margin-left: 150px;
+    bottom: 25%;
+  }
 `;
 
 const Title = styled.span`
@@ -277,6 +314,12 @@ const Title = styled.span`
   animation: ${fadeInDown} 1s ease-in-out;
   @media screen and (max-width: 1320px) {
     font-size: 36px;
+  }
+  @media screen and (max-width: 850px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
   }
 
 `;
@@ -291,6 +334,10 @@ const SubTitle = styled.span`
   @media screen and (max-width: 1320px) {
     font-size: 14px;
   }
+  @media screen and (max-width: 850px) {
+    font-size: 12px;
+  }
+
 `;
 
 const MainButton = styled.button`
@@ -313,6 +360,11 @@ const MainButton = styled.button`
   @media screen and (max-width: 1320px) {
     padding: 0;
     padding: 9px 25px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+    padding: 0;
+    padding: 5px;
   }
 `;
 

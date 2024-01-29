@@ -50,6 +50,10 @@ export default About
 const Img = styled.img`
   width: 400px;
   height: 200px;
+  @media screen and (max-width: 460px) {
+      width: 250px;
+      height: 150px;
+  }
 `;
 
 const FooterBlock = styled.div`
@@ -81,6 +85,11 @@ const MainText = styled.div`
   justify-content: center;
   align-items: flex-start;
   margin-top: -40px;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
+  
 `;
 
 const MainTitle = styled.div`
@@ -104,6 +113,10 @@ const TextInfo = styled.div`
   max-width: 1100px;
   display: flex;
   gap: 100px;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const SubTitle = styled.span`

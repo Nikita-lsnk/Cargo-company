@@ -55,6 +55,11 @@ const Header = () => {
     };
   }, []);
 
+  const handleShareBtnClick = (e) => {
+    e.stopPropagation();
+    setOpenDrop(!openDrop);
+  };
+
   return (
     <Container>
       <TopBlock>
@@ -143,9 +148,7 @@ const Header = () => {
                       : ""
                   }
                   ref={buttonRef}
-                  onClick={() => { 
-                    setOpenDrop(!openDrop)
-                  }}
+                  onClick={handleShareBtnClick}
                 >
                   Služby
 
@@ -320,7 +323,7 @@ const NavMenuContent = styled.div`
     gap: 220px;
     margin: 0;
     top:50px;
-    left: -110%;
+    left: -120%;
     padding-left: 38px;
     background-color: ${(props) => (props.$isDarkTheme ? "#22272B" : "white")};
     width: 100%;
@@ -367,6 +370,16 @@ const DropDown = styled.div`
   z-index: 1000;
   @media screen and (max-width:320px) {
     right: -35px;
+  }
+  @media screen and (max-width: 1120px) {
+    right: 0;
+    top: -40px;
+    left: 120px;
+    max-width: 232px;
+  }
+  @media screen and (max-width: 430px) {
+    left: 0px;
+    top: 50px;
   }
 `;
 
@@ -421,11 +434,13 @@ const TopBlock = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
+  align-items: center;
   @media screen and (max-width: 1200px) {
     width: calc(100% - 80px);
     margin: 0 auto;
     /* margin-top: 50px; */
   }
+  
 `;
 
 const ProfileInfo = styled.div`
@@ -461,6 +476,12 @@ const ImgArrow = styled.img`
 const TitleLink = styled.a`
   text-decoration: none;
   color: #3256A4;
+  @media screen and (max-width: 600px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;
 
 const ChangeBlock = styled.div`
@@ -474,6 +495,10 @@ const LangLink = styled.img`
   cursor: pointer;
   border: 1px solid #3256A4;
   border-radius: 50%;
+  @media screen and (max-width: 540px) {
+    height: 24px;
+    width: 24px;
+  }
 `;
 
 const NavBlock = styled.div`

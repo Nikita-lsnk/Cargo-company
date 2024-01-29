@@ -80,9 +80,14 @@ const Container = styled.div`
   gap: 32px;
   background-color: #ffffff;
   padding: 35px 32px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 1100px){
     width: calc(100% - 160px);
+    /* flex-direction: column; */
+  }
+  @media screen and (max-width: 900px) {
     flex-direction: column;
+    max-height: 70vh;
+    gap: 10px;
   }
   
   
@@ -92,9 +97,7 @@ const MainText = styled.div`
   display: flex;
   flex-direction: column;
   gap: 42px;
-  @media screen and (max-width: 800px){
-    gap: 10px;
-  }
+  
 `;
 
 const Title = styled.span`
@@ -130,11 +133,15 @@ const MainPicture = styled.div`
 const MainImg = styled.img`
   height: 280px;
   width: 370px;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
    width: 0;
    height: 0;
    width: 100%;
    height: 100%;
+  }
+  @media screen and (max-width: 900px) {
+    width: 50%;
+    height: 50%;
   }
 `;
 
@@ -149,6 +156,11 @@ const Close = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  @media screen and (max-width: 900px) {
+    position: relative;
+    top: -10px;
+    right: 80px;
+  }
 `;
 
 const MainPrice = styled.div`

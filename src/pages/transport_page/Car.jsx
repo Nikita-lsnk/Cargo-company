@@ -15,21 +15,23 @@ const Car = () => {
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82_jwkahi.jpg"}
         subTitle={"Osobní přeprava"}
       />
-      <MainText style={{ marginTop: '-40px' }}>
+      <ContainerColor>
+        <MainText style={{ marginTop: '-40px' }}>
 
-        <BeforeBlock></BeforeBlock>
-        <TextInfo>
-          <SubTitle>Osobní přeprava – naše specializace spočívá v flexibilní přepravě jednotlivců a skupin přesně tam, kam to potřebujete. Naší specializací a hlavním zaměřením v portfoliu služeb je doprava na letiště v Praze a okolí, včetně Letiště Václava Havla a letiště v Karlových Varech.</SubTitle>
-        </TextInfo>
-        <TextInfo>
-          <SubTitle>Pro zajištění komplexních potřeb našich klientů máme k dispozici moderní vozidla vyšší střední třídy. Všechny naše vozy jsou vybavené klimatizací, udržujeme je v dokonalém technickém stavu a dbáme na jejich čistotu. V případě dohody předem přijede náš řidič na místo, které si stanovíte. Pokud přilétáte z ciziny, rádi na vás počkáme přímo v příletové hale letiště s cedulkou s Vaším jménem nebo jménem vaší firmy. Pro naše mladé cestující je možné dohodnout dětskou autosedačku.
+          <BeforeBlock></BeforeBlock>
+          <TextInfo>
+            <SubTitle>Osobní přeprava – naše specializace spočívá v flexibilní přepravě jednotlivců a skupin přesně tam, kam to potřebujete. Naší specializací a hlavním zaměřením v portfoliu služeb je doprava na letiště v Praze a okolí, včetně Letiště Václava Havla a letiště v Karlových Varech.</SubTitle>
+          </TextInfo>
+          <TextInfo>
+            <SubTitle>Pro zajištění komplexních potřeb našich klientů máme k dispozici moderní vozidla vyšší střední třídy. Všechny naše vozy jsou vybavené klimatizací, udržujeme je v dokonalém technickém stavu a dbáme na jejich čistotu. V případě dohody předem přijede náš řidič na místo, které si stanovíte. Pokud přilétáte z ciziny, rádi na vás počkáme přímo v příletové hale letiště s cedulkou s Vaším jménem nebo jménem vaší firmy. Pro naše mladé cestující je možné dohodnout dětskou autosedačku.
             </SubTitle>
-        </TextInfo>
-        <TextInfo>
-          <SubTitle>
-            Neváhejte nás kontaktovat kdykoliv potřebujete.</SubTitle>
-        </TextInfo>
-      </MainText>
+          </TextInfo>
+          <TextInfo>
+            <SubTitle>
+              Neváhejte nás kontaktovat kdykoliv potřebujete.</SubTitle>
+          </TextInfo>
+        </MainText>
+      </ContainerColor>
       <FooterBlock>
         <Footer />
       </FooterBlock>
@@ -39,15 +41,22 @@ const Car = () => {
 
 export default Car
 
+const ContainerColor = styled.div`
+  width: 100%;
+  background-color: #f2f6ff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;
+
 const FooterBlock = styled.div`
-  margin-top: -60px;
+  padding-top: 40px;
 `;
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  /* gap: 100px; */
   margin-bottom: 40px;
   /* margin-bottom: 50px; */
 `;
@@ -60,6 +69,10 @@ const MainText = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: flex-start;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
 `;
 
 const MainTitle = styled.div`

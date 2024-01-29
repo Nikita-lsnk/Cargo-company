@@ -11,6 +11,7 @@ const HeaderSection = ({title, firstLink, firstSub, secondLink, secondSub, subTi
     backgroundPosition: 'center center',
     minHeight: '420px',
     zIndex: '-1',
+    
   };
 
   return (
@@ -21,10 +22,7 @@ const HeaderSection = ({title, firstLink, firstSub, secondLink, secondSub, subTi
       <MainText>
         <Title>{title}</Title>
         <SubBlock>
-          <Title style={{fontSize: '24px'}}>{subTitle}</Title>
-          {/* <StyledLink to={`/${firstLink}`}><SubTitle>{firstSub}</SubTitle></StyledLink>
-          <ArrowImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698590300/icons8-arrow-right-50_qlz4gn.png"/>
-          <StyledLink to={`/${secondLink}`}><SubTitle>{secondSub}</SubTitle></StyledLink> */}
+          <SubTitle>{subTitle}</SubTitle>
         </SubBlock>
       </MainText>
     </Container>
@@ -38,7 +36,7 @@ const Container = styled.div`
 `;
 
 const PictureBlock = styled.div`
-  
+   
 `;
 
 const Overlay = styled.div`
@@ -49,6 +47,7 @@ const Overlay = styled.div`
   height: 100%;
   background: rgba(76, 76, 177, 0.5); /* Здесь задаем синее затемнение */
   height: 420px;
+  
 `;
 
 const MainText = styled.div`
@@ -62,6 +61,10 @@ const MainText = styled.div`
   display: flex;
   flex-direction: column;
   gap: 50px;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px); 
+  }
 `;
 
 const Title = styled.span`
@@ -70,16 +73,27 @@ const Title = styled.span`
   color: #fff;
   /* max-width: 600px; */
   line-height: 1.13333;
+  @media screen and (max-width: 800px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 24px;
+  }
 
 `;
 
 const SubTitle = styled.span`
-  font-size: 18px;
-  line-height: 1.44444;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 700;
   color: #fff;
-  max-width: 600px;
-  cursor: pointer;
+  /* max-width: 600px; */
+  line-height: 1.13333;
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const SubBlock = styled.div`

@@ -15,42 +15,44 @@ const Truck = () => {
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B8_udggfc.jpg"}
         subTitle={"Mezinárodní nákladní doprava"}
       />
-      <MainText style={{marginTop: '-40px'}}>
-        
-        <BeforeBlock></BeforeBlock>
-        <TextInfo>
-          <SubTitle>Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. <b>Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun.</b></SubTitle>
-        </TextInfo>
-        <TextInfo>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Rychlá přeprava zásilky na místo určení</SubTitle>
-          </AdvantBlock>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Vlastní vozidla značky DAF se sledováním GPS</SubTitle>
-          </AdvantBlock>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Možnost dlouhodobé spolupráce. </SubTitle>
-          </AdvantBlock>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Zajišťujeme vnitrostátní a mezinárodní autodopravu.</SubTitle>
-          </AdvantBlock>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Autodoprava od 100 kg do 25 tun</SubTitle>
-          </AdvantBlock>
-          <AdvantBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-            <SubTitle>Využíváme jak vlastní vozy, tak prověřené smluvní partnery</SubTitle>
-          </AdvantBlock>
-        </TextInfo>
-        <TextInfo>
-          <SubTitle>Všechny naše služby splňují přísné požadavky Dohody o přepravní smlouvě v mezinárodní silniční přepravě (CMR).</SubTitle>
-        </TextInfo>
-      </MainText>
+      <ContainerColor>
+        <MainText style={{ marginTop: '-40px' }}>
+
+          <BeforeBlock></BeforeBlock>
+          <TextInfo>
+            <SubTitle>Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. <b>Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun.</b></SubTitle>
+          </TextInfo>
+          <TextInfo>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Rychlá přeprava zásilky na místo určení</SubTitle>
+            </AdvantBlock>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Vlastní vozidla značky DAF se sledováním GPS</SubTitle>
+            </AdvantBlock>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Možnost dlouhodobé spolupráce. </SubTitle>
+            </AdvantBlock>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Zajišťujeme vnitrostátní a mezinárodní autodopravu.</SubTitle>
+            </AdvantBlock>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Autodoprava od 100 kg do 25 tun</SubTitle>
+            </AdvantBlock>
+            <AdvantBlock>
+              <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
+              <SubTitle>Využíváme jak vlastní vozy, tak prověřené smluvní partnery</SubTitle>
+            </AdvantBlock>
+          </TextInfo>
+          <TextInfo>
+            <SubTitle>Všechny naše služby splňují přísné požadavky Dohody o přepravní smlouvě v mezinárodní silniční přepravě (CMR).</SubTitle>
+          </TextInfo>
+        </MainText>
+      </ContainerColor>
       <FooterBlock>
         <Footer />
       </FooterBlock>
@@ -60,15 +62,23 @@ const Truck = () => {
 
 export default Truck
 
-const FooterBlock = styled.div`
-  margin-top: -60px;
+const ContainerColor = styled.div`
+  width: 100%;
+  background-color: #f2f6ff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 `;
+
+const FooterBlock = styled.div`
+  padding-top: 40px;
+`;
+
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  /* gap: 100px; */
   margin-bottom: 40px;
   /* margin-bottom: 50px; */
 `;
@@ -81,6 +91,10 @@ const MainText = styled.div`
   gap: 40px;
   justify-content: center;
   align-items: flex-start;
+  @media screen and (max-width: 1240px) {
+    margin: 0 auto;
+    width: calc(100% - 80px);
+  }
 `;
 
 const MainTitle = styled.div`

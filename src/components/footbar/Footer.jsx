@@ -86,6 +86,9 @@ const Container = styled.div`
     width: calc(100% - 80px);
     margin: 0 auto;
   }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
   /* margin-top: 20px; */
   
 `;
