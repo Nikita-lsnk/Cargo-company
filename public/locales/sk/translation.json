@@ -1,0 +1,78 @@
+{
+  "text": "Словацкий",
+  "nav_link_main": "Úvod",
+  "nav_link_about": "O nás",
+  "nav_link_transport": "Služby",
+  "nav_link_transport_bus": "Autobusová doprava",
+  "nav_link_transport_car": "Osobná doprava",
+  "nav_link_transport_truck": "Medzinárodná nákladná doprava",
+  "nav_link_distance": "Vzdialenosť",
+  "nav_link_price": "Ceny",
+  "nav_link_program": "Vernostný program",
+  "nav_link_contact": "Kontakt",
+  
+
+
+
+
+
+
+  "some-key-comment_main":"MAIN BLOCK",
+  
+  "slide_1_title": "Spájanie Európy s komfortom a starostlivosťou",
+  "slide_1_subtitle": "Ponúkame komplexné dopravné riešenia vrátane autobusovej, osobnej a nákladnej dopravy po celej Európe.",
+  "slide_2_title": "Vaša cesta, náš záväzok",
+  "slide_2_subtitle": "Poskytovanie kvalitných služieb, ktoré sú pripravené uspokojiť rozmanité potreby našich klientov s dôrazom na kvalitu a spoľahlivosť.",
+  "slide_3_title": "Súkromná doprava pre vaše súkromie",
+  "slide_3_subtitle": "Naša súkromná preprava cestujúcich ponúka pohodlný a diskrétny spôsob prepravy, ktorý je plne prispôsobený vašim potrebám.",
+  "slide_4_title": "Spoľahlivé prekonávanie hraníc",
+  "slide_4_subtitle": "Naša medzinárodná nákladná doprava je synonymom spoľahlivosti a efektívnosti, čo umožňuje plynulú prepravu nákladu po celej Európe.",
+  "slide_button": "Zistiť viac",
+  "main_advant_title": "Vyberte kategóriu, ktorú hľadáte",
+  "main_advant_link_bus": "Autobusová doprava",
+  "main_advant_link_car": "Osobná doprava",
+  "main_advant_link_truck": "Medzinárodná nákladná doprava",
+
+  "main_distance_title": "Uprednostňovaná doprava a preprava",
+
+  "main_distance_card_one_price": "od 750 kč",
+  "main_distance_card_one_description": "Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně.",
+  "main_distance_card_one_title": "Transfer na letiště",
+
+  "main_distance_card_two_price": "od 2300 kč",
+  "main_distance_card_two_description": "Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno.",
+  "main_distance_card_two_title": "Okruhy po Praze",
+
+  "main_distance_card_three_price": "od 3000 kč",
+  "main_distance_card_three_description": "Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí.",
+  "main_distance_card_three_title": "Svatební autobus",
+
+  "main_distance_card_four_price": "od 2500 kč",
+  "main_distance_card_four_description": "Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí.",
+  "main_distance_card_four_title": "Zájezdy pro CK",
+
+  "main_distance_card_five_price": "od 26 kč za km",
+  "main_distance_card_five_description": "Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení.",
+  "main_distance_card_five_title": "Kamionová doprava do Německa a zpět od 26 kč za km",
+
+  "main_distance_card_six_price": "za 850 kč na hod",
+  "main_distance_card_six_description": "S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den.",
+  "main_distance_card_six_title": "Osobní řidič",
+
+  "main_distance_button": "Zistiť viac",
+  "main_special_title": "Prenájom autobusu s profesionálnym vodičom",
+  "main_discount_title": "Staňte sa členom partnerského programu a získajte ďalšie výhody",
+  "main_discount_button": "Zistiť viac",
+
+
+
+
+  
+  
+  "some-key-comment_footer":"FOOTER BLOCK",
+
+  "footer_title_true": "Ponúkame spoluprácu a partnerstvo spoločnostiam, organizáciám a jednotlivcom, ktorí majú v úmysle osloviť komunitu so svojimi ponukami, podujatiami alebo chcú zviditeľniť svoje podnikanie. Radi umiestnime vaše textové alebo bannerové reklamy, PR články, súťaže, ankety a kreatívne kampane na mieru. Zabezpečíme lokalizáciu vašej ponuky a prispôsobíme obsah tak, aby efektívne oslovil vašu cieľovú skupinu. Ak vás táto ponuka zaujala, neváhajte nás kontaktovať prostredníctvom e-mailu",
+  "footer_title_false": "Vitajte na stránkach spoločnosti AronTrack, vášho partnera pre komplexnú prepravu a expedíciu v celej Európe. Sme jediná spoločnosť v Českej republike, ktorá dokáže skombinovať všetky druhy prepravy a ponúka kompletné služby. Bez ohľadu na trasu, požiadavku alebo zložitosť sme tu pre vás a sme pripravení urobiť pre našich klientov maximum. Ak potrebujete bezpečnú a spoľahlivú prepravu, zverte ju nám!",
+  "footer_contact_title": "Kontakt"
+  
+}

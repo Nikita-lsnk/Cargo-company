@@ -5,6 +5,7 @@ import Advant from './Advant'
 import Footer from '../../components/footbar/Footer'
 
 import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const PopularItem = lazy(() => import('./PopularItem'));
 
@@ -20,6 +21,8 @@ const Home = () => {
     navigate("/contact")
   }
 
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <SliderBlock />
@@ -27,65 +30,65 @@ const Home = () => {
       <ContainerColor>
         <ContainerPopular>
           <MainTitle>
-            <Title>Preferovaná doprava a přeprava</Title>
+            <Title>{t("main_distance_title")}</Title>
           </MainTitle>
           <BeforeBlock></BeforeBlock>
           <MainPopular>
             <Suspense fallback={<div>Loading...</div>}>
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Transfer_na_leti%D1%87t_od_750_k%D0%AF_2_1_mqn7n5.jpg"}
-                price={"od 750 kč"}
-                description={"Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně."}
-                title={"Transfer na letiště"}
+                price={t("main_distance_card_one_price")}
+                description={t("main_distance_card_one_description")}
+                title={t("main_distance_card_one_title")}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779959/Preferovan%D0%B0_Doprava_Okruhy_po_Praze_od_2300_k%D0%AF_h1lplf.jpg"}
-                price={"od 2300 kč"}
-                description={"Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno."}
-                title={"Okruhy po Praze"}
+                price={t("main_distance_card_two_price")}
+                description={t("main_distance_card_two_description")}
+                title={t("main_distance_card_two_title")}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Svatebn%D0%B1_autobus_od_3000_k%D0%AF_qomnvw.jpg"}
-                description={"Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí."}
-                price={"od 3000 kč"}
-                title={"Svatební autobus"}
+                price={t("main_distance_card_three_price")}
+                description={t("main_distance_card_three_description")}
+                title={t("main_distance_card_three_title")}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779960/Preferovan%D0%B0_Doprava_Z%D0%B0jezdy_pro_CK_od_2500_k%D0%AF_syvgro.jpg"}
-                description={"Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí."}
-                price={"od 2500 kč"}
-                title={"Zájezdy pro CK "}
+                price={t("main_distance_card_four_price")}
+                description={t("main_distance_card_four_description")}
+                title={t("main_distance_card_four_title")}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699779958/Preferovan%D0%B0_Doprava_Kamionov%D0%B0_doprava_do_N_mecka_a_zp_t_od_26_k%D0%AF_za_km_1_huyx4p.jpg"}
-                price={"od 26 kč za km"}
-                description={"Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení."}
-                title={"Kamionová doprava do Německa a zpět od 26 kč za km"}
+                price={t("main_distance_card_five_price")}
+                description={t("main_distance_card_five_description")}
+                title={t("main_distance_card_five_title")}
               />
               <PopularItem
                 picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698242863/Preferovan%D0%B0_Doprava_a_P_eprava_Osobn%D0%B1_idi%D0%AF_za_850_k%D0%AF_na_hod_evrfqc.jpg"}
-                price={"za 850 kč na hod"}
-                description={"S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den."}
-                title={"Osobní řidič"}
+                price={t("main_distance_card_six_price")}
+                description={t("main_distance_card_six_description")}
+                title={t("main_distance_card_six_title")}
               />
             </Suspense>
 
 
           </MainPopular>
-          <StyledLink to="/distance"><DiscountBtn>Více informací</DiscountBtn></StyledLink>
+          <StyledLink to="/distance"><DiscountBtn>{t("main_distance_button")}</DiscountBtn></StyledLink>
         </ContainerPopular>
 
         <SpecialBlock>
 
           <MainText>
-            <TitleSpecial>Pronájem Autobusu s Profesionálním Řidičem</TitleSpecial>
+            <TitleSpecial>{t("main_special_title")}</TitleSpecial>
             {/* <MainButton onClick={handleGoToContact}>Více informací</MainButton> */}
           </MainText>
         </SpecialBlock>
         <DiscountBlock>
-          <DiscountTitle>Staňte se členem partnerského programu a získejte větší výhody</DiscountTitle>
+          <DiscountTitle>{t("main_discount_title")}</DiscountTitle>
           {/* <StyledLink to="/program"> */}
-          <DiscountBtn onClick={handleGoToProgram}>Více informací</DiscountBtn>
+          <DiscountBtn onClick={handleGoToProgram}>{t("main_discount_button")}</DiscountBtn>
           {/* </StyledLink> */}
         </DiscountBlock>
       </ContainerColor>

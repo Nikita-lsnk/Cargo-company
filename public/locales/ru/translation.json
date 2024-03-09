@@ -1,0 +1,78 @@
+{
+  "text": "Русский",
+  "nav_link_main": "Главная",
+  "nav_link_about": "О нас",
+  "nav_link_transport": "Услуги",
+  "nav_link_transport_bus": "Аренда автобуса",
+  "nav_link_transport_car": "Аренда автомобиля",
+  "nav_link_transport_truck": "Международные грузоперевозки",
+  "nav_link_distance": "Направления",
+  "nav_link_price": "Цены",
+  "nav_link_program": "Программа лояльности",
+  "nav_link_contact": "Контакты",
+  
+
+
+
+
+
+
+  "some-key-comment_main":"MAIN BLOCK",
+  
+  "slide_1_title": "Соединение Европы с комфортом и заботой",
+  "slide_1_subtitle": "Предлагаем комплексное решение в сфере транспортных перевозок, включающее аренду автобусов, индивидуальные трансферы и грузовые перевозки по всей Европе.",
+  "slide_2_title": "Ваше путешествие - наше обязательство",
+  "slide_2_subtitle": "Мы предоставляем качественные услуги, готовые удовлетворить различные потребности наших клиентов, с акцентом на качество и надежность.",
+  "slide_3_title": "Личный транспорт для вашей личной жизни",
+  "slide_3_subtitle": "Мы предоставляем в аренду автомобили бизнес и премиум-класса с профессиональными водителями с возможностью их полного закрепления за клиентом.",
+  "slide_4_title": "Уверенно преодолеваем границы",
+  "slide_4_subtitle": "Нужны услуги по международным грузоперевозкам? Обратитесь к профессионалам своего дела!",
+  "slide_button": "Подробнее",
+  "main_advant_title": "Выберите категорию",
+  "main_advant_link_bus": "Аренда автобуса",
+  "main_advant_link_car": "Аренда автомобиля",
+  "main_advant_link_truck": "Международные грузоперевозки",
+
+  "main_distance_title": "Наши популярные услуги",
+
+  "main_distance_card_one_price": "od 750 kč",
+  "main_distance_card_one_description": "Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně.",
+  "main_distance_card_one_title": "Transfer na letiště",
+
+  "main_distance_card_two_price": "od 2300 kč",
+  "main_distance_card_two_description": "Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno.",
+  "main_distance_card_two_title": "Okruhy po Praze",
+
+  "main_distance_card_three_price": "od 3000 kč",
+  "main_distance_card_three_description": "Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí.",
+  "main_distance_card_three_title": "Svatební autobus",
+
+  "main_distance_card_four_price": "od 2500 kč",
+  "main_distance_card_four_description": "Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí.",
+  "main_distance_card_four_title": "Zájezdy pro CK",
+
+  "main_distance_card_five_price": "od 26 kč za km",
+  "main_distance_card_five_description": "Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení.",
+  "main_distance_card_five_title": "Kamionová doprava do Německa a zpět od 26 kč za km",
+
+  "main_distance_card_six_price": "za 850 kč na hod",
+  "main_distance_card_six_description": "S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den.",
+  "main_distance_card_six_title": "Osobní řidič",
+
+  "main_distance_button": "Подробнее",
+  "main_special_title": "Аренда автобуса с профессиональным водителем",
+  "main_discount_title": "Присоединяйтесь к программе лояльности и откройте для себя дополнительные выгоды",
+  "main_discount_button": "Узнать больше",
+
+
+
+
+  
+  
+  "some-key-comment_footer":"FOOTER BLOCK",
+
+  "footer_title_true": "Мы предлагаем сотрудничество и партнерство компаниям, организациям и частным лицам, которые намерены привлечь внимание посетителям нашего сайта к своим предложениям, мероприятиям или хотят повысить узнаваемость своего бизнеса. Мы будем рады разместить вашу медийную или текстовую рекламу: статьи, баннеры, анонсы, пресс-релизы, фоторепортажи, хайлайты событий, конкурсы и многое другое. Мы обеспечим локализацию вашего предложения и адаптируем контент для эффективного охвата целевой аудитории. Если вас заинтересовало это предложение, свяжитесь с нами по электронной почте ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА",
+  "footer_title_false": "Приветствуем Вас на сайте компании AronTrack, вашего партнера по комплексным перевозкам и транспортировке грузов по всей Европе. Мы являемся уникальной компанией в Чехии, которая может объединить все виды перевозок и предложить полный комплекс услуг. Независимо от маршрута, требований или сложности, мы готовы сделать все возможное для наших клиентов. Если Вам нужна безопасная и надежная перевозка, доверьте ее нам!",
+  "footer_contact_title": "Контакт"
+  
+}

@@ -8,11 +8,7 @@ const About = () => {
     <Container>
       <HeaderSection
         title={"O nás"}
-        firstSub={"Úvod"}
-        firstLink={"home"}
-        secondSub={"O nás"}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BE_%D0%BD%D0%B0%D1%81_nxjzqk.jpg"}
-        secondLink={"about"}
         subTitle={"Jedna společnost, nekonečné možnosti"}
       />
       <ContainerColor>

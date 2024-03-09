@@ -55,7 +55,7 @@ const MainText = styled.div`
   /* top: 0; */
   right:0;
   left: 0;
-  bottom: 45%;
+  bottom: 55%;
   width: 1170px;
   margin: 0 auto;
   display: flex;
@@ -64,6 +64,9 @@ const MainText = styled.div`
   @media screen and (max-width: 1240px) {
     margin: 0 auto;
     width: calc(100% - 80px); 
+  }
+  @media screen and (max-width: 1040px) and (min-height: 1000px) {
+    bottom: 70%;
   }
 `;
 

@@ -80,14 +80,13 @@ const Container = styled.div`
   gap: 32px;
   background-color: #ffffff;
   padding: 35px 32px;
-  @media screen and (max-width: 1100px){
+  @media screen and (max-width: 800px){
     width: calc(100% - 160px);
-    /* flex-direction: column; */
-  }
-  @media screen and (max-width: 900px) {
     flex-direction: column;
-    max-height: 70vh;
-    gap: 10px;
+  }
+  @media screen and (max-width: 520px){
+    width: calc(100% - 80px);
+    flex-direction: column;
   }
   
   
@@ -97,13 +96,18 @@ const MainText = styled.div`
   display: flex;
   flex-direction: column;
   gap: 42px;
-  
+  @media screen and (max-width: 800px){
+    gap: 10px;
+  }
 `;
 
 const Title = styled.span`
   font-size: 20px;
   color: #3256a4;
   font-weight: 700;
+  @media screen and (max-width: 450px){
+    font-size: 18px;
+  }
 `;
 const SubTitle = styled.span`
   color: #747474;
@@ -111,6 +115,9 @@ const SubTitle = styled.span`
   line-height: 1.375;
   /* max-height: 100px;
   overflow-y: scroll; */
+  @media screen and (max-width: 450px){
+    font-size: 12px;
+  }
 
 `;
 
@@ -125,7 +132,11 @@ const StyledLink = styled(Link)`
 
 
 const MainPicture = styled.div`
-  
+  @media screen and (max-width: 900px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 
@@ -143,6 +154,11 @@ const MainImg = styled.img`
     width: 50%;
     height: 50%;
   }
+  @media screen and (max-width: 700px) {
+    width: 300px;
+    height: 250px;
+  }
+  
 `;
 
 const TextBlock = styled.div`
@@ -150,16 +166,37 @@ const TextBlock = styled.div`
   flex-direction: column;
   gap: 24px;
   min-width: 450px;
+  @media screen and (max-width: 900px) {
+    gap: 0px;
+    /* max-width: 450px; */
+  }
+  @media screen and (max-width: 570px) {
+    min-width: 0;
+    width: calc(100% - 0px);
+  }
 `;
 
 const Close = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 800px) {
     position: relative;
-    top: -10px;
-    right: 80px;
+    top: -200px;
+    right: 10px;
+  }
+  @media screen and (max-width: 700px) {
+    top: -250px;
+  }
+  @media screen and (max-width: 590px) {
+    top: -280px;
+  }
+  @media screen and (max-width: 440px) {
+    right: -10px;
+  }
+  @media screen and (max-width: 400px) {
+    right: -25px;
+    top: -310px;
   }
 `;
 
@@ -168,6 +205,12 @@ const MainPrice = styled.div`
   /* flex-direction: column; */
   justify-content: space-between;
   gap: 16px;
+  @media screen and (max-width: 570px) {
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    /* max-width: 450px; */
+  }
 `;
 
 const Price = styled.span`

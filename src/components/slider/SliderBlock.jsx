@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, A11y, Navigation } from 'swiper/modules';
 import { Link, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const fadeInDown = keyframes`
   from {
@@ -42,38 +43,40 @@ const ResetAnimation = styled.div`
   }
 `;
 
+
+
 const SliderBlock = () => {
+
+  const { t, i18n } = useTranslation();
+  
+  
 
   const slidesData = [
     {
-      title: 'Propojení Evropy komfortem a péčí',
-      subTitle:
-        'Nabízíme komplexní řešení v oblasti dopravy, zahrnující autobusové přepravy, osobní přepravu a nákladní dopravu po celé Evropě.',
-      buttonText: 'Více informací',
+      title: t('slide_1_title'),
+      subTitle: t('slide_1_subtitle'),
+      buttonText: t('slide_button'),
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698067861/evx74jof6yzkdpheuspb.jpg',
     },
     {
-      title: 'Vaše cesta, náš závazek',
-      subTitle:
-        'Poskytování kvalitních služeb, které jsou připraveny splnit různé potřeby našich klientů s důrazem na kvalitu a spolehlivost.',
-      buttonText: 'Více informací',
+      title: t('slide_2_title'),
+      subTitle: t('slide_2_subtitle'),
+      buttonText: t('slide_button'),
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/background-03-1920x950_xdjozs.jpg',
     },
     {
-      title: 'Soukromá Přeprava pro Vaše Soukromí',
-      subTitle:
-        'Naše služba osobní přepravy nabízí komfortní a diskrétní způsob dopravy, který se plně přizpůsobuje vašim potřebám.',
-      buttonText: 'Více informací',
+      title: t('slide_3_title'),
+      subTitle: t('slide_3_subtitle'),
+      buttonText: t('slide_button'),
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599776/osobni_preprava_kfywhm.jpg',
     },
     {
-      title: 'Spolehlivě Překonáváme Hranice',
-      subTitle:
-        'Naše mezinárodní nákladní doprava je synonymem spolehlivosti a efektivity, která umožňuje plynulý převoz nákladu po celé Evropě.',
-      buttonText: 'Více informací',
+      title: t('slide_4_title'),
+      subTitle: t('slide_4_subtitle'),
+      buttonText: t('slide_button'),
       imgSrc:
         'https://res.cloudinary.com/dmxoqnqsu/image/upload/v1701599777/nakladn%D0%B1_doprav_hqkwoe.jpg',
     },

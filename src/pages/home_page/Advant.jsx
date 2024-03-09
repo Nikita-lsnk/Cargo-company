@@ -1,14 +1,19 @@
+import { t } from 'i18next'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Advant = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <MainTitle>
-        <Title>Zvolte kategorii, kterou hledáte</Title>
+        <Title>{t('main_advant_title')}</Title>
       </MainTitle>
-      <BeforeBlock></BeforeBlock>
+      {/* <BeforeBlock></BeforeBlock> */}
       <MainAdvant>
         <AdvantItem>
 
@@ -20,7 +25,7 @@ const Advant = () => {
 
 
 
-          <StyledLink to="/bus"><TitleAdvant>Autobusová přeprava</TitleAdvant></StyledLink>
+          <StyledLink to="/bus"><TitleAdvant>{t('main_advant_link_bus')}</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
           <StyledLink to="/car">
@@ -30,7 +35,7 @@ const Advant = () => {
           </StyledLink>
 
 
-          <StyledLink to="/car"><TitleAdvant>Osobní přeprava</TitleAdvant></StyledLink>
+          <StyledLink to="/car"><TitleAdvant>{t('main_advant_link_car')}</TitleAdvant></StyledLink>
         </AdvantItem>
         <AdvantItem>
           <StyledLink to="/truck">
@@ -40,7 +45,7 @@ const Advant = () => {
           </StyledLink>
 
 
-          <StyledLink to="/truck"><TitleAdvant>Mezinárodní nákladní doprava</TitleAdvant></StyledLink>
+          <StyledLink to="/truck"><TitleAdvant>{t('main_advant_link_truck')}</TitleAdvant></StyledLink>
         </AdvantItem>
       </MainAdvant>
     </Container>

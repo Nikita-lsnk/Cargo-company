@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import './Header.css'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
 
@@ -60,6 +61,12 @@ const Header = () => {
     setOpenDrop(!openDrop);
   };
 
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language)
+  }
+
   return (
     <Container>
       <TopBlock>
@@ -70,14 +77,30 @@ const Header = () => {
           </LinkBlock>
           <LinkBlock>
             <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
-            <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
+            <TitleLink href="mailto:test@test.ru">{t("text")}</TitleLink>
           </LinkBlock>
         </ProfileInfo>
         <ChangeBlock>
-          <LangLink src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-czech-republic-48_1_wn8mkh.png" />
-          <LangLink src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-ukraine-48_lppxfo.png" />
-          <LangLink src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997644/icons8-english-48_lhwano.png" />
-          <LangLink src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-russia-48_klntuk.png" />
+          <LangLink
+            onClick={() => changeLanguage("cz")}
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-czech-republic-48_1_wn8mkh.png"
+          />
+          <LangLink
+            onClick={() => changeLanguage("uk")}
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-ukraine-48_lppxfo.png"
+          />
+          <LangLink
+            onClick={() => changeLanguage("en")} 
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997644/icons8-english-48_lhwano.png"
+          />
+          <LangLink
+            onClick={() => changeLanguage("ru")} 
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697997643/icons8-russia-48_klntuk.png"
+          />
+          <LangLink
+            onClick={() => changeLanguage("sk")} 
+            src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1709647210/zpfyjjezz9tdf3sljmtj.png"
+          />
         </ChangeBlock>
       </TopBlock>
       <NavBlock className={isFixed ? "fixed" : ""}>
@@ -120,7 +143,7 @@ const Header = () => {
                 }
                 to="/home"
               >
-                Úvod
+                {t("nav_link_main")}
               </NavLink>
               <NavLink
                 className={
@@ -132,7 +155,7 @@ const Header = () => {
                 }
                 to="/about"
               >
-                O nás
+                {t("nav_link_about")}
               </NavLink>
               <DropMenu>
                 <ShareBtn
@@ -150,7 +173,7 @@ const Header = () => {
                   ref={buttonRef}
                   onClick={handleShareBtnClick}
                 >
-                  Služby
+                  {t("nav_link_transport")}
 
                   {openDrop === true ?
 
@@ -208,7 +231,7 @@ const Header = () => {
                         }
                         to="/bus"
                       >
-                        Autobusová přeprava
+                        {t("nav_link_transport_bus")}
                       </NavLinkDrop>
                       <NavLinkDrop
                         className={
@@ -220,7 +243,7 @@ const Header = () => {
                         }
                         to="/car"
                       >
-                        Osobní přeprava
+                        {t("nav_link_transport_car")}
                       </NavLinkDrop>
                       <NavLinkDrop
                         className={
@@ -232,7 +255,7 @@ const Header = () => {
                         }
                         to="/truck"
                       >
-                        Mezinárodní nákladní doprava
+                        {t("nav_link_transport_truck")}
                       </NavLinkDrop>
                     </List>
                   </DropDown>
@@ -261,7 +284,7 @@ const Header = () => {
                 }
                 to="/distance"
               >
-                Distance
+                {t("nav_link_distance")}
               </NavLink>
               <NavLink
                 className={
@@ -273,7 +296,7 @@ const Header = () => {
                 }
                 to="/price"
               >
-                Ceny
+                {t("nav_link_price")}
               </NavLink>
               <NavLink
                 className={
@@ -285,7 +308,7 @@ const Header = () => {
                 }
                 to="/program"
               >
-                Věrnostní program
+                {t("nav_link_program")}
               </NavLink>
               <NavLink
                 className={
@@ -297,7 +320,7 @@ const Header = () => {
                 }
                 to="/contact"
               >
-                Kontakt
+                {t("nav_link_contact")}
               </NavLink>
             </NavMenu>
           </NavMenuContent>
@@ -387,6 +410,7 @@ const ShareBtn = styled.button`
   text-decoration: none;
   font-size: 16px;
   background: transparent;
+  font-family: 'Verdana Pro Regular';
   border: none;
   color: #fff;
   font-weight: 700;
@@ -395,6 +419,7 @@ const ShareBtn = styled.button`
   display: flex;
   align-items: center;
   gap: 5px;
+  /* margin-top: 5px; */
   /* justify-content: center; */
   
   &:hover, &:active, &:focus{
@@ -538,7 +563,7 @@ const LogoBlock = styled.div`
 
 const NavMenu = styled.div`
   display: flex;
-  gap: 40px;
+  gap: 20px;
   @media screen and (max-width: 1200px) {
     gap: 20px;
   }

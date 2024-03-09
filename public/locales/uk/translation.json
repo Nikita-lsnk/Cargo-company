@@ -1,0 +1,78 @@
+{
+  "text": "Украинский",
+  "nav_link_main": "Головна",
+  "nav_link_about": "Про нас",
+  "nav_link_transport": "Послуги",
+  "nav_link_transport_bus": "Оренда автобуса",
+  "nav_link_transport_car": "Оренда автомобіля",
+  "nav_link_transport_truck": "Міжнародні вантажоперевезення",
+  "nav_link_distance": "Напрямки",
+  "nav_link_price": "Ціни",
+  "nav_link_program": "Програма лояльності",
+  "nav_link_contact": "Контакти",
+  
+
+
+
+
+
+
+  "some-key-comment_main":"MAIN BLOCK",
+  
+  "slide_1_title": "З'єднання Європи з комфортом і турботою",
+  "slide_1_subtitle": "Пропонуємо комплексне рішення у сфері транспортних перевезень, що включає оренду автобусів, індивідуальні трансфери та вантажні перевезення по всій Європі.",
+  "slide_2_title": "Ваша подорож - наше зобов'язання",
+  "slide_2_subtitle": "Ми надаємо якісні послуги, готові задовольнити різні потреби наших клієнтів, з акцентом на якість і надійність.",
+  "slide_3_title": "Особистий транспорт для вашого особистого життя",
+  "slide_3_subtitle": "Ми надаємо в оренду автомобілі бізнес і преміум-класу з професійними водіями з можливістю їх повного закріплення за клієнтом.",
+  "slide_4_title": "Впевнено долаємо кордони",
+  "slide_4_subtitle": "Потрібні послуги з міжнародних вантажоперевезень? Зверніться до професіоналів своєї справи!",
+  "slide_button": "Детальніше",
+  "main_advant_title": "Виберіть категорію",
+  "main_advant_link_bus": "Оренда автобуса",
+  "main_advant_link_car": "Оренда автомобіля",
+  "main_advant_link_truck": "Міжнародні вантажоперевезення",
+
+  "main_distance_title": "Наші популярні послуги",
+
+  "main_distance_card_one_price": "od 750 kč",
+  "main_distance_card_one_description": "Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně.",
+  "main_distance_card_one_title": "Transfer na letiště",
+
+  "main_distance_card_two_price": "od 2300 kč",
+  "main_distance_card_two_description": "Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno.",
+  "main_distance_card_two_title": "Okruhy po Praze",
+
+  "main_distance_card_three_price": "od 3000 kč",
+  "main_distance_card_three_description": "Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí.",
+  "main_distance_card_three_title": "Svatební autobus",
+
+  "main_distance_card_four_price": "od 2500 kč",
+  "main_distance_card_four_description": "Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí.",
+  "main_distance_card_four_title": "Zájezdy pro CK",
+
+  "main_distance_card_five_price": "od 26 kč za km",
+  "main_distance_card_five_description": "Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení.",
+  "main_distance_card_five_title": "Kamionová doprava do Německa a zpět od 26 kč za km",
+
+  "main_distance_card_six_price": "za 850 kč na hod",
+  "main_distance_card_six_description": "S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den.",
+  "main_distance_card_six_title": "Osobní řidič",
+
+  "main_distance_button": "Дізнатися більше",
+  "main_special_title": "Оренда автобуса з професійним водієм",
+  "main_discount_title": "Приєднуйтесь до програми лояльності та відкрийте для себе додаткові вигоди",
+  "main_discount_button": "Дізнатися більше",
+
+
+
+
+  
+  
+  "some-key-comment_footer":"FOOTER BLOCK",
+
+  "footer_title_true": "Ми пропонуємо співпрацю і партнерство компаніям, організаціям і приватним особам, які мають намір привернути увагу відвідувачів нашого сайту до своїх пропозицій, заходів або хочуть підвищити впізнаваність свого бізнесу. Ми будемо раді розмістити вашу медійну або текстову рекламу: статті, банери, анонси, прес-релізи, фоторепортажі, хайлайти подій, конкурси та багато іншого. Ми забезпечимо локалізацію вашої пропозиції та адаптуємо контент для ефективного охоплення цільової аудиторії. Якщо вас зацікавила ця пропозиція, зв'яжіться з нами електронною поштою ТУТ БУДЕ КОРПОРАТИВНА ПОШТА",
+  "footer_title_false": "Вітаємо Вас на сайті компанії AronTrack, вашого партнера з комплексних перевезень і транспортування вантажів по всій Європі. Ми є унікальною компанією в Чехії, яка може об'єднати всі види перевезень і запропонувати повний комплекс послуг. Незалежно від маршруту, вимог або складності, ми готові зробити все можливе для наших клієнтів. Якщо Вам потрібне безпечне та надійне перевезення, довірте його нам!",
+  "footer_contact_title": "Контакти"
+  
+}

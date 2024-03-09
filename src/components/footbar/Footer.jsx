@@ -1,7 +1,11 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import styled from 'styled-components'
 
 const Footer = ({contactTitle}) => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <MainInfo>
@@ -9,13 +13,13 @@ const Footer = ({contactTitle}) => {
           <Logo><LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/></Logo>
         </LogoBlock>
         <MainTitle>
-          <Title>{contactTitle === "contactTitle" ? "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА" : "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo komplexnost, jsme zde pro vás a připraveni udělat maximum pro naše klienty. Potřebujete-li bezpečnou a spolehlivou dopravu, nechte to na nás!"}
+          <Title>{contactTitle === "contactTitle" ? t("footer_title_true") : t("footer_title_false")}
           </Title>
         </MainTitle>
       </MainInfo>
       <MainInfo>
         <TextBlock>
-          <TextTitle>Kontakt</TextTitle>
+          <TextTitle>{t("footer_contact_title")}</TextTitle>
         </TextBlock>
         <BlockContact>
           <LinkBlock>
