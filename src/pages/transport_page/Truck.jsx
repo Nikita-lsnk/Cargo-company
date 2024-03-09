@@ -2,54 +2,55 @@ import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Footer from '../../components/footbar/Footer'
+import { useTranslation } from 'react-i18next'
 
 const Truck = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <HeaderSection
-        title={"Služby"}
-        firstSub={"Úvod"}
-        firstLink={"home"}
-        secondSub={"Služby"}
-        secondLink={"truck"}
+        title={t("truck_header_section_title")}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B8_udggfc.jpg"}
-        subTitle={"Mezinárodní nákladní doprava"}
+        subTitle={t("truck_header_section_subtitle")}
       />
       <ContainerColor>
         <MainText style={{ marginTop: '-40px' }}>
 
           <BeforeBlock></BeforeBlock>
           <TextInfo>
-            <SubTitle>Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. <b>Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun.</b></SubTitle>
+            {/* <SubTitle>Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. <b>Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun.</b></SubTitle> */}
+            <SubTitle>{t("truck_main_subtitle_one")}</SubTitle>
           </TextInfo>
           <TextInfo>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Rychlá přeprava zásilky na místo určení</SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_one")}</SubTitle>
             </AdvantBlock>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Vlastní vozidla značky DAF se sledováním GPS</SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_two")}</SubTitle>
             </AdvantBlock>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Možnost dlouhodobé spolupráce. </SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_three")}</SubTitle>
             </AdvantBlock>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Zajišťujeme vnitrostátní a mezinárodní autodopravu.</SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_four")}</SubTitle>
             </AdvantBlock>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Autodoprava od 100 kg do 25 tun</SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_five")}</SubTitle>
             </AdvantBlock>
             <AdvantBlock>
               <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-              <SubTitle>Využíváme jak vlastní vozy, tak prověřené smluvní partnery</SubTitle>
+              <SubTitle>{t("truck_advant_subtitle_six")}</SubTitle>
             </AdvantBlock>
           </TextInfo>
           <TextInfo>
-            <SubTitle>Všechny naše služby splňují přísné požadavky Dohody o přepravní smlouvě v mezinárodní silniční přepravě (CMR).</SubTitle>
+            <SubTitle>{t("truck_main_subtitle_two")}</SubTitle>
           </TextInfo>
         </MainText>
       </ContainerColor>

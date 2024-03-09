@@ -2,21 +2,25 @@ import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Footer from '../../components/footbar/Footer'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <HeaderSection
-        title={"O nás"}
+        title={t("about_header_section_title")}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BE_%D0%BD%D0%B0%D1%81_nxjzqk.jpg"}
-        subTitle={"Jedna společnost, nekonečné možnosti"}
+        subTitle={t("about_header_section_subtitle")}
       />
       <ContainerColor>
         <MainText>
 
           <BeforeBlock></BeforeBlock>
           <TextInfo>
-            <SubTitle>Vítejte na našich webových stránkách! Jsme spolehlivým partnerem pro komplexní dopravní řešení. Od svého založení v roce 2020 jsme se zaměřili na rozvoj našeho širokého portfolia služeb, které zahrnuje pohodlné autobusové přepravy, osobní přepravy s důrazem na vaši pohodlnost a nákladní dopravu, která uspokojí všechny vaše logistické potřeby. S naší firmou získáte spolehlivost, kvalitu a pozornou péči o každý detail. Jsme zde proto, abychom vám poskytli bezpečnou, efektivní a ekonomicky výhodnou dopravu po celé Evropě. Kontaktujte nás a společně najdeme řešení pro vaše transportní výzvy. </SubTitle>
+            <SubTitle>{t("about_subtitle")} </SubTitle>
             <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D1%82%D0%BE_%D0%BE_%D0%BD%D0%B0%D1%81_2_%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82_gcxfwe.jpg" />
             {/* <Img src ="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699811586/ke6kruoozgh8hafl1lhp.jpg"/> */}
           </TextInfo>

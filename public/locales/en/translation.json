@@ -73,6 +73,126 @@
 
   "footer_title_true": "We offer cooperation and partnership to companies, organisations and individuals who intend to draw the attention of our website visitors to their offers, events or who want to increase the visibility of their business. We will be glad to place your media or text advertisements: articles, banners, announcements, press releases, photo reports, event highlights, competitions and much more. We will ensure your offer is localised and tailor the content to effectively reach your target audience. If you are interested in this offer, please contact us via email",
   "footer_title_false": "Welcome to the website of AronTrack, your partner for comprehensive transport and shipping services throughout Europe. We are a unique company in the Czech Republic that can combine all types of transport and offer a full range of services. Regardless of the route, requirements or complexity, we are ready to do our best for our customers. If you need safe and reliable transport, entrust it to us!",
-  "footer_contact_title": "Contact"
+  "footer_contact_title": "Contact",
+
+
+
+
+
+  "some-key-comment_about":"ABOUT BLOCK",
+
+  "about_header_section_title": "About us",
+  "about_header_section_subtitle": "One company, endless possibilities",
+  "about_subtitle": "Welcome to our website! We are a reliable partner for comprehensive transport solutions. Since our establishment in 2020, we have focused on developing our broad portfolio of services, which includes convenient bus transport, private passenger transport with an emphasis on your convenience and freight transport to meet all your logistics needs. With our company, you get reliability, quality and attentive attention to every detail. We are here to provide you with safe, efficient and cost-effective transportation throughout Europe. Contact us and together we will find a solution for your transportation challenges.",
+
+
+
+
+
+
+  "some-key-comment_bus":"BUS BLOCK",
+
+  "bus_header_section_title": "Services",
+  "bus_header_section_subtitle": "Bus transport",
+
+  "bus_main_subtitle": "Bus hire services are mainly focused on Czech and foreign tourist bus and passenger transport.",
+
+  "bus_advant_subtitle_one": "rental of tour buses with driver",
+  "bus_advant_subtitle_two": "international and domestic tour bus transport for travel agencies",
+  "bus_advant_subtitle_three": "transport services for corporate clients - bus transport for corporate events, parties, teambuilding",
+  "bus_advant_subtitle_four": "bus transfers to and from the airport",
+  "bus_advant_subtitle_five": "sightseeing tours and transfers around Prague",
+  "bus_advant_subtitle_six": "transport for congresses",
+  "bus_advant_subtitle_seven": "transport and shipping services for sports clubs",
+  "bus_advant_subtitle_eight": "bus transport of children to children's camps and outdoor schools",
+  "bus_advant_subtitle_nine": "irregular tour transport around the Czech Republic and the whole European Union",
+
+  "bus_main_title": "Our customers are:",
+
+  "bus_advant_title_one": "Travel agencies",
+  "bus_advant_title_two": "Medium and large companies (e.g. providing employee transport)",
+  "bus_advant_title_three": "School institutions (kindergartens, primary schools, secondary schools and universities)",
+  "bus_advant_title_four": "Non-profit institutions",
+  "bus_advant_title_five": "Various interest associations and societies",
+  "bus_advant_title_six": "Private persons",
+  "bus_advant_title_seven": "Sports clubs",
+  "bus_advant_title_eight": "Government entities and others.",
+
+  "bus_main_subtitle_two": "We will work out the price for transport according to the date, program and number of people. If you are interested, please contact us.",
+
+
+
+
+
+
+
+  "some-key-comment_car":"CAR BLOCK",
+
+  "car_header_section_title": "Services",
+  "car_header_section_subtitle": "Private transport",
+  "car_main_subtitle_one": "Passenger transport - we specialise in the flexible transportation of individuals and groups to exactly where you need to go. Our specialization and main focus in our service portfolio is transport to airports in Prague and its surroundings, including Václav Havel Airport and Karlovy Vary Airport.",
+  "car_main_subtitle_two": "We have modern high-end and mid-range vehicles to cater for the diverse needs of our customers. All of our vehicles are equipped with air conditioning, we keep them in perfect technical condition and take care of their cleanliness. If arranged in advance, our driver will come to the location you specify. If you are arriving from abroad, we will be happy to wait for you directly in the arrival hall of the airport with a sign with your name or the name of your company.",
+  "car_main_subtitle_three": "A child car seat can be arranged for our young passengers. Please contact us at any time convenient for you.",
+
+
+
+
+
+
+
+  "some-key-comment_truck":"TRUCK BLOCK",
+
+  "truck_header_section_title": "Services",
+  "truck_header_section_subtitle": "International freight shipping",
+  "truck_main_subtitle_one": "Are you looking for a reliable partner for the transport of your shipments? We will quickly and safely transport your shipment by road throughout Europe. For domestic transport we offer semi-trailers with a load capacity of 25 tonnes",
+
+  "truck_advant_subtitle_one": "Fast transport of your cargo to the destination place",
+  "truck_advant_subtitle_two": "Own DAF vehicles with GPS tracking",
+  "truck_advant_subtitle_three": "Possibility of long-term cooperation. ",
+  "truck_advant_subtitle_four": "We carry out domestic and international road transport.",
+  "truck_advant_subtitle_five": "Road transport from 100 kg to 25 tons",
+  "truck_advant_subtitle_six": "We use both our own vehicles and trusted contractors.",
+
+  "truck_main_subtitle_two": "All our services meet the strict requirements of the Agreement on the Contract for International Carriage by Road (CMR).",
+
+
+
+
+
+
+  "some-key-comment_price":"PRICE BLOCK",
+
+  "price_header_section_title": "Prices",
+  "price_header_section_subtitle": "Mezinárodní nákladní doprava",
+  "price_subtitle_one": "The total cost of our transport depends on several factors such as the number of kilometres travelled, type of vehicle, waiting time and destination, whether it is a domestic or international route. For domestic journeys, the price may depend on the number of kilometres travelled, waiting time or be set at a flat rate. International journeys within Europe include the cost of transport in each country and each country may have different rules for taxation of passenger transport. Therefore, the price always depends on the length of the route and the countries travelled through. ",
+  "price_subtitle_two": "Our flat-rate price for bus transport is flexible and depends on the type of vehicle and the number of kilometres travelled. It starts from CZK 6,000 + VAT and is valid for journeys not exceeding 100 km. This price includes 2 hours of waiting time for the bus, the costs associated with operating shorter distances, the driver's daily wage including deductions, the cost of preparing the order and also cleaning the vehicle. With this transparent pricing structure, we can provide you with quality transport at a fair price.",
+  "price_subtitle_three": "Due to these factors, it is impossible to set a fixed price list, so a preliminary price calculation that takes into account the above criteria is necessary.",
+  "price_subtitle_four_1": "We will negotiate the specific price of the transport individually, we provide long-term customers with interesting prices. We will prepare a price calculation for you after filling in the inquiry form or sending an",
+  "price_subtitle_four_button": "e-mail",
+  "price_subtitle_four_2": "with the request to the following address",
+
+  "price_text_info_one": "For the most accurate calculation, please email us the following information:",
+
+  "price_advant_subtitle_one": "1. Date and approximate time of departure and arrival.",
+  "price_advant_subtitle_two": "2. Start and end points where you will expect the vehicle to arrive.",
+  "price_advant_subtitle_three": "3. Approximate number of people.",
+  "price_advant_subtitle_four": "4. Special requirements, such as the need for a large luggage trailer, bicycle rack, etc.",
+  "price_advant_subtitle_five": "5. Contact person, phone number and billing information (if applicable).",
+
+  "price_text_info_two": "The following aspects are taken into account in our cost calculations:",
+
+  "price_advant_two_subtitle_one": "We have a valid licence for passenger and freight road transport throughout Europe.",
+  "price_advant_two_subtitle_two": "All our vehicles are properly insured.",
+  "price_advant_two_subtitle_three": "All vehicles are properly inspected, thoroughly maintained and equipped.",
+  "price_advant_two_subtitle_four": "All our buses are equipped with seat belts for passengers.",
+  "price_advant_two_subtitle_five": "Drivers are regularly trained by company staff with valid driving and professional licences and sufficient experience.",
+  "price_advant_two_subtitle_six": "Drivers are provided with a route plan and adhere to set breaks.",
+  "price_advant_two_subtitle_seven": "Drivers take into account the physiological needs of passengers.",
+  "price_advant_two_subtitle_eight": "We can provide a replacement vehicle in case of unforeseen breakdown",
+  "price_advant_two_subtitle_nine": "Dispatch service is available 24 hours a day and you can contact us online.",
+
+  "price_text_info_three": "Cancellation policy",
+
+  "price_text_info_four": "Cancellation conditions are charged individually, according to the size of the order and mutual agreement."
   
 }

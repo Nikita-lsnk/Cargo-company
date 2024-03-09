@@ -2,33 +2,33 @@ import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Footer from '../../components/footbar/Footer'
+import { useTranslation } from 'react-i18next'
 
 const Car = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <HeaderSection
-        title={"Služby"}
-        firstSub={"Úvod"}
-        firstLink={"home"}
-        secondSub={"Služby"}
-        secondLink={"car"}
+        title={t("car_header_section_title")}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B_%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82_jwkahi.jpg"}
-        subTitle={"Osobní přeprava"}
+        subTitle={t("car_header_section_subtitle")}
       />
       <ContainerColor>
         <MainText style={{ marginTop: '-40px' }}>
 
           <BeforeBlock></BeforeBlock>
           <TextInfo>
-            <SubTitle>Osobní přeprava – naše specializace spočívá v flexibilní přepravě jednotlivců a skupin přesně tam, kam to potřebujete. Naší specializací a hlavním zaměřením v portfoliu služeb je doprava na letiště v Praze a okolí, včetně Letiště Václava Havla a letiště v Karlových Varech.</SubTitle>
+            <SubTitle>{t("car_main_subtitle_one")}</SubTitle>
           </TextInfo>
           <TextInfo>
-            <SubTitle>Pro zajištění komplexních potřeb našich klientů máme k dispozici moderní vozidla vyšší střední třídy. Všechny naše vozy jsou vybavené klimatizací, udržujeme je v dokonalém technickém stavu a dbáme na jejich čistotu. V případě dohody předem přijede náš řidič na místo, které si stanovíte. Pokud přilétáte z ciziny, rádi na vás počkáme přímo v příletové hale letiště s cedulkou s Vaším jménem nebo jménem vaší firmy. Pro naše mladé cestující je možné dohodnout dětskou autosedačku.
+            <SubTitle>{t("car_main_subtitle_two")}
             </SubTitle>
           </TextInfo>
           <TextInfo>
             <SubTitle>
-              Neváhejte nás kontaktovat kdykoliv potřebujete.</SubTitle>
+            {t("car_main_subtitle_three")}</SubTitle>
           </TextInfo>
         </MainText>
       </ContainerColor>

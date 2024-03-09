@@ -73,6 +73,133 @@
 
   "footer_title_true": "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА",
   "footer_title_false": "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo komplexnost, jsme zde pro vás a připraveni udělat maximum pro naše klienty. Potřebujete-li bezpečnou a spolehlivou dopravu, nechte to na nás!",
-  "footer_contact_title": "Kontakt"
+  "footer_contact_title": "Kontakt",
+
+
+
+
+
+
+  "some-key-comment_about":"ABOUT BLOCK",
+
+  "about_header_section_title": "O nás",
+  "about_header_section_subtitle": "Jedna společnost, nekonečné možnosti",
+  "about_subtitle": "Vítejte na našich webových stránkách! Jsme spolehlivým partnerem pro komplexní dopravní řešení. Od svého založení v roce 2020 jsme se zaměřili na rozvoj našeho širokého portfolia služeb, které zahrnuje pohodlné autobusové přepravy, osobní přepravy s důrazem na vaši pohodlnost a nákladní dopravu, která uspokojí všechny vaše logistické potřeby. S naší firmou získáte spolehlivost, kvalitu a pozornou péči o každý detail. Jsme zde proto, abychom vám poskytli bezpečnou, efektivní a ekonomicky výhodnou dopravu po celé Evropě. Kontaktujte nás a společně najdeme řešení pro vaše transportní výzvy.",
+
+
+
+
+
+
+
+
+  "some-key-comment_bus":"BUS BLOCK",
+
+  "bus_header_section_title": "Služby",
+  "bus_header_section_subtitle": "Autobusová přeprava",
+
+  "bus_main_subtitle": "Služby firmy AronTrack jsou zaměřeny především na českou a zahraniční zájezdovou autobusovou dopravu a přepravu osob.",
+
+  "bus_advant_subtitle_one": "pronájem zájezdových autobusů s řidičem",
+  "bus_advant_subtitle_two": "mezinárodní a tuzemská zájezdová autobusová doprava pro cestovní kanceláře",
+  "bus_advant_subtitle_three": "přepravní služby pro firemní klientelu - autobusová doprava na firemní akce, večírky, teambuilding",
+  "bus_advant_subtitle_four": "autobusové transfery na letiště a z letiště",
+  "bus_advant_subtitle_five": "okružní jízdy a transfery po Praze",
+  "bus_advant_subtitle_six": "doprava pro kongresy",
+  "bus_advant_subtitle_seven": "doprava a přepravní služby pro sportovní kluby",
+  "bus_advant_subtitle_eight": "autobusová doprava dětí na dětské tábory a školy v přírodě",
+  "bus_advant_subtitle_nine": "nepravidelná zájezdová doprava po České republice a celé Evropské unii",
+
+  "bus_main_title": "Našimi zákazníky jsou:",
+
+  "bus_advant_title_one": "Cestovní kanceláře a agentury (vč. incomingových)",
+  "bus_advant_title_two": "Střední a velké firmy (mj. zajišťování zaměstnaneckých svozů)",
+  "bus_advant_title_three": "Školské instituce (MŠ, ZŠ, SŠ i VŠ)",
+  "bus_advant_title_four": "Neziskové instituce",
+  "bus_advant_title_five": "Různá zájmová sdružení a spolky",
+  "bus_advant_title_six": "Soukromé osoby",
+  "bus_advant_title_seven": "Sportovní oddíly",
+  "bus_advant_title_eight": "Subjekty státní správy a další.",
+
+  "bus_main_subtitle_two": "Cenu za dopravu Vám operativně zpracujeme dle termínu, programu a počtu osob. V případě zájmu nás neváhejte kontaktovat.",
+
+
+
+
+
+
+
+  "some-key-comment_car":"CAR BLOCK",
+
+  "car_header_section_title": "Služby",
+  "car_header_section_subtitle": "Osobní přeprava",
+  "car_main_subtitle_one": "Osobní přeprava – naše specializace spočívá v flexibilní přepravě jednotlivců a skupin přesně tam, kam to potřebujete. Naší specializací a hlavním zaměřením v portfoliu služeb je doprava na letiště v Praze a okolí, včetně Letiště Václava Havla a letiště v Karlových Varech.",
+  "car_main_subtitle_two": "Pro zajištění komplexních potřeb našich klientů máme k dispozici moderní vozidla vyšší střední třídy. Všechny naše vozy jsou vybavené klimatizací, udržujeme je v dokonalém technickém stavu a dbáme na jejich čistotu. V případě dohody předem přijede náš řidič na místo, které si stanovíte. Pokud přilétáte z ciziny, rádi na vás počkáme přímo v příletové hale letiště s cedulkou s Vaším jménem nebo jménem vaší firmy. Pro naše mladé cestující je možné dohodnout dětskou autosedačku.",
+  "car_main_subtitle_three": "Neváhejte nás kontaktovat kdykoliv potřebujete.",
+
+
+
+
+
+
+
+  "some-key-comment_truck":"TRUCK BLOCK",
+
+  "truck_header_section_title": "Služby",
+  "truck_header_section_subtitle": "Mezinárodní nákladní doprava",
+  "truck_main_subtitle_one": "Hledáte spolehlivého partnera pro přepravu Vašich zásilek? Rychle a bezpečně dopravíme Vaši zásilku v rámci silniční přepravy do celé Evropy. Pro tuzemské dopravy nabízíme návěsy o nosnosti 25 tun",
+
+  "truck_advant_subtitle_one": "Rychlá přeprava zásilky na místo určení",
+  "truck_advant_subtitle_two": "Vlastní vozidla značky DAF se sledováním GPS",
+  "truck_advant_subtitle_three": "Možnost dlouhodobé spolupráce.",
+  "truck_advant_subtitle_four": "Zajišťujeme vnitrostátní a mezinárodní autodopravu.",
+  "truck_advant_subtitle_five": "Autodoprava od 100 kg do 25 tun",
+  "truck_advant_subtitle_six": "Využíváme jak vlastní vozy, tak prověřené smluvní partnery",
+
+  "truck_main_subtitle_two": "Všechny naše služby splňují přísné požadavky Dohody o přepravní smlouvě v mezinárodní silniční přepravě (CMR).",
+
+
+
+
+
+
+
+  "some-key-comment_price":"PRICE BLOCK",
+
+  "price_header_section_title": "Ceny",
+  "price_header_section_subtitle": "Mezinárodní nákladní doprava",
+  "price_subtitle_one": "Celková cena naší dopravy závisí na několika faktorech, jako je počet ujetých kilometrů, typů vozů, doba čekání a místo určení, ať už se jedná o vnitrostátní či mezinárodní trasu. V případě vnitrostátních cest může cena záviset na počtu najetých kilometrů, doby čekání nebo být stanovena paušálně. Mezinárodní cesty v rámci Evropy zahrnují cenu za přepravu v jednotlivých zemích a každá země může mít svá vlastní pravidla pro zdanění přepravy osob. Cena se tedy vždy odvíjí od délky trasy a států, kterými projíždíme. ",
+  "price_subtitle_two": "Naše paušální cena za autobusovou dopravu je flexibilní a závisí na typu vozu a počtu najetých kilometrů. Začíná od 6 000 Kč + DPH a platí pro výjezdy, které nepřekračují 100 km. Tato cena zahrnuje 2 hodiny čekání autobusu, náklady spojené s provozem na kratší vzdálenosti, denní mzdu řidiče včetně odvodů, náklady na přípravu zakázky a také úklid vozu. S touto transparentní cenovou strukturou vám můžeme poskytnout kvalitní dopravu za férovou cenu.",
+  "price_subtitle_three": "Kvůli těmto faktorům není možné stanovit pevný ceník, a proto je nezbytné vytvořit předpokládanou cenovou kalkulaci, která bere v úvahu výše zmíněná kritéria.",
+  "price_subtitle_four_1": "Konkrétní cenu přepravy sjednáme individuálně, dlouhodobým zákazníkům poskytujeme zajímavé ceny. Cenovou kalkulaci Vám vypracujeme po vyplnění",
+  "price_subtitle_four_button": "poptávkového formuláře",
+  "price_subtitle_four_2": "nebo zaslání e-mailu s požadavkem na adresu.",
+
+  "price_text_info_one": "Pro co nejpřesnější výpočet nám prosím zašlete následující informace e-mailem:",
+
+  "price_advant_subtitle_one": "1. Datum a orientační časy odjezdu a příjezdu",
+  "price_advant_subtitle_two": "2. Výchozí a cílové místo, kde budete čekat na přistavení vozidla",
+  "price_advant_subtitle_three": "3. Orientační počet osob",
+  "price_advant_subtitle_four": "4. Zvláštní požadavky, jako je potřeba přívěsu na velké zavazadlo, cyklovleku apod.",
+  "price_advant_subtitle_five": "5. Kontaktní osoba, telefonní číslo a fakturační údaje (pokud jsou relevantní).",
+
+  "price_text_info_two": "Naše cenová kalkulace zohledňuje to, že:",
+
+  "price_advant_two_subtitle_one": "Máme platné oprávnění k provozování osobní a nákladní silniční dopravy v (po) celé Evropě.",
+  "price_advant_two_subtitle_two": "Všechna naše vozidla jsou řádně pojištěna.",
+  "price_advant_two_subtitle_three": "Všichni vozy prošly řádnou technickou kontrolou, procházejí pečlivou údržbou a mají předepsanou výbavu",
+  "price_advant_two_subtitle_four": "Všechny naše autobusy mají bezpečnostní pásy pro cestující.",
+  "price_advant_two_subtitle_five": "Řidiči jsou pravidelně školení zaměstnanci firmy s platným řidičským i profesním průkazem a dostatkem zkušeností",
+  "price_advant_two_subtitle_six": "Řidiči mají k dispozici plán cesty a dodržují stanovené přestávky",
+  "price_advant_two_subtitle_seven": "Řidiči zohledňují fyziologické potřeby cestujících",
+  "price_advant_two_subtitle_eight": "Jsme schopni poskytnout náhradní vozidlo v případě neočekávané poruchy",
+  "price_advant_two_subtitle_nine": "Dispečink je Vám k dispozici 24 hod. denně a můžete s námi komunikovat i prostřednictvím internetu.",
+
+  "price_text_info_three": "Storno podmínky",
+
+  "price_text_info_four": "Storno podmínky účtujeme individuálně, dle velikosti zakázky a vzájemné dohody."
+  
+  
+
   
 }
