@@ -3,18 +3,19 @@ import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Survey from './Survey'
 import Footer from '../../components/footbar/Footer'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
+
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <HeaderSection
-        title={"Kontakt"}
-        firstSub={"Úvod"}
-        firstLink={"home"}
-        secondSub={"Kontakt"}
+        title={t("contact_header_section_title")}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B_pabx9y.jpg"}
-        secondLink={"contact"}
-        subTitle={"Máte otázky nebo potřebujete objednat naše služby?"}
+        subTitle={t("contact_header_section_subtitle")}
       />
       <ContainerColor>
         <MainText style={{ marginTop: '-40px' }}>
@@ -22,14 +23,14 @@ const Contact = () => {
 
             <BeforeBlock></BeforeBlock>
             <TextInfo>
-              <SubTitle>Nabízíme různé způsoby spojení, které jsou k dispozici 24/7. Můžete nám napsat e-mail, vyplnit rychlý kontaktní formulář nebo jednoduše zavolat. Vaše pohodlí je naší prioritou. Jsme tady pro vás. </SubTitle>
+              <SubTitle>{t("contact_text_info_subtitle_one")}</SubTitle>
             </TextInfo>
             <Survey />
           </MainContainerInfo>
           <SocialBlock>
             <MainInfo>
               <TextBlock>
-                <TextTitle>Social</TextTitle>
+                <TextTitle>{t("contact_text_title_social_one")}</TextTitle>
               </TextBlock>
               <BlockContact>
                 <LinkBlock>
@@ -44,7 +45,7 @@ const Contact = () => {
 
             <MainInfo>
               <TextBlock>
-                <TextTitle>Phone</TextTitle>
+                <TextTitle>{t("contact_text_title_social_two")}</TextTitle>
               </TextBlock>
               <BlockContact>
                 <LinkBlock>
@@ -56,7 +57,7 @@ const Contact = () => {
 
             <MainInfo>
               <TextBlock>
-                <TextTitle>E-mail</TextTitle>
+                <TextTitle>{t("contact_text_title_social_three")}</TextTitle>
               </TextBlock>
               <BlockContact>
                 <LinkBlock>
@@ -68,28 +69,28 @@ const Contact = () => {
 
             <MainInfo>
               <TextBlock>
-                <TextTitle>Fakturační adresa</TextTitle>
+                <TextTitle>{t("contact_text_title_social_four")}</TextTitle>
               </TextBlock>
               <BlockContact>
                 <LinkBlock>
                   <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698077437/jbmvpw2qd7bewrla0aor.png" />
-                  <TitleLink>Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika</TitleLink>
+                  <TitleLink>{t("contact_text_title_social_four_1")}</TitleLink>
                 </LinkBlock>
               </BlockContact>
             </MainInfo>
 
             <MainInfo>
               <TextBlock>
-                <TextTitle>Fakturační údaje </TextTitle>
+                <TextTitle>{t("contact_text_title_social_five")}</TextTitle>
               </TextBlock>
               <BlockContact>
                 <LinkBlockBills>
                   <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700943762/icons8-info-50_srhiog.png" />
-                  <TitleLink>AronTrack<br />
-                    Alex Savčuk<br />
-                    IČO 29057256<br />
-                    DIČ CZ8408023943<br />
-                    Datová schránka <b>5672i83</b>
+                  <TitleLink>{t("contact_text_title_social_five_1")}<br />
+                  {t("contact_text_title_social_five_2")}<br />
+                  {t("contact_text_title_social_fiv_3")}<br />
+                  {t("contact_text_title_social_fiv_4")}<br />
+                  {t("contact_text_title_social_five_5")} <b>{t("contact_text_title_social_five_6")}</b>
                   </TitleLink>
                 </LinkBlockBills>
               </BlockContact>

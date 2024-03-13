@@ -35,29 +35,275 @@
 
   "main_distance_title": "Наші популярні послуги",
 
+
+
+
+
+
+
+
+
+
   "main_distance_card_one_price": "od 750 kč",
-  "main_distance_card_one_description": "Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně.",
-  "main_distance_card_one_title": "Transfer na letiště",
+  "main_distance_card_one_description": "Ми пропонуємо трансфер в аеропорти Праги, Мюнхена, Лейпцига, Відня та багатьох інших міст. Дозвольте нам подбати про ваш комфортний транспорт, куди б ви не летіли. З нашим трансфером в аеропорт ви можете бути впевнені, що прибудете вчасно і в безпеці.",
+  "main_distance_card_one_title": "Трансфер в аеропорт",
+
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_two_price": "od 2300 kč",
-  "main_distance_card_two_description": "Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno.",
-  "main_distance_card_two_title": "Okruhy po Praze",
+  "main_distance_card_two_description": "Наші індивідуальні трансфери та оглядові екскурсії Прагою - ідеальний спосіб відкрити для себе красу цього чарівного міста. Наші досвідчені водії забезпечать вам комфортну поїздку, незалежно від того, чи потрібно вам переїхати з одного місця в інше або ви хочете познайомитися з визначними пам'ятками Праги. З нашими індивідуальними трансферами ви зможете ефективно досліджувати місто, не турбуючись про транспорт. Досліджуйте Прагу з комфортом наших автомобілів і насолоджуйтеся унікальними враженнями повною мірою.",
+  "main_distance_card_two_title": "Екскурсії Прагою",
+
+
+
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_three_price": "od 3000 kč",
-  "main_distance_card_three_description": "Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí.",
-  "main_distance_card_three_title": "Svatební autobus",
+  "main_distance_card_three_description": "Ми розуміємо, наскільки складним і напруженим може бути планування весілля. Якщо вам потрібна допомога в організації транспорту, ми готові допомогти. Оренда приватного весільного автобуса з професійним водієм - чудовий спосіб забезпечити молодят та їхніх гостей комфортним і надійним транспортом. Здивуйте їх комфортною поїздкою на церемонію, до церкви, церемоніальної зали або місця проведення прийому. З нашим весільним автобусом ви можете бути впевнені, що транспорт на вашому весіллі працюватиме як годинник: Просто, елегантно і без зайвого клопоту.",
+  "main_distance_card_three_title": "Автобус на весілля",
+
+
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_four_price": "od 2500 kč",
-  "main_distance_card_four_description": "Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí.",
-  "main_distance_card_four_title": "Zájezdy pro CK",
+  "main_distance_card_four_description": "Ви - туристична агенція або агенція з організації заходів, яка шукає надійного партнера? Ми готові надати вам надійні та якісні транспортні послуги. З нашими послугами ви можете бути впевнені в тому, що клієнти отримають комфортний і безтурботний транспортний досвід, який сприятиме загальному задоволенню та успіху ваших заходів.",
+  "main_distance_card_four_title": "Транспортні послуги для тур операторів",
+
+
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_five_price": "od 26 kč za km",
-  "main_distance_card_five_description": "Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení.",
-  "main_distance_card_five_title": "Kamionová doprava do Německa a zpět od 26 kč za km",
+  "main_distance_card_five_description": "Наші вантажні перевезення в Німеччину і назад - це професійне рішення для транспортування вантажів між цими напрямками. Завдяки нашим надійним вантажівкам і досвідченим водіям ми забезпечимо безпечне та ефективне транспортування вашого вантажу. Наші послуги розроблені з урахуванням ваших логістичних потреб, будь то короткострокове або довгострокове перевезення. З нами ви можете бути впевнені, що ваш вантаж буде доставлено в пункт призначення в цілості й схоронності.",
+  "main_distance_card_five_title": "Вантажні перевезення до Німеччини і назад від 26 крон за км",
+
+
+
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_six_price": "za 850 kč na hod",
-  "main_distance_card_six_description": "S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den.",
-  "main_distance_card_six_title": "Osobní řidič",
+  "main_distance_card_six_description": "З нашим особистим водієм ви зможете подорожувати з комфортом, вас відвезуть на зустріч, у магазин, ресторан і куди завгодно. Ми гарантуємо надійний і безпечний транспорт, незалежно від того, чи потрібен вам персональний водій для короткої поїздки або на цілий день.",
+  "main_distance_card_six_title": "Особистий водій",
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_seven_price": "od 9000 Kč",
+  "main_distance_card_seven_description": "Наші тури в Карлові Вари і назад - чудовий спосіб познайомитися з цим прекрасним курортним містом і його околицями. Завдяки нашим ретельно спланованим турам ви зможете повною мірою насолодитися поїздкою, не турбуючись про транспорт.",
+  "main_distance_card_seven_title": "Тури в Карлові Вари",
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_eight_price": "od 3000 Kč za 3 hod",
+  "main_distance_card_eight_description": "Ми забезпечимо комфортний і безпечний транспорт, куди б ви не вирушили. Просто скажіть нам, куди ви хочете поїхати і звідки. Наші сучасні, чисті автобуси готові до будь-якої групової екскурсії або поїздки. З нами ви можете бути впевнені, що отримаєте якісний і надійний транспорт, чи то екскурсійна група, чи то шкільна поїздка, чи то корпоративний захід.",
+  "main_distance_card_eight_title": "Погодинна оренда автобуса",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_nine_price": "od 27 kč za km",
+  "main_distance_card_nine_description": "AronTrack пропонує вам перевезення з Нідерландів в усі країни Європи і назад! Отримайте інформацію просто зараз і забезпечте собі вантажоперевезення!",
+  "main_distance_card_nine_title": "Вантажні перевезення до Нідерландів і назад",
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_ten_price": "od 7300 Kč",
+  "main_distance_card_ten_description": "Наші транспортні послуги в Карлштейн і Конопіште - це чудовий спосіб легко і комфортно дістатися до цих двох важливих чеських замків. Чи любите ви історію, архітектуру або природу, з нашим транспортом ви будете впевнені в надійності перевезення і можливості досліджувати ці цікаві місця.",
+  "main_distance_card_ten_title": "Тури в Карлштейн і Конопіште",
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_11_price": "od 3000 Kč",
+  "main_distance_card_11_description": "Вам потрібен транспорт для тренувань, виїзних ігор і чемпіонатів? У нас великий досвід у перевезенні спортсменів. Неважливо, аматорська ви команда, юніорський відбір чи професійний клуб, AronTrack зможе вас відвезти. Немає такої групи, яку ми не змогли б надійно та комфортно доставити в потрібне місце.",
+  "main_distance_card_11_title": "Автобус для спорт клубів",
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_12_price": "od 12 Kč za km",
+  "main_distance_card_12_description": "Наші послуги з бізнес-перевезень за кордон призначені для корпоративних клієнтів, яким необхідний надійний і професійний транспорт для ділових поїздок і міжнародних зустрічей. З нашим бізнес-транспортом ви отримаєте швидкий, безпечний і комфортний транспорт, який дасть вам змогу повністю присвятити себе діловим питанням. Наші водії досвідчені, тактовні, а автомобілі оснащені комфортабельними салонами для продуктивної роботи під час поїздки.",
+  "main_distance_card_12_title": "Діловий транспорт за кордоном",
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_13_price": "od 6200 Kč",
+  "main_distance_card_13_description": "Наші екскурсії на півдня на автомобілі або автобусі в Кршивоклат - ідеальний спосіб познайомитися з цією готичною пам'яткою в самому серці Чехії. З нашими комфортабельними трансферами з Праги ви легко доберетеся до цього історичного замку і його околиць.",
+  "main_distance_card_13_title": "Екскурсії в Кршивоклат",
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_14_price": "od 17000 Kč",
+  "main_distance_card_14_description": "Наші автобусні тури до Відня - ідеальний спосіб дістатися до цієї дивовижної австрійської столиці. Завдяки комфортним і надійним трансферам ми пропонуємо пасажирам відкрити для себе красу Відня, не турбуючись про водіння або паркування.",
+  "main_distance_card_14_title": "Тури до Відня",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_15_price": "od 6000 Kč",
+  "main_distance_card_15_description": "Рушайте до міста, яке під час Другої світової війни слугувало концентраційним табором, і послухайте історії, які там відбувалися. Наш комфортабельний автобус безпечно доставить вас у це історично значуще місце і назад.",
+  "main_distance_card_15_title": "Екскурсії в Терезин",
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_16_price": "od 9500 Kč",
+  "main_distance_card_16_description": "Наші тури в Ческі-Крумлов - ідеальний варіант, якщо ви хочете насолодитися цим мальовничим містом. За вашим бажанням можна також відвідати прекрасний замок Глубока-над-Влтавою, який знаходиться по дорозі. Комфортабельний транспорт і можливість познайомитися з історичними та культурними красотами регіону забезпечать вам незабутню подорож.",
+  "main_distance_card_16_title": "Поїздки в Ческі-Крумлов",
+
+
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_17_price": "od 9600 Kč",
+  "main_distance_card_17_description": "Наші автобусні тури в Дрезден розроблені таким чином, щоб зробити подорож максимально комфортною і безтурботною для наших клієнтів. Ми беремо на себе всі транспортні витрати та оплату паркування, щоб наші клієнти не турбувалися про це.",
+  "main_distance_card_17_title": "Тури в Дрезден",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_18_price": "od 5000 Kč",
+  "main_distance_card_18_description": "Наші автобусні поїздки в Детініце - це чудовий спосіб потрапити на середньовічну виставу і водночас не залишитися поза увагою. Щойно ви прибудете в пункт призначення, ми чекатимемо на вас, а потім відвеземо назад цілими й неушкодженими. З нами ви зможете повністю зосередитися на враженнях і насолодитися середньовічною атмосферою, не турбуючись про транспорт.",
+  "main_distance_card_18_title": "Поїздки в Детініце",
 
   "main_distance_button": "Дізнатися більше",
   "main_special_title": "Оренда автобуса з професійним водієм",
@@ -201,7 +447,7 @@
 
   "price_text_info_three": "Правила скасування",
 
-  "price_text_info_four": "- Умови скасування тарифікуються індивідуально, залежно від обсягу замовлення і за взаємною домовленістю."
+  "price_text_info_four": "- Умови скасування тарифікуються індивідуально, залежно від обсягу замовлення і за взаємною домовленістю.",
 
 
 
@@ -209,9 +455,108 @@
 
 
 
+
+
+
+
+  "some-key-comment_program":"PROGRAM BLOCK",
+
+  "program_header_section_title": "Програма лояльності",
+  "program_header_section_subtitle": "AronTrack Rewards: подяка за ваш вибір.",
+  "program_text_info_one": "Ласкаво просимо до нашої програми лояльності 'AronTrack Rewards'! Наші постійні клієнти для нас на першому місці, тому ми створили програму, яка пропонує вам унікальний та індивідуальний підхід. Ми впевнені, що ви заслуговуєте на винагороду за свій вибір, і ми надамо вам ексклюзивні переваги, які ви оціните по достоїнству. Станьте учасником нашої програми лояльності та відчуйте ці переваги на собі.",
+  "program_text_info_sub_one": "Система Винагород:",
+  "program_advant_title_one": "1. Знижка постійного клієнта: усі учасники програми автоматично отримують статус постійного клієнта після першої успішної оренди. Знижка надається на кожну наступну поїздку і залежить від загального обсягу бронювань:",
+  "program_advant_subtitle_one": "Золотий статус: знижка 3% на кожну поїздку (після 1-ї оренди).",
+  "program_advant_subtitle_two": "Платиновий статус: знижка 5% на кожну поїздку (після 5-ї оренди).",
+  "program_advant_subtitle_three": "Діамантовий статус: знижка 7% на кожну поїздку (після 10-ої оренди).",
+
+  "program_advant_title_two": "2. Бонуси лояльності:",
+  "program_advant_subtitle_four": "Після 5-го прокату: додаткова знижка 5% на наступну поїздку.",
+  "program_advant_subtitle_five": "Після 10-го прокату: додаткова знижка 10% на наступну поїздку.",
+
+  "program_text_info_sub_two": "Додаткові бонуси:",
+  "program_advant_subtitle_six": "Спеціальні пропозиції та ексклюзивні акції для учасників програми.",
+  "program_advant_subtitle_seven": "Швидке бронювання та пріоритетне обслуговування для постійних клієнтів.",
+
+
+
+
+
+
+
+  "some-key-comment_contact":"CONTACT BLOCK",
+
+  "contact_header_section_title": "Контакти",
+  "contact_header_section_subtitle": "Залишилися запитання або ви хочете замовити наші послуги?",
+
+  "contact_text_info_subtitle_one": "Зв'язатися з нами можна кількома способами. Виберіть найбільш підходящий для вас. Ми доступні цілодобово, 7 днів на тиждень.  Ви можете написати нам електронною поштою, заповнити форму заявки або просто зателефонувати нам.",
+
+  "contact_text_title_social_one": "Ми в соціальних мережах",
+  "contact_text_title_social_two": "Телефон",
+  "contact_text_title_social_three": "Електронна пошта",
+  "contact_text_title_social_four": "Юридична адреса",
+  "contact_text_title_social_four_1": "Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika",
+  "contact_text_title_social_five": "Дані компанії",
+  "contact_text_title_social_five_1": "AronTrack",
+  "contact_text_title_social_five_2": "Alex Savčuk",
+  "contact_text_title_social_five_3": "IČO 29057256",
+  "contact_text_title_social_five_4": "DIČ CZ8408023943",
+  "contact_text_title_social_five_5": "Datová schránka",
+  "contact_text_title_social_five_6": "5672i83",
+
+
+
+
+  "some-key-comment_survey":"SURVEY BLOCK",
+
+
+  "survey_forma_title": "Форма заявки",
+  "survey_forma_checkbox_one": "Попередній запит",
+  "survey_forma_checkbox_two": "Замовити послугу",
   
 
+  "survey_category_title": "Виберіть категорію",
+  "survey_category_checkbox_one": "Оренда автобуса",
+  "survey_category_checkbox_two": "Оренда автомобіля з особистим водієм",
+  "survey_category_checkbox_three": "Міжнародні вантажні перевезення",
+
+  "survey_amount_title": "Кількість пасажирів",
+  "survey_amount_placeholder": "např. 8-10",
+
+  "survey_date_title": "Дата оренди",
+  "survey_date_placeholder": "DD.MM.YYYY",
+
+  "survey_track_title": "Маршрут вашої подорожі",
+  "survey_track_placeholder": "např. Praha – Karlovy Vary",
+
+  "survay_title_one": "Інформація про вас",
+
+  "survey_name_title": "ПІБ /назва компанії",
+  "survey_name_placeholder": "Enter your full name",
+
+  "survey_email_title": "Електронна пошта",
+  "survey_email_placeholder": "Enter your email",
+
+  "survey_phone_title": "Телефон",
+  "survey_phone_placeholder": "Enter your number",
+
+  "survay_title_two": "Do you want to specify something?",
+
+  "survey_description_title": "Коментарі",
+  "survey_description_placeholder": "Enter your description",
 
 
-  
+
+
+
+
+
+
+
+
+
+  "some-key-comment_distance":"DISTANCE BLOCK",
+
+  "distance_header_section_title": "Напрямки",
+  "distance_header_section_subtitle": "Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici."
 }

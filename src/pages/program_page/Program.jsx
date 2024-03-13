@@ -2,75 +2,74 @@ import React from 'react'
 import styled from 'styled-components'
 import HeaderSection from '../../components/navbar/HeaderSection'
 import Footer from '../../components/footbar/Footer'
+import { useTranslation } from 'react-i18next'
 
 const Program = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Container>
       <HeaderSection
-        title={"Věrnostní program"}
-        firstSub={"Úvod"}
-        firstLink={"home"}
-        secondSub={"Věrnostní program"}
-        secondLink={"program"}
+        title={t("program_header_section_title")}
         picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023916/%D1%84%D0%BE%D0%BD_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D0%BB%D0%BE%D1%8F%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8_d8asqc.jpg"}
-        subTitle={'Věrnost se vyplácí s "AronTrack Rewards"'}
+        subTitle={t("program_header_section_subtitle")}
       />
       <ContainerColor>
         <MainText style={{ marginTop: '-40px' }}>
           <BeforeBlock></BeforeBlock>
           <TextInfo>
-            <SubTitle>Vítejte v našem v věrnostním programu "AronTrack Rewards"!
-              Jsme si vědomi, naši stálí zákazníci jsou u nás na prvním místě, a proto jsme pro vás připravili program, který vám nabídne jedinečný a individuální přístup. Jsme si jisti, že si zasloužíte odměnu za vaši loajalitu, a vám poskytneme exkluzivní výhody, které oceníte. Staňte se členem našeho věrnostního programu a vyzkoušejte tyto výhody na vlastní pěst.
+            <SubTitle>{t("program_text_info_one")}
             </SubTitle>
           </TextInfo>
-          <TextInfoSub>Systém odměn:</TextInfoSub>
+          <TextInfoSub>{t("program_text_info_sub_one")}</TextInfoSub>
           <TextInfo>
 
             <AdvantBlock>
               {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" /> */}
-              <SubTitle>1. Sleva pro stálé zákazníky: Všichni účastníci programu automaticky získají status stálého zákazníka po prvním úspěšném pronájmu. Sleva se uděluje na každou následující jízdu a závisí na celkovém objemu rezervací:</SubTitle>
+              <SubTitle>{t("program_advant_title_one")}</SubTitle>
               <SubTitleItem>
                 {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864726/icons8-diamond-48_2_ew58bt.png"/> */}
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Zlatý status: 3% sleva na každou jízdu (po 1. pronájmu).  </SubTitle>
+                <SubTitle>{t("program_advant_subtitle_one")}</SubTitle>
               </SubTitleItem>
               <SubTitleItem>
                 {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864726/icons8-diamond-48_1_isvrvn.png"/> */}
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Platinový status: 5% sleva na každou jízdu (po 5. pronájmu).</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_two")}</SubTitle>
               </SubTitleItem>
               <SubTitleItem>
                 {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699864727/icons8-diamond-48_cw7tem.png"/> */}
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Diamantový status: 7% sleva na každou jízdu (po 10. pronájmu).</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_three")}</SubTitle>
               </SubTitleItem>
             </AdvantBlock>
             <AdvantBlock>
               {/* <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" /> */}
               <br />
 
-              <SubTitle>2.	Bonusy za loajalitu: Po každém 5. úspěšném pronájmu získají zákazníci bonus ve formě další slevy:</SubTitle>
+              <SubTitle>{t("program_advant_title_two")}</SubTitle>
               <SubTitleItem>
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Po 5. pronájmu: dodatečná sleva 5% na následující jízdu.</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_four")}</SubTitle>
               </SubTitleItem>
               <SubTitleItem>
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Po 10. pronájmu: dodatečná sleva 10% na následující jízdu.</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_five")}</SubTitle>
               </SubTitleItem>
             </AdvantBlock>
 
           </TextInfo>
-          <TextInfoSub>Dodatečné bonusy:</TextInfoSub>
+          <TextInfoSub>{t("program_text_info_sub_two")}</TextInfoSub>
           <TextInfo>
             <AdvantBlock>
               <SubTitleItem>
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Speciální nabídky a exkluzivní akce pro účastníky programu.</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_six")}</SubTitle>
               </SubTitleItem>
               <SubTitleItem>
                 <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1687096233/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0_esuy0n.svg" />
-                <SubTitle>Rychlá rezervace a prioritní obsluha pro stálé zákazníky.</SubTitle>
+                <SubTitle>{t("program_advant_subtitle_seven")}</SubTitle>
               </SubTitleItem>
             </AdvantBlock>
 

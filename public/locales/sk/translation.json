@@ -35,29 +35,217 @@
 
   "main_distance_title": "Uprednostňovaná doprava a preprava",
 
+
+
+
+
+
+
+
+
   "main_distance_card_one_price": "od 750 kč",
-  "main_distance_card_one_description": "Nabízíme transfery na letiště včetně Mnichova, Lipska, Vídně a mnoha dalších destinací. Nechte postarat se o vaši pohodlnou dopravu, ať už letíte kamkoliv. S naším transferem na letiště si můžete být jisti, že dorazíte včas a bezpečně.",
-  "main_distance_card_one_title": "Transfer na letiště",
+  "main_distance_card_one_description": "Ponúkame transfery na letiská vrátane Mníchova, Lipska, Viedne a mnohých ďalších destinácií. Postaráme sa o vašu pohodlnú prepravu kamkoľvek letíte. S našou službou transferu na letisko si môžete byť istí, že dorazíte včas a bezpečne.",
+  "main_distance_card_one_title": "Transfer na letisko",
+
+
+
+
+
+
 
   "main_distance_card_two_price": "od 2300 kč",
-  "main_distance_card_two_description": "Naše individuální transfery a okružní jízdy Prahou jsou ideálním způsobem, jak objevit pohodlně a stylově krásy tohoto fascinujícího města. Naši zkušení řidiči vám zajistí bezstarostný převoz, ať už potřebujete přesun z jednoho místa na druhé, nebo toužíte prozkoumat Pražské památky. S našimi individuálními transfery budete mít možnost efektivně prozkoumávat město bez starostí o dopravu. Prohlédněte si Prahu z pohodlí našich vozidel a užijte si jedinečné zážitky naplno.",
-  "main_distance_card_two_title": "Okruhy po Praze",
+  "main_distance_card_two_description": "Naše individuálne transfery a prehliadky Prahy sú ideálnym spôsobom, ako pohodlne a štýlovo objavovať krásy tohto fascinujúceho mesta. Naši skúsení vodiči vám poskytnú bezproblémový transfer, či už sa potrebujete presunúť z jedného miesta na druhé, alebo túžite preskúmať pražské pamiatky. S našimi individuálnymi transfermi budete môcť efektívne preskúmať mesto bez starostí o dopravu. Preskúmajte Prahu z pohodlia našich vozidiel a užite si jedinečné zážitky naplno.",
+  "main_distance_card_two_title": "Výlety po Prahe",
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_three_price": "od 3000 kč",
-  "main_distance_card_three_description": "Chápeme, jak náročné a stresující může plánování svatby být.Potřebujete-li ulehčit organizaci přepravy, jsme tu jenon pro vás. Pronájem soukromého svatebního autobusu s profesionálním řidičem je skvělý způsob, jak zajistit pohodlný a spolehlivý převoz pro nevěstu, ženicha a jejich hosty. Překvapte je pohodlnou cestou na obřad, do kostela, obřadní síně nebo na místo konání hostiny. S naším svatebním autobusem si můžete být jisti, že přeprava na vaší svatbě půjde jako po másle: Jednoduše, elegantně a bez zbytečných starostí.",
-  "main_distance_card_three_title": "Svatební autobus",
+  "main_distance_card_three_description": "Chápeme, aké náročné a stresujúce môže byť plánovanie svadby. Ak potrebujete pomoc s organizáciou dopravy, sme tu, aby sme vám pomohli. Prenájom súkromného svadobného autobusu s profesionálnym vodičom je skvelý spôsob, ako zabezpečiť pohodlnú a spoľahlivú dopravu pre nevestu, ženícha a ich hostí. Prekvapte ich pohodlnou jazdou na obrad, do kostola, obradnej siene alebo na miesto hostiny. S naším svadobným autobusom si môžete byť istí, že doprava na vašej svadbe bude fungovať ako hodinky: Jednoduché, elegantné a bezproblémové.",
+  "main_distance_card_three_title": "Svadobný autobus",
+
+
+
+
+
+
+
 
   "main_distance_card_four_price": "od 2500 kč",
-  "main_distance_card_four_description": "Jste cestovní nebo eventová agentura a hledáte důvěryhodného dopravce, který by vám zajistil bezproblémovou přepravu? Jsme tu, abychom vám poskytli spolehlivé a kvalitní dopravní služby, které přispějí k úspěchu vašich cestovních. S našimi službami si můžete být jisti, že klienti budou mít pohodlnou a bezstarostnou dopravu, což přispěje k celkové spokojenosti a úspěchu vašich akcí.",
-  "main_distance_card_four_title": "Zájezdy pro CK",
+  "main_distance_card_four_description": "Ste cestovná kancelária alebo organizátor podujatí a hľadáte spoľahlivého dopravcu, ktorý vám zabezpečí bezproblémovú prepravu? Sme tu, aby sme vám poskytli spoľahlivé a kvalitné dopravné služby, ktoré prispejú k úspechu vašej cesty. S našimi službami si môžete byť istí, že klienti budú mať pohodlnú a bezproblémovú prepravu, ktorá prispeje k celkovej spokojnosti a úspechu vašich podujatí.",
+  "main_distance_card_four_title": "Zájazdy pre CK",
+
+
+
+
+
+
 
   "main_distance_card_five_price": "od 26 kč za km",
-  "main_distance_card_five_description": "Naše kamionová doprava do Německa a zpět je profesionálním řešením pro přepravu zboží mezi těmito destinacemi. S našimi spolehlivými kamiony a zkušenými řidiči vám zajistíme bezpečný a efektivní transport nákladu. Naše služby jsou navrženy tak, aby uspokojily vaše logistické potřeby, ať už jde o krátkodobé nebo dlouhodobé přepravy. S námi můžete mít jistotu, že váš náklad dorazí včas a bezpečně na místo určení.",
-  "main_distance_card_five_title": "Kamionová doprava do Německa a zpět od 26 kč za km",
+  "main_distance_card_five_description": "Naša kamiónová doprava do Nemecka a späť je profesionálnym riešením prepravy tovaru medzi týmito destináciami. Vďaka našim spoľahlivým nákladným vozidlám a skúseným vodičom zabezpečíme bezpečnú a efektívnu prepravu vášho nákladu. Naše služby sú navrhnuté tak, aby spĺňali vase logistické potreby, či už ide o krátkodobú alebo dlhodobú prepravu. S nami si môžete byť istí, že váš náklad dorazí bezpečne a včas na miesto určenia.",
+  "main_distance_card_five_title": "Kamiónová doprava do Nemecka a späť od 26 Kč za km",
+
+
+
+
+
+
+
+
+
 
   "main_distance_card_six_price": "za 850 kč na hod",
-  "main_distance_card_six_description": "S naším osobním řidičem můžete pohodlně cestovat, nechat se vozit na schůzky, do obchodů, restaurací a kamkoli budete chtít. Zaručujeme vám spolehlivou, bezpečnou a diskrétní přepravu, ať už potřebujete osobního řidiče na krátkou jízdu nebo celý den.",
-  "main_distance_card_six_title": "Osobní řidič",
+  "main_distance_card_six_description": "S naším osobným vodičom môžete pohodlne cestovať, nechať sa odviezť na stretnutia, do obchodov, reštaurácií a kamkoľvek budete chcieť. Zaručujeme spoľahlivú, bezpečnú a diskrétnu prepravu, či už potrebujete osobného vodiča na krátku jazdu alebo na celý deň.",
+  "main_distance_card_six_title": "Súkromný vodič",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_seven_price": "od 9000 Kč",
+  "main_distance_card_seven_description": "Naše výlety do Karlových Varov a späť sú skvelým spôsobom, ako spoznať toto krásne kúpeľné mesto a jeho okolie. Vďaka našim starostlivo naplánovaným výletom si budete môcť naplno užiť svoj výlet bez starostí o dopravu.",
+  "main_distance_card_seven_title": "Výlety do Karlových Varov",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_eight_price": "od 3000 Kč za 3 hod",
+  "main_distance_card_eight_description": "Poskytujeme pohodlnú a bezpečnú prepravu kamkoľvek potrebujete. Stačí nám povedať, kam chcete ísť a odkiaľ. Naše moderné, čisté autobusy sú pripravené na akýkoľvek skupinový výlet alebo exkurziu. S nami si môžete byť istí, že dostanete kvalitnú a spoľahlivú dopravu, či už ide o turistickú skupinu, školský výlet alebo firemnú akciu.",
+  "main_distance_card_eight_title": "Prenájom autobusu",
+
+
+
+
+
+
+
+
+
+
+  "main_distance_card_nine_price": "od 27 kč za km",
+  "main_distance_card_nine_description": "AronTrack vám ponúka prepravu z Holandska do všetkých európskych krajín a späť! Získajte informácie hneď teraz a zabezpečte si prepravnú kapacitu!",
+  "main_distance_card_nine_title": "Kamiónová doprava do a z Holandska",
+
+
+
+
+
+
+
+
+  "main_distance_card_ten_price": "od 7300 Kč",
+  "main_distance_card_ten_description": "Naše dopravné služby na Karlštejn a Konopiště sú vynikajúcim spôsobom, ako sa ľahko a pohodlne dostať na tieto dva významné české hrady. Či už máte radi históriu, architektúru alebo prírodu, s našou dopravou budete mať istotu spoľahlivej prepravy a možnosti preskúmať tieto zaujímavé miesta.",
+  "main_distance_card_ten_title": "Výlety na Karlštejn a Konopiště",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_11_price": "od 3000 Kč",
+  "main_distance_card_11_description": "Potrebujete sa dopraviť na tréningy, vonkajšie zápasy a majstrovstvá? Máme bohaté skúsenosti s prepravou športovcov. Nezáleží na tom, či ste amatérsky tím, juniorský výber alebo profesionálny klub, spoločnosť AronTrack vás môže odviezť. Neexistuje skupina, ktorú by sme nedokázali spoľahlivo a pohodlne prepraviť na požadované miesto.",
+  "main_distance_card_11_title": "Autobus pre kluby",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_12_price": "od 12 Kč za km",
+  "main_distance_card_12_description": "Naše služby v oblasti obchodnej dopravy do zahraničia sú určené pre firemných klientov, ktorí potrebujú spoľahlivú a profesionálnu dopravu na svoje obchodné cesty a medzinárodné stretnutia. S našou firemnou dopravou získate rýchlu, bezpečnú a pohodlnú prepravu, ktorá vám umožní plne sa venovať vašim obchodným záležitostiam. Naši vodiči sú skúsení, diskrétni a naše vozidlá sú vybavené pohodlným interiérom pre produktivne pracovné prostredie po čas cesty.",
+  "main_distance_card_12_title": "Obchodná doprava v zahraničí",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_13_price": "od 6200 Kč",
+  "main_distance_card_13_description": "Naše poldenné výlety autom alebo autobusom na Křivoklát sú ideálnym spôsobom, ako spoznať túto gotickú pamiatku v srdci Českej republiky. S našimi pohodlnými transfermi z Prahy sa ľahko dostanete na tento historický hrad a do jeho okolia.",
+  "main_distance_card_13_title": "Výlety na Křivoklát",
+
+
+
+
+
+
+
+
+  "main_distance_card_14_price": "od 17000 Kč",
+  "main_distance_card_14_description": "Naša autobusová doprava do Viedne je ideálnym spôsobom, ako sa dostať do tohto úžasného rakúskeho hlavného mesta. Vďaka pohodlným a spoľahlivým transferom ponúkame cestujúcim možnosť objavovať krásy Viedne bez starostí s riadením alebo parkovaním.",
+  "main_distance_card_14_title": "Zájazdy do Viedne",
+
+
+
+
+
+
+
+
+
+  "main_distance_card_15_price": "od 6000 Kč",
+  "main_distance_card_15_description": "Vydajte sa na výlet do mesta, ktoré počas druhej svetovej vojny slúžilo ako koncentračný tábor, a vypočujte si príbehy, ktoré sa tu odohrali. Náš pohodlný autobus vás bezpečne a pohodlne dopraví na toto historicky významné miesto a späť.",
+  "main_distance_card_15_title": "Zájazdy do Terezína",
+
+
+
+
+
+
+
+
+  "main_distance_card_16_price": "od 9500 Kč",
+  "main_distance_card_16_description": "Naše autobusové služby do Českého Krumlova sú ideálne, ak si chcete vychutnať toto malebné mesto. Na vašu žiadosť je možné navštíviť aj krásny zámok Hluboká nad Vltavou, ktorý máme po ceste. Vďaka pohodlnej doprave a možnosti spoznať historické a kultúrne krásy tejto oblasti budete mať istotu nezabudnuteľného výletu.",
+  "main_distance_card_16_title": "Výlety do Českého Krumlova",
+
+
+
+
+
+
+
+  "main_distance_card_17_price": "od 9600 Kč",
+  "main_distance_card_17_description": "Naša autobusová doprava do Drážďan je navrhnutá tak, aby bola cesta pre našich klientov čo najpohodlnejšia a najbezstarostnejšia. Hradíme všetky poplatky za dopravu a parkovanie, takže naši klienti sa o to nemusia starať.",
+  "main_distance_card_17_title": "Výlety do Drážďan",
+
+
+
+
+
+
+
+
+  "main_distance_card_18_price": "od 5000 Kč",
+  "main_distance_card_18_description": "Naša autobusová doprava do Děteníc je vynikajúcim spôsobom, ako sa dostať na stredoveké predstavenie a zároveň sa o vás postaráme. Po príchode do cieľa na vás počkáme a potom vás bezpečne odvezieme späť. S nami sa môžete plne sústrediť na zážitok a vychutnať si stredovekú atmosféru bez toho, aby ste sa museli starať o dopravu.",
+  "main_distance_card_18_title": "Výlety do Děteníc",
+
+
+
+  
 
   "main_distance_button": "Zistiť viac",
   "main_special_title": "Prenájom autobusu s profesionálnym vodičom",
@@ -194,6 +382,110 @@
 
   "price_text_info_three": "Storno podmienky",
 
-  "price_text_info_four": "Storno podmienky sú spoplatnené individuálne, podľa veľkosti objednávky a vzájomnej dohody."
+  "price_text_info_four": "Storno podmienky sú spoplatnené individuálne, podľa veľkosti objednávky a vzájomnej dohody.",
+
+
+
+
+
+
+
+
+
+  "some-key-comment_program":"PROGRAM BLOCK",
+
+  "program_header_section_title": "Vernostný program",
+  "program_header_section_subtitle": "Vernosť sa oplatí s 'AronTrack Rewards'",
+  "program_text_info_one": "Vitajte v našom vernostnom programe 'AronTrack Rewards'! Vieme, že naši verní zákazníci sú na prvom mieste, preto sme vytvorili program, ktorý vám ponúka jedinečný a individuálny prístup. Sme presvedčení, že si zaslúžite odmenu za svoju vernosť, a preto vám poskytneme exkluzívne výhody, ktoré oceníte. Staňte sa členom nášho vernostného programu a vyskúšajte tieto výhody na vlastnej koži.",
+  "program_text_info_sub_one": "Systém odmeňovania:",
+  "program_advant_title_one": "1. Zľava pre stálych zákazníkov: všetci účastníci programu automaticky získajú štatút stálych zákazníkov po prvom úspešnom prenájme. Zľava sa poskytuje za každú ďalšiu jazdu a závisí od celkového objemu rezervácií:",
+  "program_advant_subtitle_one": "Zlatý status: 3 % zľava na každú jazdu (po 1. prenájme).",
+  "program_advant_subtitle_two": "Platinový status: 5 % zľava na každú jazdu (po 5. prenájme).",
+  "program_advant_subtitle_three": "Diamantový status: 7 % zľava na každú jazdu (po 10. prenájme).",
+
+  "program_advant_title_two": "2. Vernostné bonusy:",
+  "program_advant_subtitle_four": "Po 5. prenájme: dodatočná zľava 5 % na ďalšiu jazdu.",
+  "program_advant_subtitle_five": "Po 10. prenájme: dodatočná zľava 10 % na ďalšiu jazdu.",
+
+  "program_text_info_sub_two": "Ďalšie bonusy:",
+  "program_advant_subtitle_six": "Špeciálne ponuky a exkluzívne propagačné akcie pre účastníkov programu.",
+  "program_advant_subtitle_seven": "Rýchle rezervácie a prednostné služby pre stálych zákazníkov.",
+
+
+
+
+
+
+  "some-key-comment_contact":"CONTACT BLOCK",
+
+  "contact_header_section_title": "Kontakt",
+  "contact_header_section_subtitle": "Máte otázky alebo si potrebujete objednať naše služby?",
+
+  "contact_text_info_subtitle_one": "Ponúkame rôzne spôsoby pripojenia, ktoré sú k dispozícii 24 hodín denne, 7 dní v týždni. Môžete nám poslať e-mail, vyplniť rýchly kontaktný formulár alebo nám jednoducho zavolať. Vaše pohodlie je našou prioritou. Sme tu pre vás.",
+
+  "contact_text_title_social_one": "Sme na sociálnych sieťach",
+  "contact_text_title_social_two": "Telefón",
+  "contact_text_title_social_three": "E-mail",
+  "contact_text_title_social_four": "Právna adresa",
+  "contact_text_title_social_four_1": "Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika",
+  "contact_text_title_social_five": "Údaje o spoločnosti",
+  "contact_text_title_social_five_1": "AronTrack",
+  "contact_text_title_social_five_2": "Alex Savčuk",
+  "contact_text_title_social_five_3": "IČO 29057256",
+  "contact_text_title_social_five_4": "DIČ CZ8408023943",
+  "contact_text_title_social_five_5": "Datová schránka",
+  "contact_text_title_social_five_6": "5672i83",
+
+
+
+
+  "some-key-comment_survey":"SURVEY BLOCK",
+
+
+  "survey_forma_title": "Formulár na dopyt",
+  "survey_forma_checkbox_one": "Nezáväzný dopyt",
+  "survey_forma_checkbox_two": "Záväzná objednávka",
+  
+
+  "survey_category_title": "Vyberte kategóriu",
+  "survey_category_checkbox_one": "Autobusová doprava",
+  "survey_category_checkbox_two": "Osobná doprava",
+  "survey_category_checkbox_three": "Medzinárodná nákladná doprava",
+
+  "survey_amount_title": "Počet cestujúcich",
+  "survey_amount_placeholder": "např. 8-10",
+
+  "survey_date_title": "Termín",
+  "survey_date_placeholder": "DD.MM.YYYY",
+
+  "survey_track_title": "Trasa vašej cesty",
+  "survey_track_placeholder": "např. Praha – Karlovy Vary",
+
+  "survay_title_one": "Informácie o vás",
+
+  "survey_name_title": "Celé meno/názov spoločnosti",
+  "survey_name_placeholder": "Enter your full name",
+
+  "survey_email_title": "E-mail",
+  "survey_email_placeholder": "Enter your email",
+
+  "survey_phone_title": "Telefón",
+  "survey_phone_placeholder": "Enter your number",
+
+  "survay_title_two": "Chcete niečo upresniť?",
+
+  "survey_description_title": "Komentáre",
+  "survey_description_placeholder": "Enter your description",
+
+
+
+
+
+
+
+  "some-key-comment_distance":"DISTANCE BLOCK",
+
+  "distance_header_section_title": "Vzdialenosť",
+  "distance_header_section_subtitle": "Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici."
   
 }

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { emailRegExp } from '../../utils/emailRegExp';
 import { telRegExp } from '../../utils/telRegExp';
 import ModalWindow from './ModalWindow';
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -23,7 +24,7 @@ const Survey = () => {
   const [checkStr, setCheckStr] = useState("");
 
 
-
+  const { t, i18n } = useTranslation();
 
   // document.getElementById('checkbox_111').checked = false;
 
@@ -133,7 +134,7 @@ const Survey = () => {
         <FormBlock onSubmit={(e) => Submit(e)}>
           <InputBox>
             <InputContainer>
-              <TitleEntry>Poptávkový formulář</TitleEntry>
+              <TitleEntry>{t("survey_forma_title")}</TitleEntry>
               <LabelRadio>
                 <EntryRadio
                   // onClick={CheckOn}
@@ -142,7 +143,7 @@ const Survey = () => {
                   id="checkbox_1"
                   value="Nezávazná poptávka"
                 />
-                <TitleRadio htmlFor="checkbox_1">Nezávazná poptávka</TitleRadio>
+                <TitleRadio htmlFor="checkbox_1">{t("survey_forma_checkbox_one")}</TitleRadio>
               </LabelRadio>
               <LabelRadio>
                 <EntryRadio
@@ -152,11 +153,11 @@ const Survey = () => {
                   id="checkbox_2"
                   value="Závazná objednávka"
                 />
-                <TitleRadio htmlFor="checkbox_2">Závazná objednávka</TitleRadio>
+                <TitleRadio htmlFor="checkbox_2">{t("survey_forma_checkbox_two")}</TitleRadio>
               </LabelRadio>
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Vyberte kategorii</TitleEntry>
+              <TitleEntry>{t("survey_category_title")}</TitleEntry>
               <LabelRadio>
                 <EntryRadio
                   // onClick={CheckOn}
@@ -165,7 +166,7 @@ const Survey = () => {
                   id="checkbox_1"
                   value="Autobusová přeprava"
                 />
-                <TitleRadio htmlFor="checkbox_1">Autobusová přeprava</TitleRadio>
+                <TitleRadio htmlFor="checkbox_1">{t("survey_category_checkbox_one")}</TitleRadio>
               </LabelRadio>
               <LabelRadio>
                 <EntryRadio
@@ -175,7 +176,7 @@ const Survey = () => {
                   id="checkbox_1"
                   value="Privátní osobní přeprava"
                 />
-                <TitleRadio htmlFor="checkbox_1">Privátní osobní přeprava</TitleRadio>
+                <TitleRadio htmlFor="checkbox_1">{t("survey_category_checkbox_two")}</TitleRadio>
               </LabelRadio>
               <LabelRadio>
                 <EntryRadio
@@ -185,63 +186,63 @@ const Survey = () => {
                   id="checkbox_1"
                   value="Mezinárodní nákladní doprava"
                 />
-                <TitleRadio htmlFor="checkbox_1">Mezinárodní nákladní doprava</TitleRadio>
+                <TitleRadio htmlFor="checkbox_1">{t("survey_category_checkbox_three")}</TitleRadio>
               </LabelRadio>
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Počet cestujících</TitleEntry>
+              <TitleEntry>{t("survey_amount_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setNumber(e.target.value) }}
                 type="text"
                 name="Number"
-                placeholder="např. 8-10"
+                placeholder={t("survey_amount_placeholder")}
                 value={number}
                 $highlight={!numberValid}
               />
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Termín</TitleEntry>
+              <TitleEntry>{t("survey_date_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setData(e.target.value) }}
                 type="text"
                 name="Data"
-                placeholder="DD.MM.YYYY"
+                placeholder={t("survey_date_placeholder")}
                 value={data}
                 $highlight={!dataValid}
               />
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Trasa Vaši jízdy</TitleEntry>
+              <TitleEntry>{t("survey_track_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setTrack(e.target.value) }}
                 type="text"
                 name="Track"
-                placeholder="např. Praha – Karlovy Vary"
+                placeholder={t("survey_track_placeholder")}
                 value={track}
                 $highlight={!trackValid}
               />
             </InputContainer>
           </InputBox>
-          <TitleInput>Informace o vás</TitleInput>
+          <TitleInput>{t("survay_title_one")}</TitleInput>
           <InputBox>
             <InputContainer>
-              <TitleEntry>Celé Jméno/ Název firmy</TitleEntry>
+              <TitleEntry>{t("survey_name_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setFullName(e.target.value) }}
                 type="text"
                 name="FullName"
-                placeholder="Enter your full name"
+                placeholder={t("survey_name_placeholder")}
                 value={fullName}
                 $highlight={!fullNameValid}
               />
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Email </TitleEntry>
+              <TitleEntry>{t("survey_email_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setEmail(e.target.value) }}
                 type="email"
                 name="Email"
-                placeholder="Enter your email"
+                placeholder={t("survey_email_placeholder")}
                 value={email}
                 $highlight={!emailValid}
 
@@ -249,26 +250,26 @@ const Survey = () => {
               />
             </InputContainer>
             <InputContainer>
-              <TitleEntry>Phone</TitleEntry>
+              <TitleEntry>{t("survey_phone_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setPhone(e.target.value) }}
                 type="text"
                 name="Phone"
-                placeholder="Enter your number"
+                placeholder={t("survey_phone_placeholder")}
                 value={phone}
                 $highlight={!phoneValid}
               />
             </InputContainer>
           </InputBox>
-          <TitleInput>Chcete něco upřesnit?</TitleInput>
+          <TitleInput>{t("survay_title_two")}</TitleInput>
           <InputBox>
             <InputContainer>
-              <TitleEntry>Poznámky</TitleEntry>
+              <TitleEntry>{t("survey_description_title")}</TitleEntry>
               <Entry
                 onChange={(e) => { setDescription(e.target.value) }}
                 type="text"
                 name="Description"
-                placeholder="Enter your description"
+                placeholder={t("survey_description_placeholder")}
                 value={description}
                 
               />
