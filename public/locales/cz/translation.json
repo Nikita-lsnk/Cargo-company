@@ -328,18 +328,20 @@
   "survay_title_one": "Informace o vás",
 
   "survey_name_title": "Celé Jméno/ Název firmy",
-  "survey_name_placeholder": "Enter your full name",
+  "survey_name_placeholder": "Jméno Přímení",
 
   "survey_email_title": "Email",
-  "survey_email_placeholder": "Enter your email",
+  "survey_email_placeholder": "Email",
 
   "survey_phone_title": "Phone",
-  "survey_phone_placeholder": "Enter your number",
+  "survey_phone_placeholder": "Phone",
 
   "survay_title_two": "Chcete něco upřesnit?",
 
   "survey_description_title": "Poznámky",
-  "survey_description_placeholder": "Enter your description",
+  "survey_description_placeholder": "napíšete prosím Vaší komentáře",
+
+  "survey_button": "ODESLAT",
 
 
 
@@ -348,6 +350,12 @@
   "some-key-comment_distance":"DISTANCE BLOCK",
 
   "distance_header_section_title": "Distance",
-  "distance_header_section_subtitle": "Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici."
+  "distance_header_section_subtitle": "Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici.",
+
+
+  "some-key-comment_success_modal":"SUCCES MODAL BLOCK",
+
+  "success_modal_title": "Hotovo",
+  "success_modal_subtitle": "Zpráva s nejlepší nabídkou bude zaslána na váš e-mail"
 
 }

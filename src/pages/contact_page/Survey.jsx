@@ -278,7 +278,7 @@ const Survey = () => {
           <MainButton>
             <EntrySend
               type="submit"
-              value="Send"
+              value={t("survey_button")}
             />
           </MainButton>
 

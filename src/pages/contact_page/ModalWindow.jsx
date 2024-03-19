@@ -1,14 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const ModalWindow = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <Wrapper>
       <Container>
         
-          <Title>SUCCESS</Title>
-          <SubTitle>In the near future, a message with the best offer will be sent to your email</SubTitle>
+          <Title>{t("success_modal_title")}</Title>
+          <SubTitle>{t("success_modal_subtitle")}</SubTitle>
           <StyledLink to='/'><MainButton>Ок</MainButton></StyledLink>
         
       </Container>
