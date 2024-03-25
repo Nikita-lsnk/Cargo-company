@@ -189,6 +189,17 @@ const SpecialBlock = styled.div`
   @media screen and (max-width: 1200px) {
     height: 350px;
   }
+  @media screen and (max-width: 800px) {
+    background: url("https://res.cloudinary.com/dmxoqnqsu/image/upload/v1710936432/__xacoiv.jpg");
+    background-size: cover;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    }
+  }
 `;
 
 

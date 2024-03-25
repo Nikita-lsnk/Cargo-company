@@ -21,7 +21,7 @@ const About = () => {
           <BeforeBlock></BeforeBlock>
           <TextInfo>
             <SubTitle>{t("about_subtitle")} </SubTitle>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D1%82%D0%BE_%D0%BE_%D0%BD%D0%B0%D1%81_2_%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82_gcxfwe.jpg" />
+            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1710936435/__2_v1eqj4.jpg" />
             {/* <Img src ="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1699811586/ke6kruoozgh8hafl1lhp.jpg"/> */}
           </TextInfo>
         </MainText>

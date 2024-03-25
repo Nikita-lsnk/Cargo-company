@@ -14,7 +14,7 @@ const Contact = () => {
     <Container>
       <HeaderSection
         title={t("contact_header_section_title")}
-        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703023917/%D1%84%D0%BE%D0%BD_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B_pabx9y.jpg"}
+        picture={"https://res.cloudinary.com/dmxoqnqsu/image/upload/v1710936432/__2_b4vm3r.jpg"}
         subTitle={t("contact_header_section_subtitle")}
       />
       <ContainerColor>
@@ -34,10 +34,10 @@ const Contact = () => {
               </TextBlock>
               <BlockContact>
                 <LinkBlock>
-                  <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-facebook-67_eo9s19.png" />
-                  <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" />
-                  <SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" />
-                  <SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" />
+                  <SocialLink href='https://www.facebook.com/profile.php?id=61557774836368' target="_blank"><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-facebook-67_eo9s19.png" /></SocialLink>
+                  <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" /></SocialLink>
+                  <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" /></SocialLink>
+                  <SocialLink href='https://www.instagram.com/arontrack?igsh=MW5yZzBnZjdxZ2gyeA%3D%3D&utm_source=qr' target='_blank'><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" /></SocialLink>
 
                 </LinkBlock>
               </BlockContact>
@@ -113,6 +113,12 @@ const Contact = () => {
 }
 
 export default Contact
+
+const SocialLink =styled.a`
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+`;
 
 const ContainerColor = styled.div`
   width: 100%;
