@@ -13,7 +13,7 @@ const Footer = ({contactTitle}) => {
           <Logo><LogoImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1703025550/AronTrack_C_dcyxlx.svg"/></Logo>
         </LogoBlock>
         <MainTitle>
-          <Title>{contactTitle === "contactTitle" ? t("footer_title_true") : t("footer_title_false")}
+          <Title>{contactTitle === "contactTitle" ? <b>{t("footer_title_true")}</b> : t("footer_title_false")}
           </Title>
         </MainTitle>
       </MainInfo>
@@ -24,11 +24,11 @@ const Footer = ({contactTitle}) => {
         <BlockContact>
           <LinkBlock>
             <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
-            <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink>
+            <TitleLink href="tel:+420775659784">+420-775-659-784 <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink></TitleLink>
           </LinkBlock>
           <LinkBlock>
             <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
-            <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
+            <TitleLink href="mailto:info@arontrack.cz">info@arontrack.cz</TitleLink>
           </LinkBlock>
           {/* <LinkBlock>
             <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1698077437/jbmvpw2qd7bewrla0aor.png" />
@@ -120,6 +120,7 @@ const Title = styled.span`
   color: #8f8f8f;
   font-size: 12px;
   line-height: 1.375;
+  font-style: italic;
   
 `;
 

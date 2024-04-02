@@ -107,6 +107,7 @@
   "main_distance_card_18_description": "Naše autobusové služby do Dětenic jsou vynikajícím způsobem, jak se dostat na středověké představení a zároveň se o vás postarat. Po příjezdu do cíle, počkáme na vás a následně vás bezpečně odvezeme zpět. S námi se můžete plně soustředit na zážitek a užít si středověkou atmosféru, aniž byste se museli starat o dopravu.",
   "main_distance_card_18_title": "Zájezdy do Dětenic",
 
+  "main_distance_card_button": "Objednat",
 
 
   "main_distance_button": "Více informací",
@@ -121,7 +122,7 @@
   
   "some-key-comment_footer":"FOOTER BLOCK",
 
-  "footer_title_true": "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu ЗДЕСЬ БУДЕТ КОРПОРАТИВНАЯ ПОЧТА",
+  "footer_title_true": "Nabízíme spolupráci a partnerství společnostem, organizacím a jednotlivcům, kteří mají záměr oslovit komunitu svojí nabídkou, událostí nebo chtějí zviditelnit své podnikání. Rádi umístíme vaši textovou nebo bannerovou reklamu, PR články, soutěže, dotazníky a kreativní kampaně na míru. Zajistíme lokalizaci vaší nabídky a přizpůsobení obsahu tak, aby efektivně oslovil cílovou skupinu. Pokud vás tato nabídka zaujala, neváhejte nás kontaktovat prostřednictvím e-mailu sales@arontrack.cz",
   "footer_title_false": "Vítejte na stránkách firmy AronTrack, vašeho partnera pro komplexní přepravu a dopravu po celé Evropě. Jsme jedinou firmou v České republice, která dokáže spojit všechny druhy přepravy a nabízí kompletní služby. Bez ohledu na trasu, požadavek nebo komplexnost, jsme zde pro vás a připraveni udělat maximum pro naše klienty. Potřebujete-li bezpečnou a spolehlivou dopravu, nechte to na nás!",
   "footer_contact_title": "Kontakt",
 
@@ -222,7 +223,7 @@
   "price_subtitle_two": "Naše paušální cena za autobusovou dopravu je flexibilní a závisí na typu vozu a počtu najetých kilometrů. Začíná od 6 000 Kč + DPH a platí pro výjezdy, které nepřekračují 100 km. Tato cena zahrnuje 2 hodiny čekání autobusu, náklady spojené s provozem na kratší vzdálenosti, denní mzdu řidiče včetně odvodů, náklady na přípravu zakázky a také úklid vozu. S touto transparentní cenovou strukturou vám můžeme poskytnout kvalitní dopravu za férovou cenu.",
   "price_subtitle_three": "Kvůli těmto faktorům není možné stanovit pevný ceník, a proto je nezbytné vytvořit předpokládanou cenovou kalkulaci, která bere v úvahu výše zmíněná kritéria.",
   "price_subtitle_four_1": "Konkrétní cenu přepravy sjednáme individuálně, dlouhodobým zákazníkům poskytujeme zajímavé ceny. Cenovou kalkulaci Vám vypracujeme po vyplnění",
-  "price_subtitle_four_button": "poptávkového formuláře",
+  "price_subtitle_four_button": "info@arontrack.cz",
   "price_subtitle_four_2": "nebo zaslání e-mailu s požadavkem na adresu.",
 
   "price_text_info_one": "Pro co nejpřesnější výpočet nám prosím zašlete následující informace e-mailem:",
@@ -297,7 +298,7 @@
   "contact_text_title_social_five_2": "Alex Savčuk",
   "contact_text_title_social_five_3": "IČO 29057256",
   "contact_text_title_social_five_4": "DIČ CZ8408023943",
-  "contact_text_title_social_five_5": "Datová schránka",
+  "contact_text_title_social_five_5": "Datová schránka:",
   "contact_text_title_social_five_6": "5672i83",
 
 
@@ -350,7 +351,7 @@
   "some-key-comment_distance":"DISTANCE BLOCK",
 
   "distance_header_section_title": "Distance",
-  "distance_header_section_subtitle": "Každá z našich dopravních variant má svůj vlastní cenový rámec, který vám umožní plánovat přepravu. Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici.",
+  "distance_header_section_subtitle": "Rádi bychom vám nabídli tuto orientační představu, abyste měli lepší povědomí o možnostech, které máme k dispozici.",
 
 
   "some-key-comment_success_modal":"SUCCES MODAL BLOCK",

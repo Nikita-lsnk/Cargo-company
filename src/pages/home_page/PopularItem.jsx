@@ -87,6 +87,9 @@ const PhotoTitle = styled.span`
   font-size: 16px;
   font-weight: 700;
   color: #292a2d;
+  @media screen and (max-width: 440px)  {
+    font-size: 14px;
+  }
   /* background-color: yellow; */
 `;
 
@@ -98,6 +101,9 @@ const TextTitle = styled.span`
   font-size: 20px;
   color: #3256a4;
   font-weight: 700;
+  @media screen and (max-width: 440px)  {
+    font-size: 18px;
+  }
 `;
 
 const BlockPrice = styled.div`

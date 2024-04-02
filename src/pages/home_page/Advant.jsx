@@ -108,6 +108,7 @@ const MainAdvant = styled.div`
   @media screen and (max-width: 800px) {
     flex-direction: column;
     gap: 40px;
+    align-items: center;
   }
   /* gap: 50px; */
 
@@ -122,6 +123,7 @@ const AdvantItem = styled.div`
   /* max-width: 270px; */
   height: 170px;
   text-align: center;
+  width: 33%;
 `;
 
 const MainImg = styled.img`

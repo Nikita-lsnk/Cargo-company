@@ -243,7 +243,7 @@
   "main_distance_card_18_description": "Naša autobusová doprava do Děteníc je vynikajúcim spôsobom, ako sa dostať na stredoveké predstavenie a zároveň sa o vás postaráme. Po príchode do cieľa na vás počkáme a potom vás bezpečne odvezieme späť. S nami sa môžete plne sústrediť na zážitok a vychutnať si stredovekú atmosféru bez toho, aby ste sa museli starať o dopravu.",
   "main_distance_card_18_title": "Výlety do Děteníc",
 
-
+  "main_distance_card_button": "Objednať",
 
   
 
@@ -259,7 +259,7 @@
   
   "some-key-comment_footer":"FOOTER BLOCK",
 
-  "footer_title_true": "Ponúkame spoluprácu a partnerstvo spoločnostiam, organizáciám a jednotlivcom, ktorí majú v úmysle osloviť komunitu so svojimi ponukami, podujatiami alebo chcú zviditeľniť svoje podnikanie. Radi umiestnime vaše textové alebo bannerové reklamy, PR články, súťaže, ankety a kreatívne kampane na mieru. Zabezpečíme lokalizáciu vašej ponuky a prispôsobíme obsah tak, aby efektívne oslovil vašu cieľovú skupinu. Ak vás táto ponuka zaujala, neváhajte nás kontaktovať prostredníctvom e-mailu",
+  "footer_title_true": "Ponúkame spoluprácu a partnerstvo spoločnostiam, organizáciám a jednotlivcom, ktorí majú v úmysle osloviť komunitu so svojimi ponukami, podujatiami alebo chcú zviditeľniť svoje podnikanie. Radi umiestnime vaše textové alebo bannerové reklamy, PR články, súťaže, ankety a kreatívne kampane na mieru. Zabezpečíme lokalizáciu vašej ponuky a prispôsobíme obsah tak, aby efektívne oslovil vašu cieľovú skupinu. Ak vás táto ponuka zaujala, neváhajte nás kontaktovať prostredníctvom e-mailu sales@arontrack.cz",
   "footer_title_false": "Vitajte na stránkach spoločnosti AronTrack, vášho partnera pre komplexnú prepravu a expedíciu v celej Európe. Sme jediná spoločnosť v Českej republike, ktorá dokáže skombinovať všetky druhy prepravy a ponúka kompletné služby. Bez ohľadu na trasu, požiadavku alebo zložitosť sme tu pre vás a sme pripravení urobiť pre našich klientov maximum. Ak potrebujete bezpečnú a spoľahlivú prepravu, zverte ju nám!",
   "footer_contact_title": "Kontakt",
 
@@ -357,7 +357,7 @@
   "price_subtitle_two": "Naša paušálna cena za autobusovú dopravu je flexibilná a závisí od typu vozidla a počtu prejdených kilometrov. Začína sa od 6 000 Kč + DPH a platí pre cesty nepresahujúce 100 km. Táto cena zahŕňa 2 hodiny čakania na autobus, náklady spojené s prevádzkou na kratšie vzdialenosti, dennú mzdu vodiča vrátane zrážok, náklady na prípravu objednávky a tiež čistenie vozidla. Vďaka tejto transparentnej cenovej štruktúre vám môžeme poskytnúť kvalitnú prepravu za férovú cenu.  ",
   "price_subtitle_three": "Vzhľadom na tieto faktory nie je možné stanoviť pevný cenník, preto je nevyhnutné vytvoriť predpokladanú cenovú ponuku, ktorá zohľadňuje uvedené kritériá.",
   "price_subtitle_four_1": "Konkrétnu cenu prepravy dohodneme individuálne, dlhodobým zákazníkom poskytujeme zaujímavé ceny. Cenovú kalkuláciu vám pripravíme po vyplnení dopytového formulára alebo po zaslaní",
-  "price_subtitle_four_button": "e-mailu",
+  "price_subtitle_four_button": "info@arontrack.cz",
   "price_subtitle_four_2": "s požiadavkou na túto adresu",
 
   "price_text_info_one": "Pre čo najpresnejší výpočet nám pošlite e-mailom nasledujúce informácie:",
@@ -433,7 +433,7 @@
   "contact_text_title_social_five_2": "Alex Savčuk",
   "contact_text_title_social_five_3": "IČO 29057256",
   "contact_text_title_social_five_4": "DIČ CZ8408023943",
-  "contact_text_title_social_five_5": "Datová schránka",
+  "contact_text_title_social_five_5": "Datová schránka:",
   "contact_text_title_social_five_6": "5672i83",
 
 
@@ -486,7 +486,7 @@
   "some-key-comment_distance":"DISTANCE BLOCK",
 
   "distance_header_section_title": "Vzdialenosť",
-  "distance_header_section_subtitle": "Každá z našich možností prepravy má svoj vlastný cenový rámec, ktorý vám umožní naplánovať si prepravu. Radi by sme vám ponúkli túto orientačnú predstavu, aby ste sa lepšie zorientovali v možnostiach, ktoré máme k dispozícii.",
+  "distance_header_section_subtitle": "Radi by sme vám ponúkli túto orientačnú predstavu, aby ste sa lepšie zorientovali v možnostiach, ktoré máme k dispozícii.",
 
 
 

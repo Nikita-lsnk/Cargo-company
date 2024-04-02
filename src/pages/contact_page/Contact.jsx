@@ -35,8 +35,8 @@ const Contact = () => {
               <BlockContact>
                 <LinkBlock>
                   <SocialLink href='https://www.facebook.com/profile.php?id=61557774836368' target="_blank"><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-facebook-67_eo9s19.png" /></SocialLink>
-                  <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" /></SocialLink>
-                  <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" /></SocialLink>
+                  {/* <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" /></SocialLink> */}
+                  <SocialLink href="mailto:info@arontrack.cz"><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" /></SocialLink>
                   <SocialLink href='https://www.instagram.com/arontrack?igsh=MW5yZzBnZjdxZ2gyeA%3D%3D&utm_source=qr' target='_blank'><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" /></SocialLink>
 
                 </LinkBlock>
@@ -50,7 +50,7 @@ const Contact = () => {
               <BlockContact>
                 <LinkBlock>
                   <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
-                  <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink>
+                  <TitleLink href="tel:+4207756597846">+420-775-659-784, <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink></TitleLink>
                 </LinkBlock>
               </BlockContact>
             </MainInfo>
@@ -62,7 +62,11 @@ const Contact = () => {
               <BlockContact>
                 <LinkBlock>
                   <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
-                  <TitleLink href="mailto:test@test.ru">test@test.ru</TitleLink>
+                  <TitleLink href="mailto:info@arontrack.cz">info@arontrack.cz</TitleLink>
+                </LinkBlock>
+                <LinkBlock>
+                  <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
+                  <TitleLink href="mailto:fakturace@arontrack.cz">fakturace@arontrack.cz</TitleLink>
                 </LinkBlock>
               </BlockContact>
             </MainInfo>
@@ -87,11 +91,14 @@ const Contact = () => {
                 <LinkBlockBills>
                   <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700943762/icons8-info-50_srhiog.png" />
                   <TitleLink>{t("contact_text_title_social_five_1")}<br />
-                  {t("contact_text_title_social_five_2")}<br />
-                  {t("contact_text_title_social_fiv_3")}<br />
-                  {t("contact_text_title_social_fiv_4")}<br />
-                  {t("contact_text_title_social_five_5")} <b>{t("contact_text_title_social_five_6")}</b>
+                    {t("contact_text_title_social_five_2")}<br />
+                    {t("contact_text_title_social_five_3")}<br />
+                    {t("contact_text_title_social_five_4")}<br />
+                    {t("contact_text_title_social_five_5")} <b>{t("contact_text_title_social_five_6")}</b><br />
+                    Email: savcukalex@arontrack.cz<br />
+                    Telefon: +420-775-586-626
                   </TitleLink>
+                  
                 </LinkBlockBills>
               </BlockContact>
             </MainInfo>
@@ -114,7 +121,7 @@ const Contact = () => {
 
 export default Contact
 
-const SocialLink =styled.a`
+const SocialLink = styled.a`
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -230,6 +237,9 @@ const MainContainerInfo = styled.div`
   align-items: flex-start;
   gap: 40px;
   width: 70%;
+  @media screen and (max-width: 840px) {
+    width: 100%;
+  }
 `;
 
 const MainText = styled.div`

@@ -222,7 +222,7 @@ const TitleSpecial = styled.span`
   line-height: 1.13333;
   width: 1170px;
   margin: 0 auto;
-  /* text-align: center; */
+  text-align: center;
   @media screen and (max-width: 1200px) {
     font-size: 36px;
     text-align: center;

@@ -2,9 +2,12 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from 'react-icons/ai'
+import { useTranslation } from 'react-i18next';
 
 
 const ProductModal = ({ openModal, setOpenModal, description, price, picture, title }) => {
+
+  const { t, i18n } = useTranslation();
 
 
   return (
@@ -24,7 +27,7 @@ const ProductModal = ({ openModal, setOpenModal, description, price, picture, ti
                 <Price>
                   {price}                
                 </Price> 
-                <StyledLink to="/contact"><DiscountBtn>Objednat</DiscountBtn></StyledLink>
+                <StyledLink to="/contact"><DiscountBtn>{t("main_distance_card_button")}</DiscountBtn></StyledLink>
             </MainPrice>
           </MainText>
           

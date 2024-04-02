@@ -55,7 +55,7 @@ const MainText = styled.div`
   /* top: 0; */
   right:0;
   left: 0;
-  bottom: 55%;
+  bottom: 60%;
   width: 1170px;
   margin: 0 auto;
   display: flex;
@@ -68,6 +68,13 @@ const MainText = styled.div`
   @media screen and (max-width: 1040px) and (min-height: 1000px) {
     bottom: 70%;
   }
+  @media screen and (max-width: 540px)  {
+    bottom: 1;
+  }
+  @media screen and (max-width: 290px)  {
+    bottom: 30%;
+  }
+  
 `;
 
 const Title = styled.span`

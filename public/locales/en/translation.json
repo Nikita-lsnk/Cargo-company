@@ -227,7 +227,7 @@
   "main_distance_card_18_description": "Our coach services to Dětenice are an excellent way to get to a medieval performance and be looked after at the same time. Once you arrive at your destination, we will wait for you and then drive you back safely. With us, you can fully concentrate on the experience and enjoy the medieval atmosphere without having to worry about transport.",
   "main_distance_card_18_title": "Trips to Dětenice",
 
-
+  "main_distance_card_button": "Order",
 
 
 
@@ -245,7 +245,7 @@
   
   "some-key-comment_footer":"FOOTER BLOCK",
 
-  "footer_title_true": "We offer cooperation and partnership to companies, organisations and individuals who intend to draw the attention of our website visitors to their offers, events or who want to increase the visibility of their business. We will be glad to place your media or text advertisements: articles, banners, announcements, press releases, photo reports, event highlights, competitions and much more. We will ensure your offer is localised and tailor the content to effectively reach your target audience. If you are interested in this offer, please contact us via email",
+  "footer_title_true": "We offer cooperation and partnership to companies, organisations and individuals who intend to draw the attention of our website visitors to their offers, events or who want to increase the visibility of their business. We will be glad to place your media or text advertisements: articles, banners, announcements, press releases, photo reports, event highlights, competitions and much more. We will ensure your offer is localised and tailor the content to effectively reach your target audience. If you are interested in this offer, please contact us via email sales@arontrack.cz",
   "footer_title_false": "Welcome to the website of AronTrack, your partner for comprehensive transport and shipping services throughout Europe. We are a unique company in the Czech Republic that can combine all types of transport and offer a full range of services. Regardless of the route, requirements or complexity, we are ready to do our best for our customers. If you need safe and reliable transport, entrust it to us!",
   "footer_contact_title": "Contact",
 
@@ -342,7 +342,7 @@
   "price_subtitle_two": "Our flat-rate price for bus transport is flexible and depends on the type of vehicle and the number of kilometres travelled. It starts from CZK 6,000 + VAT and is valid for journeys not exceeding 100 km. This price includes 2 hours of waiting time for the bus, the costs associated with operating shorter distances, the driver's daily wage including deductions, the cost of preparing the order and also cleaning the vehicle. With this transparent pricing structure, we can provide you with quality transport at a fair price.",
   "price_subtitle_three": "Due to these factors, it is impossible to set a fixed price list, so a preliminary price calculation that takes into account the above criteria is necessary.",
   "price_subtitle_four_1": "We will negotiate the specific price of the transport individually, we provide long-term customers with interesting prices. We will prepare a price calculation for you after filling in the inquiry form or sending an",
-  "price_subtitle_four_button": "e-mail",
+  "price_subtitle_four_button": "info@arontrack.cz",
   "price_subtitle_four_2": "with the request to the following address",
 
   "price_text_info_one": "For the most accurate calculation, please email us the following information:",
@@ -406,14 +406,14 @@
   "contact_text_title_social_one": "Social",
   "contact_text_title_social_two": "Phone",
   "contact_text_title_social_three": "E-mail",
-  "contact_text_title_social_four": "Fakturační adresa",
+  "contact_text_title_social_four": "Invoicing address",
   "contact_text_title_social_four_1": "Hartigová 2453/235, Praha 3 – Žižkov, 130 00, Praha, Česká Republika",
-  "contact_text_title_social_five": "Fakturační údaje",
+  "contact_text_title_social_five": "Invoicing data",
   "contact_text_title_social_five_1": "AronTrack",
   "contact_text_title_social_five_2": "Alex Savčuk",
-  "contact_text_title_social_five_3": "IČO 29057256",
-  "contact_text_title_social_five_4": "DIČ CZ8408023943",
-  "contact_text_title_social_five_5": "Datová schránka",
+  "contact_text_title_social_five_3": "Business identification number: 29057256",
+  "contact_text_title_social_five_4": "VAT number: CZ8408023943",
+  "contact_text_title_social_five_5": "Data box ID:",
   "contact_text_title_social_five_6": "5672i83",
 
 

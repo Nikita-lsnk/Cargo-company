@@ -73,11 +73,11 @@ const Header = () => {
         <ProfileInfo>
           <LinkBlock>
             <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
-            <TitleLink href="tel:+420775586626">+420-775-586-626</TitleLink>
+            <TitleLink href="tel:+420775659784">+420-775-659-784</TitleLink>
           </LinkBlock>
           <LinkBlock>
             <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
-            <TitleLink href="mailto:test@test.ru">{t("text")}</TitleLink>
+            <TitleLink href="mailto:info@arontrack.cz">info@arontrack.cz</TitleLink>
           </LinkBlock>
         </ProfileInfo>
         <ChangeBlock>
@@ -339,7 +339,7 @@ const Header = () => {
 export default Header
 
 const NavMenuContent = styled.div`
-  @media screen and (max-width: 1120px) {
+  @media screen and (max-width: 1200px) {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -358,7 +358,7 @@ const NavMenuContent = styled.div`
 const BurgerBtn = styled.div`
   display: none;
   
-  @media screen and (max-width: 1120px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     cursor: pointer;
     align-self: center;
@@ -501,12 +501,11 @@ const ImgArrow = styled.img`
 const TitleLink = styled.a`
   text-decoration: none;
   color: #3256A4;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     font-size: 12px;
-  }
-  @media screen and (max-width: 500px) {
     display: none;
   }
+  
 `;
 
 const ChangeBlock = styled.div`
