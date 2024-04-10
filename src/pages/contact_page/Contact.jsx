@@ -38,6 +38,8 @@ const Contact = () => {
                   {/* <SocialLink><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-twitter-circled-96_i607zo.png" /></SocialLink> */}
                   <SocialLink href="mailto:info@arontrack.cz"><SocialImg src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-google-plus-60_jeued2.png" /></SocialLink>
                   <SocialLink href='https://www.instagram.com/arontrack?igsh=MW5yZzBnZjdxZ2gyeA%3D%3D&utm_source=qr' target='_blank'><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1700994320/icons8-instagram-96_bmn4xt.png" /></SocialLink>
+                  <SocialLink href='https://t.me/+420775659784' target='_blank'><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1712779914/icons8-telegram-60_sedceb.png" /></SocialLink>
+                  <SocialLink href='https://wa.me/420775659784' target='_blank'><SocialImgMini src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1712779914/icons8-whatsapp-48_gmsfei.png" /></SocialLink>
 
                 </LinkBlock>
               </BlockContact>

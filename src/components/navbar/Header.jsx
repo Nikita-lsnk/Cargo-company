@@ -72,11 +72,11 @@ const Header = () => {
       <TopBlock>
         <ProfileInfo>
           <LinkBlock>
-            <ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" />
+            <TitleLinkShow href="tel:+420775659784"><ImgPhone src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-phone-64_lbzfb5.png" /></TitleLinkShow>
             <TitleLink href="tel:+420775659784">+420-775-659-784</TitleLink>
           </LinkBlock>
           <LinkBlock>
-            <Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" />
+          <TitleLinkShow href="mailto:info@arontrack.cz"><Img src="https://res.cloudinary.com/dmxoqnqsu/image/upload/v1697996141/icons8-circled-envelope-48_t4ppek.png" /></TitleLinkShow>
             <TitleLink href="mailto:info@arontrack.cz">info@arontrack.cz</TitleLink>
           </LinkBlock>
         </ProfileInfo>
@@ -481,8 +481,8 @@ const LinkBlock = styled.div`
 `;
 
 const ImgPhone = styled.img`
-  width: 29px;
-  height:29px;
+  width: 28px;
+  height:28px;
 `;
 
 const Img = styled.img`
@@ -507,6 +507,13 @@ const TitleLink = styled.a`
   }
   
 `;
+
+const TitleLinkShow = styled.a`
+  text-decoration: none;
+  color: #3256A4;
+`;
+
+
 
 const ChangeBlock = styled.div`
   display: flex;
